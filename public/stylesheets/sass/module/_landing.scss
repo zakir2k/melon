@@ -1,12 +1,19 @@
 #bento{
+	background-color: rgb(48, 61, 77);
 	background-image: url('http://yootheme.com/demo/themes/joomla/2015/bento/images/yootheme/demo/default/home_slideshow_header_1.jpg');
 	height: 800px;
+
+	
+	background-repeat: no-repeat;
+	
+    background-position: center; 
+
 .uk-container {
 
 
 
 	h1 {
-		font-size: 55px;
+		font-size: 75px;
 
 	}
 
@@ -77,13 +84,17 @@
 				 text-transform: uppercase;
 				 letter-spacing: 1px;
 				 margin: 15px 0px 18px;
-				 padding: 10px 20px;
+				 padding: 35px 20px;
 				 border-width: 3px;
 				 border-style: solid;
 				 border-color: rgb(255, 255, 255);
 
 
 				}	
+
+			.uk-margin{
+				margin-top: -200px
+			}
 
 
 
