@@ -1,0 +1,64 @@
+/* line 1, sass/module/_landing.scss */
+#bento {
+  background-image: url("http://yootheme.com/demo/themes/joomla/2015/bento/images/yootheme/demo/default/home_slideshow_header_1.jpg");
+  height: 800px; }
+  /* line 8, sass/module/_landing.scss */
+  #bento .uk-container h1 {
+    font-size: 55px; }
+  /* line 17, sass/module/_landing.scss */
+  #bento .uk-container .uk-navbar {
+    padding: 25px 40px;
+    background-color: transparent;
+    position: relative; }
+    /* line 23, sass/module/_landing.scss */
+    #bento .uk-container .uk-navbar img {
+      max-width: 100%;
+      height: auto;
+      box-sizing: border-box;
+      border-image-source: initial;
+      border-image-slice: initial;
+      border-image-width: initial;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      border-width: 0px;
+      border-style: initial;
+      border-color: initial;
+      color: #fff; }
+    /* line 40, sass/module/_landing.scss */
+    #bento .uk-container .uk-navbar .uk-navbar-flip li {
+      list-style-type: none; }
+    /* line 44, sass/module/_landing.scss */
+    #bento .uk-container .uk-navbar .uk-navbar-flip i {
+      color: #FFF; }
+  /* line 52, sass/module/_landing.scss */
+  #bento .uk-container .uk-overlay {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    color: white;
+    padding: 20px; }
+    /* line 61, sass/module/_landing.scss */
+    #bento .uk-container .uk-overlay p {
+      font-family: Raleway, Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin: 0px !important; }
+    /* line 71, sass/module/_landing.scss */
+    #bento .uk-container .uk-overlay h1 {
+      border-image-source: initial;
+      border-image-slice: initial;
+      border-image-width: initial;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin: 15px 0px 18px;
+      padding: 10px 20px;
+      border-width: 3px;
+      border-style: solid;
+      border-color: white; }
