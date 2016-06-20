@@ -116,3 +116,19 @@
 #bento2 .uk-container .caption li {
   list-style-type: none;
   color: #FFF; }
+
+/* line 194, sass/module/_landing.scss */
+#section3 {
+  margin-top: -50px; }
+  /* line 198, sass/module/_landing.scss */
+  #section3 .uk-overlay {
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+    margin: 0; }
+  /* line 208, sass/module/_landing.scss */
+  #section3 .uk-panel {
+    display: block;
+    position: relative; }
