@@ -8,12 +8,12 @@
   /* line 15, sass/module/_landing.scss */
   #bento .uk-container h1 {
     font-size: 75px; }
-  /* line 24, sass/module/_landing.scss */
+  /* line 21, sass/module/_landing.scss */
   #bento .uk-container .uk-navbar {
     padding: 25px 40px;
     background-color: transparent;
     position: relative; }
-    /* line 30, sass/module/_landing.scss */
+    /* line 27, sass/module/_landing.scss */
     #bento .uk-container .uk-navbar img {
       max-width: 100%;
       height: auto;
@@ -27,14 +27,12 @@
       border-style: initial;
       border-color: initial;
       color: #fff; }
-    /* line 47, sass/module/_landing.scss */
-    #bento .uk-container .uk-navbar .uk-navbar-flip li {
-      list-style-type: none; }
-    /* line 51, sass/module/_landing.scss */
-    #bento .uk-container .uk-navbar .uk-navbar-flip i {
-      color: #FFF; }
-  /* line 59, sass/module/_landing.scss */
-  #bento .uk-container .uk-overlay {
+  /* line 45, sass/module/_landing.scss */
+  #bento .uk-container .uk-navbar-flip li {
+    list-style-type: none;
+    color: #FFF; }
+  /* line 56, sass/module/_landing.scss */
+  #bento .uk-overlay {
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -42,8 +40,8 @@
     right: 0px;
     color: white;
     padding: 20px; }
-    /* line 68, sass/module/_landing.scss */
-    #bento .uk-container .uk-overlay p {
+    /* line 65, sass/module/_landing.scss */
+    #bento .uk-overlay p {
       font-family: Raleway, Helvetica, Arial, sans-serif;
       font-weight: 400;
       font-size: 24px;
@@ -51,8 +49,8 @@
       text-transform: uppercase;
       letter-spacing: 1px;
       margin: 0px !important; }
-    /* line 78, sass/module/_landing.scss */
-    #bento .uk-container .uk-overlay h1 {
+    /* line 75, sass/module/_landing.scss */
+    #bento .uk-overlay h1 {
       border-image-source: initial;
       border-image-slice: initial;
       border-image-width: initial;
@@ -65,6 +63,56 @@
       border-width: 3px;
       border-style: solid;
       border-color: white; }
-    /* line 95, sass/module/_landing.scss */
-    #bento .uk-container .uk-overlay .uk-margin {
+    /* line 92, sass/module/_landing.scss */
+    #bento .uk-overlay .uk-margin {
       margin-top: -200px; }
+
+/* line 107, sass/module/_landing.scss */
+#bento2 .uk-container li {
+  list-style-type: none;
+  color: #FFF; }
+/* line 114, sass/module/_landing.scss */
+#bento2 .uk-container h3 {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 56px;
+  margin-top: 200px;
+  color: #2c3343;
+  text-transform: none; }
+/* line 126, sass/module/_landing.scss */
+#bento2 .uk-container .uk-panel {
+  display: block;
+  position: relative; }
+/* line 132, sass/module/_landing.scss */
+#bento2 .uk-container .uk-flex-middle {
+  align-items: center; }
+/* line 136, sass/module/_landing.scss */
+#bento2 .uk-container .uk-overlay-scale {
+  transform: scale(1);
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  transition-property: opacity, transform, filter; }
+/* line 145, sass/module/_landing.scss */
+#bento2 .uk-container img {
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  border: 0;
+  vertical-align: middle; }
+/* line 153, sass/module/_landing.scss */
+#bento2 .uk-container .uk-width-large-1-2 {
+  width: 50%; }
+/* line 167, sass/module/_landing.scss */
+#bento2 .uk-container .caption img {
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box; }
+/* line 174, sass/module/_landing.scss */
+#bento2 .uk-container .caption .uk-active {
+  padding-left: 10px;
+  margin-top: 10px; }
+/* line 180, sass/module/_landing.scss */
+#bento2 .uk-container .caption li {
+  list-style-type: none;
+  color: #FFF; }

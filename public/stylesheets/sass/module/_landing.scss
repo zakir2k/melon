@@ -1,4 +1,4 @@
-#bento{
+#bento {
 	background-color: rgb(48, 61, 77);
 	background-image: url('http://yootheme.com/demo/themes/joomla/2015/bento/images/yootheme/demo/default/home_slideshow_header_1.jpg');
 	height: 800px;
@@ -8,7 +8,7 @@
 	
     background-position: center; 
 
-.uk-container {
+	.uk-container {
 
 
 
@@ -17,10 +17,7 @@
 
 	}
 
-	p {
-
-
-	}
+	
 	.uk-navbar{
 
 		padding: 25px 40px;
@@ -41,14 +38,14 @@
     		border-color: initial;
     		color: #fff;
 		}
+	}
 
 	.uk-navbar-flip {
 
 				li {
 					list-style-type: none;
 
-					}
-				i {
+				
 
 					color:	 #FFF;
 			  	  }
@@ -90,31 +87,105 @@
 				 border-color: rgb(255, 255, 255);
 
 
-				}	
+			}	
 
 			.uk-margin{
 				margin-top: -200px
-			}
+		}
+			
 
+	}
 
-
-    		}
-
-	 }
+ }
 	
-}
+
 
 
 	#bento2{
 
 		.uk-container{
+			li {
+					list-style-type: none;
+
+				
+
+					color:	 #FFF;
+			  	  }
+			h3{
+
+				font-family: "Raleway", Helvetica, Arial, sans-serif;
+    			font-weight: 500;
+    			font-size: 50px;
+    			line-height: 56px;
+    			margin-top: 200px;
+    			color: #2c3343;
+    			text-transform: none;
+
+			}
+
+		.uk-panel{
+
+			display: block;
+    		position: relative
+
+		}		
+		 .uk-flex-middle{
+		 	align-items:center;
+		 }
+
+		 .uk-overlay-scale{
+		 	transform: scale(1);
+		 	transition-duration: 0.3s;
+    		transition-timing-function: ease-out;
+    		transition-property: opacity, transform, filter;
 
 
+		 }
 
-
-
-
-
+		 img {
+    		max-width: 100%;
+    		height: auto;
+   			box-sizing: border-box;
+    		border: 0;
+    		vertical-align: middle;
 		}
+
+			.uk-width-large-1-2 {
+
+				width:50%
+			}
+
+			.uk-grid{
+				// padding-left: 40px;
+				// float: left;
+
+				
+			}
+
+		.caption{
+
+			img{
+
+				max-width: 100%;
+    			height: auto;
+    			box-sizing: border-box;
+    			
+			}
+			.uk-active{
+
+				 padding-left: 10px;
+   				 margin-top: 10px;
+			}
+
+				li {
+					list-style-type: none;
+
+				
+
+					color:	 #FFF;
+			  	  }
+		}
+
+	}	
 
 }
