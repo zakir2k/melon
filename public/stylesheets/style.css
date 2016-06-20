@@ -133,15 +133,33 @@
     display: block;
     position: relative; }
 
-/* line 216, sass/module/_landing.scss */
-#section4 h1 {
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
+/* line 218, sass/module/_landing.scss */
+#section4 sup {
+  font-size: 32px;
   font-weight: 500;
-  line-height: 42px; }
-/* line 223, sass/module/_landing.scss */
+  top: -1.9em;
+  margin-right: -15px; }
+/* line 224, sass/module/_landing.scss */
+#section4 h3 {
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  text-align: center !important;
+  margin-top: 50px;
+  font-size: 30px; }
+/* line 235, sass/module/_landing.scss */
+#section4 .price {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 120px;
+  margin-top: 40px;
+  margin-left: 15px; }
+/* line 245, sass/module/_landing.scss */
 #section4 .uk-panel-title {
   font-size: 50px;
   line-height: 56px;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-weight: 500;
-  margin-top: 150px; }
+  margin-top: 150px;
+  margin-bottom: 150px; }
