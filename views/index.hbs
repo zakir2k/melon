@@ -1,43 +1,44 @@
 <section id="bento"> 
 	<div class="uk-container uk-container-center">
-		<nav class="uk-navbar">
-			<img src="/images/darklogo.jpg" alt="Demo">
-			<div class="uk-navbar-flip">
-			<ul>
-				<li>
-    				<a href="my-id" data-uk-offcanvas></a>
-					<i class="uk-icon-navicon uk-icon-medium" data-uk-offcanvas="{target:'my-id'}"></i>
-				</li>
-			</ul>
+		<div class="data-uk-sticky">
+			<nav class="uk-navbar">
+				<img src="/images/darklogo.jpg" alt="Demo">
+					    <div class="uk-navbar-flip">
+					        <ul class="uk-navbar-nav">
+					            <li><a href="#my-id"  data-uk-offcanvas>
+					            	<i class="uk-icon-navicon uk-icon-large" data-uk-offcanvas="{target:'#my-id'}"></i></a>
+					           	</li>
+					        </ul>
+					    </div>
+
+		    	<div id="my-id" class="uk-offcanvas">
+			    	<div class="uk-offcanvas-bar  uk-offcanvas-bar-flip">
+			    	<ul>
+				 		<li>Home</li>
+				 		<li>Features</li>
+				 		<li>Pages</li>
+				 		<li>Zoo</li>
+				 		<li>Search</li>
+ 					</ul>
+			    	</div>
+				</div>
+			</nav>
+		</div>
+			<div class="uk-slidenav-position" data-uk-slideshow >
+			    <ul class="uk-slideshow">
+			        <li></li>
+			        <li></li>
+			    </ul>
+			   {{!--  <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
+			    <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a> --}}
+			    <ul class="uk-dotnav uk-dotnav-contrast uk-flex-center">
+			        <li data-uk-slideshow-item="0" class="uk-active"><a href=""></a></li>
+			        <li data-uk-slideshow-item="1"><a href=""></a></li>
+			    </ul>
 			</div>
 
-		</nav>
 
 
-				
-				<div id="my-id" class="uk-offcanvas">
-				<a href="#offcanvas" class="uk-offcanvas-bar uk-offcanvas-bar-flip tm-navbar-toggle uk-visible-small" data-uk-offcanvas=""></a>
-		{{!--  <div class="uk-offcanvas-bar uk-offcanvas-bar-flip"> --}}
-		 	<ul>
-		 		<li>Home</li>
-		 		<li>Features</li>
-		 		<li>Pages</li>
-		 		<li>Zoo</li>
-		 		<li>Search</li>
-		 	</ul>
-		 		</div>
-			    
-	    <div class="banner-caption">				
-		<figure class="uk-overlay">
-			<figcaption class="uk-overlay-panel uk-flex uk-flex-center uk-flex-middle uk-text-center">
-				<div class= "uk-margin">
-		        	{{!-- <p>WELCOME TO</p> --}}
-					<h1>Scryber Security</h1>
-					{{!-- <p>OUR FAVORITE FITNESS EXPERIENCE</p> --}}
-				</div>
-			</figcaption>
-		</figure>
-		</div>
 	</div>
 </section>
 
