@@ -190,3 +190,36 @@
   font-weight: 500;
   margin-top: 150px;
   margin-bottom: 150px; }
+
+/* line 297, sass/module/_landing.scss */
+#contact h1 {
+  font-family: 'PT Serif'; }
+/* line 301, sass/module/_landing.scss */
+#contact .uk-heading-large {
+  font-weight: 400;
+  text-transform: none;
+  font-size: 72px; }
+/* line 306, sass/module/_landing.scss */
+#contact .panel-subtitle {
+  margin: 30px auto;
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  color: #444444;
+  font-size: 19px;
+  line-height: 30px; }
+/* line 315, sass/module/_landing.scss */
+#contact p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px; }
+
+@media screen and (max-width: 768px) {
+  /* line 333, sass/module/_landing.scss */
+  #contact h1 {
+    font-size: 52px !important; } }
+@media screen and (max-width: 400px) {
+  /* line 341, sass/module/_landing.scss */
+  #contact h1 {
+    font-size: 32px !important; } }

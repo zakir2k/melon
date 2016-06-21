@@ -293,4 +293,55 @@
 
 	}
 
+	#contact{
+		h1{
+
+			font-family: 'PT Serif';
+		}
+			 .uk-heading-large {
+			    font-weight: 400;
+			    text-transform: none;
+			    font-size: 72px;
+		}
+			.panel-subtitle{
+
+				margin: 30px auto;
+			    font-family: 'Raleway';
+			    text-transform: uppercase;
+			    color: #444444;
+			    font-size: 19px;
+			    line-height: 30px;
+		}
+			p {
+			    display: block;
+			    -webkit-margin-before: 1em;
+			    -webkit-margin-after: 1em;
+			    -webkit-margin-start: 0px;
+			    -webkit-margin-end: 0px;
+		}
+
+
+
+
+
+
+	}
+
+
+	@media screen and (max-width: 768px) {
+		#contact {
+			h1 {
+				font-size: 52px!important;
+			}
+		}
+	}
+
+	@media screen and (max-width: 400px) {
+		#contact {
+			h1 {
+				font-size: 32px!important;
+			}
+		}
+	}
+
 
