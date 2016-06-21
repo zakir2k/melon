@@ -214,12 +214,40 @@
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px; }
+/* line 322, sass/module/_landing.scss */
+#contact h3 {
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0 0 15px 0;
+  font-family: 'PT Serif';
+  font-weight: 400;
+  color: #444444;
+  text-transform: none;
+  text-rendering: auto; }
+/* line 334, sass/module/_landing.scss */
+#contact .uk-margin-large {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+/* line 339, sass/module/_landing.scss */
+#contact .uk-margin-large-top {
+  margin-top: 50px !important; }
+/* line 342, sass/module/_landing.scss */
+#contact .uk-grid {
+  margin-left: -30px; }
+/* line 346, sass/module/_landing.scss */
+#contact .uk-icon-hover {
+  color: #666666; }
+/* line 349, sass/module/_landing.scss */
+#contact .uk-icon-small {
+  font-size: 120%;
+  vertical-align: -10%;
+  padding-left: 10px; }
 
 @media screen and (max-width: 768px) {
-  /* line 333, sass/module/_landing.scss */
+  /* line 360, sass/module/_landing.scss */
   #contact h1 {
     font-size: 52px !important; } }
 @media screen and (max-width: 400px) {
-  /* line 341, sass/module/_landing.scss */
+  /* line 368, sass/module/_landing.scss */
   #contact h1 {
     font-size: 32px !important; } }

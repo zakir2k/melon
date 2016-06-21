@@ -319,11 +319,38 @@
 			    -webkit-margin-start: 0px;
 			    -webkit-margin-end: 0px;
 		}
+			h3{
 
+				font-size: 24px;
+    			line-height: 32px;
+    			margin: 0 0 15px 0;
+			    font-family: 'PT Serif';
+			    font-weight: 400;
+			    color: #444444;
+			    text-transform: none;
+			    text-rendering: auto;
 
+			}
+				.uk-margin-large {
+   				 margin-top: 50px;
+   				 margin-bottom: 50px;
 
+   			}
+	   			.uk-margin-large-top {
+	    		margin-top: 50px !important;
+			}
+				.uk-grid {
+			    margin-left: -30px;
+			}
 
-
+				.uk-icon-hover {
+    			color: #666666;
+			}
+				.uk-icon-small {
+				    font-size: 120%;
+				    vertical-align: -10%;
+				    padding-left:10px;
+			}
 
 	}
 
