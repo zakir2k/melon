@@ -80,47 +80,47 @@
   margin-top: 200px;
   color: #2c3343;
   text-transform: none; }
-/* line 126, sass/module/_landing.scss */
+/* line 127, sass/module/_landing.scss */
 #bento2 .uk-container .uk-panel {
   display: block;
   position: relative; }
-/* line 132, sass/module/_landing.scss */
+/* line 133, sass/module/_landing.scss */
 #bento2 .uk-container .uk-flex-middle {
   align-items: center; }
-/* line 136, sass/module/_landing.scss */
+/* line 137, sass/module/_landing.scss */
 #bento2 .uk-container .uk-overlay-scale {
   transform: scale(1);
   transition-duration: 0.3s;
   transition-timing-function: ease-out;
   transition-property: opacity, transform, filter; }
-/* line 145, sass/module/_landing.scss */
+/* line 146, sass/module/_landing.scss */
 #bento2 .uk-container img {
   max-width: 100%;
   height: auto;
   box-sizing: border-box;
   border: 0;
   vertical-align: middle; }
-/* line 153, sass/module/_landing.scss */
+/* line 154, sass/module/_landing.scss */
 #bento2 .uk-container .uk-width-large-1-2 {
   width: 50%; }
-/* line 167, sass/module/_landing.scss */
+/* line 168, sass/module/_landing.scss */
 #bento2 .uk-container .caption img {
   max-width: 100%;
   height: auto;
   box-sizing: border-box; }
-/* line 174, sass/module/_landing.scss */
+/* line 175, sass/module/_landing.scss */
 #bento2 .uk-container .caption .uk-active {
   padding-left: 10px;
   margin-top: 10px; }
-/* line 180, sass/module/_landing.scss */
+/* line 181, sass/module/_landing.scss */
 #bento2 .uk-container .caption li {
   list-style-type: none;
   color: #FFF; }
 
-/* line 194, sass/module/_landing.scss */
+/* line 195, sass/module/_landing.scss */
 #section3 {
   margin-top: -50px; }
-  /* line 198, sass/module/_landing.scss */
+  /* line 199, sass/module/_landing.scss */
   #section3 .uk-overlay {
     display: inline-block;
     position: relative;
@@ -128,34 +128,61 @@
     vertical-align: middle;
     overflow: hidden;
     margin: 0; }
-  /* line 208, sass/module/_landing.scss */
+  /* line 209, sass/module/_landing.scss */
   #section3 .uk-panel {
     display: block;
     position: relative; }
 
-/* line 218, sass/module/_landing.scss */
+/* line 217, sass/module/_landing.scss */
+#section4 .uk-margin {
+  margin-bottom: 25px; }
+/* line 221, sass/module/_landing.scss */
 #section4 sup {
   font-size: 32px;
   font-weight: 500;
-  top: -1.9em;
-  margin-right: -15px; }
-/* line 224, sass/module/_landing.scss */
+  top: -2.4em;
+  margin-right: -30px; }
+/* line 227, sass/module/_landing.scss */
 #section4 h3 {
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
   text-align: center !important;
+  font-size: 24px;
+  text-rendering: auto;
   margin-top: 50px;
-  font-size: 30px; }
-/* line 235, sass/module/_landing.scss */
+  margin-bottom: 30px;
+  display: block;
+  line-height: 28px;
+  font-weight: 300;
+  text-transform: none;
+  color: #636873; }
+/* line 245, sass/module/_landing.scss */
+#section4 p {
+  text-align: center;
+  margin-top: 30px;
+  display: block;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  line-height: 28px; }
+/* line 255, sass/module/_landing.scss */
+#section4 button {
+  display: inline-block;
+  padding: 5px 40px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #f1f1f1;
+  background-color: #444;
+  border: none;
+  border-radius: 15px; }
+/* line 273, sass/module/_landing.scss */
 #section4 .price {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 120px;
-  margin-top: 40px;
-  margin-left: 15px; }
-/* line 245, sass/module/_landing.scss */
+  text-align: center !important; }
+/* line 284, sass/module/_landing.scss */
 #section4 .uk-panel-title {
   font-size: 50px;
   line-height: 56px;
