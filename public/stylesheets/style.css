@@ -147,17 +147,41 @@
   #section3 .uk-panel {
     display: block;
     position: relative; }
+  /* line 227, sass/module/_landing.scss */
+  #section3 .image {
+    position: relative;
+    width: 100%; }
+  /* line 232, sass/module/_landing.scss */
+  #section3 h2 {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    text-align: center;
+    width: 100%; }
+  /* line 239, sass/module/_landing.scss */
+  #section3 .uk-overlay-background {
+    background: rgba(255, 255, 255, 0.9); }
+    /* line 242, sass/module/_landing.scss */
+    #section3 .uk-overlay-background p {
+      color: #000000;
+      position: absolute;
+      top: 45%;
+      left: 0;
+      width: 100%; }
+    /* line 252, sass/module/_landing.scss */
+    #section3 .uk-overlay-background div {
+      text-align: center; }
 
-/* line 230, sass/module/_landing.scss */
+/* line 263, sass/module/_landing.scss */
 #section4 .uk-margin {
   margin-bottom: 25px; }
-/* line 234, sass/module/_landing.scss */
+/* line 267, sass/module/_landing.scss */
 #section4 sup {
   font-size: 32px;
   font-weight: 500;
   top: -2.4em;
   margin-right: -30px; }
-/* line 240, sass/module/_landing.scss */
+/* line 273, sass/module/_landing.scss */
 #section4 h3 {
   text-align: center !important;
   font-size: 24px;
@@ -169,7 +193,7 @@
   font-weight: 300;
   text-transform: none;
   color: #636873; }
-/* line 258, sass/module/_landing.scss */
+/* line 291, sass/module/_landing.scss */
 #section4 p {
   text-align: center;
   margin-top: 30px;
@@ -178,7 +202,7 @@
   font-weight: 300;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   line-height: 28px; }
-/* line 268, sass/module/_landing.scss */
+/* line 301, sass/module/_landing.scss */
 #section4 button {
   display: inline-block;
   padding: 5px 40px;
@@ -191,13 +215,13 @@
   background-color: #444;
   border: none;
   border-radius: 15px; }
-/* line 286, sass/module/_landing.scss */
+/* line 319, sass/module/_landing.scss */
 #section4 .price {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 120px;
   text-align: center !important; }
-/* line 297, sass/module/_landing.scss */
+/* line 330, sass/module/_landing.scss */
 #section4 .uk-panel-title {
   font-size: 50px;
   line-height: 56px;
@@ -206,15 +230,15 @@
   margin-top: 150px;
   margin-bottom: 150px; }
 
-/* line 311, sass/module/_landing.scss */
+/* line 344, sass/module/_landing.scss */
 #contact h1 {
   font-family: 'PT Serif'; }
-/* line 315, sass/module/_landing.scss */
+/* line 348, sass/module/_landing.scss */
 #contact .uk-heading-large {
   font-weight: 400;
   text-transform: none;
   font-size: 72px; }
-/* line 320, sass/module/_landing.scss */
+/* line 353, sass/module/_landing.scss */
 #contact .panel-subtitle {
   margin: 30px auto;
   font-family: 'Raleway';
@@ -222,14 +246,14 @@
   color: #444444;
   font-size: 19px;
   line-height: 30px; }
-/* line 329, sass/module/_landing.scss */
+/* line 362, sass/module/_landing.scss */
 #contact p {
   display: block;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px; }
-/* line 336, sass/module/_landing.scss */
+/* line 369, sass/module/_landing.scss */
 #contact h3 {
   font-size: 24px;
   line-height: 32px;
@@ -239,30 +263,30 @@
   color: #444444;
   text-transform: none;
   text-rendering: auto; }
-/* line 348, sass/module/_landing.scss */
+/* line 381, sass/module/_landing.scss */
 #contact .uk-margin-large {
   margin-top: 50px;
   margin-bottom: 50px; }
-/* line 353, sass/module/_landing.scss */
+/* line 386, sass/module/_landing.scss */
 #contact .uk-margin-large-top {
   margin-top: 50px !important; }
-/* line 356, sass/module/_landing.scss */
+/* line 389, sass/module/_landing.scss */
 #contact .uk-grid {
   margin-left: -30px; }
-/* line 360, sass/module/_landing.scss */
+/* line 393, sass/module/_landing.scss */
 #contact .uk-icon-hover {
   color: #666666; }
-/* line 363, sass/module/_landing.scss */
+/* line 396, sass/module/_landing.scss */
 #contact .uk-icon-small {
   font-size: 120%;
   vertical-align: -10%;
   padding-left: 10px; }
 
 @media screen and (max-width: 768px) {
-  /* line 374, sass/module/_landing.scss */
+  /* line 407, sass/module/_landing.scss */
   #contact h1 {
     font-size: 52px !important; } }
 @media screen and (max-width: 400px) {
-  /* line 382, sass/module/_landing.scss */
+  /* line 415, sass/module/_landing.scss */
   #contact h1 {
     font-size: 32px !important; } }

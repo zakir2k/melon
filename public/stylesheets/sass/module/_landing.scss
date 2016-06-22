@@ -120,58 +120,58 @@
 		    		
 		    		letter-spacing: 1px;
 		    		margin: 0px !important;
-    	}
-			li {
-					list-style-type: none;
+		    	}
+					li {
+							list-style-type: none;
 
-				
+						
 
-					color:	 #FFF;
-			  	  }
-			h3{
+							color:	 #FFF;
+			  	 }
+					h3{
 
-				font-family: "Raleway", Helvetica, Arial, sans-serif;
-    			font-weight: 500;
-    			font-size: 50px;
-    			line-height: 56px;
-    			margin-top: 200px;
-    			color: #2c3343;
-    			text-transform: none;
-
-
-		}
-
-			.uk-panel{
-
-				display: block;
-	    		position: relative
-
-		}		
-			 .uk-flex-middle{
-			 	align-items:center;
-		}
-
-			 .uk-overlay-scale{
-			 	transform: scale(1);
-			 	transition-duration: 0.3s;
-	    		transition-timing-function: ease-out;
-	    		transition-property: opacity, transform, filter;
+						font-family: "Raleway", Helvetica, Arial, sans-serif;
+		    			font-weight: 500;
+		    			font-size: 50px;
+		    			line-height: 56px;
+		    			margin-top: 200px;
+		    			color: #2c3343;
+		    			text-transform: none;
 
 
-		}
+				}
 
-				 img {
-		    		max-width: 100%;
-		    		height: auto;
-		   			box-sizing: border-box;
-		    		border: 0;
-		    		vertical-align: middle;
-		}
+					.uk-panel{
 
-					.uk-width-large-1-2 {
+						display: block;
+			    		position: relative
 
-						width:50%
-		}
+				}		
+					 .uk-flex-middle{
+					 	align-items:center;
+				}
+
+					 .uk-overlay-scale{
+					 	transform: scale(1);
+					 	transition-duration: 0.3s;
+			    		transition-timing-function: ease-out;
+			    		transition-property: opacity, transform, filter;
+
+
+				}
+
+						 img {
+				    		max-width: 100%;
+				    		height: auto;
+				   			box-sizing: border-box;
+				    		border: 0;
+				    		vertical-align: middle;
+				}
+
+							.uk-width-large-1-2 {
+
+								width:50%
+				}
 
 
 				.caption{
@@ -205,27 +205,60 @@
 }
 
 
-#section3{
-	    margin-top: -50px;
+	#section3{
+			    margin-top: -50px;
 
 
-		.uk-overlay {
-	    display: inline-block;
-	    position: relative;
-	    max-width: 100%;
-	    vertical-align: middle;
-	    overflow: hidden;
-	    margin: 0;
-		
-		}
+				.uk-overlay {
+			    display: inline-block;
+			    position: relative;
+			    max-width: 100%;
+			    vertical-align: middle;
+			    overflow: hidden;
+			    margin: 0;
+				
+				}
 
-		.uk-panel{
-			display: block;
-    		position: relative;
+				.uk-panel{
+					display: block;
+		    		position: relative;
 
-		}
+				}
+				.image{
+					position: relative; 
+		   			width: 100%; 	
+			   	}
+
+			   	h2 { 
+				   position: absolute; 
+				   top: 45%; 
+				   left: 0;
+				   text-align: center; 
+				   width: 100%; 
+				}
+				.uk-overlay-background {
+    				background: rgba(255, 255, 255, 0.9);
+
+    			p{
+
+    				color: #000000;
+    				position: absolute; 
+				   top: 45%; 
+				   left: 0;
+				   
+				   width: 100%;
+
+    			}	
+		    			div {
+		    		text-align: center;
+		    	}
+		    }
+
 
 }
+
+
+
 #section4{
 			.uk-margin {
     		margin-bottom: 25px;
