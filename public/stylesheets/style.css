@@ -1,44 +1,32 @@
 /* line 1, sass/module/_landing.scss */
 #bento {
   background-color: #303d4d;
-  background-image: url("/images/image1.jpeg");
   background-size: 100% 100%;
-  height: 800px;
+  max-height: 800px;
   background-repeat: no-repeat;
   background-position: center; }
-  /* line 13, sass/module/_landing.scss */
+  /* line 6, sass/module/_landing.scss */
+  #bento .slideshow-wrapper ul li .image-wrapper {
+    max-height: 800px; }
+  /* line 23, sass/module/_landing.scss */
   #bento .uk-container .uk-sticky {
     height: 110px;
     margin: 0px;
     position: relative;
     z-index: 2; }
-  /* line 21, sass/module/_landing.scss */
+  /* line 31, sass/module/_landing.scss */
   #bento .uk-container h1 {
     font-size: 75px; }
-  /* line 26, sass/module/_landing.scss */
+  /* line 36, sass/module/_landing.scss */
   #bento .uk-container .uk-navbar {
     padding: 25px 40px;
     background-color: transparent;
     position: relative; }
-  /* line 34, sass/module/_landing.scss */
-  #bento .uk-container img {
-    max-width: 20%;
-    height: auto;
-    box-sizing: border-box;
-    border-image-source: initial;
-    border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial;
-    border-width: 0px;
-    border-style: initial;
-    border-color: initial;
-    color: #fff; }
-  /* line 52, sass/module/_landing.scss */
+  /* line 62, sass/module/_landing.scss */
   #bento .uk-container .uk-navbar-flip li {
     list-style-type: none;
     color: #FFF; }
-  /* line 63, sass/module/_landing.scss */
+  /* line 73, sass/module/_landing.scss */
   #bento .uk-container .uk-overlay {
     position: absolute;
     top: 0px;
@@ -47,7 +35,7 @@
     right: 0px;
     color: white;
     padding: 20px; }
-    /* line 72, sass/module/_landing.scss */
+    /* line 82, sass/module/_landing.scss */
     #bento .uk-container .uk-overlay p {
       font-family: Raleway, Helvetica, Arial, sans-serif;
       font-weight: 400;
@@ -56,7 +44,7 @@
       text-transform: uppercase;
       letter-spacing: 1px;
       margin: 0px !important; }
-    /* line 82, sass/module/_landing.scss */
+    /* line 92, sass/module/_landing.scss */
     #bento .uk-container .uk-overlay h1 {
       border-image-source: initial;
       border-image-slice: initial;
@@ -70,11 +58,11 @@
       border-width: 3px;
       border-style: solid;
       border-color: white; }
-    /* line 99, sass/module/_landing.scss */
+    /* line 109, sass/module/_landing.scss */
     #bento .uk-container .uk-overlay .uk-margin {
       margin-top: -200px; }
 
-/* line 115, sass/module/_landing.scss */
+/* line 125, sass/module/_landing.scss */
 #bento2 .uk-container p {
   font-family: Raleway, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -82,11 +70,11 @@
   line-height: 18px;
   letter-spacing: 1px;
   margin: 0px !important; }
-/* line 124, sass/module/_landing.scss */
+/* line 134, sass/module/_landing.scss */
 #bento2 .uk-container li {
   list-style-type: none;
   color: #FFF; }
-/* line 131, sass/module/_landing.scss */
+/* line 141, sass/module/_landing.scss */
 #bento2 .uk-container h3 {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -95,47 +83,47 @@
   margin-top: 200px;
   color: #2c3343;
   text-transform: none; }
-/* line 144, sass/module/_landing.scss */
+/* line 154, sass/module/_landing.scss */
 #bento2 .uk-container .uk-panel {
   display: block;
   position: relative; }
-/* line 150, sass/module/_landing.scss */
+/* line 160, sass/module/_landing.scss */
 #bento2 .uk-container .uk-flex-middle {
   align-items: center; }
-/* line 154, sass/module/_landing.scss */
+/* line 164, sass/module/_landing.scss */
 #bento2 .uk-container .uk-overlay-scale {
   transform: scale(1);
   transition-duration: 0.3s;
   transition-timing-function: ease-out;
   transition-property: opacity, transform, filter; }
-/* line 163, sass/module/_landing.scss */
+/* line 173, sass/module/_landing.scss */
 #bento2 .uk-container img {
   max-width: 100%;
   height: auto;
   box-sizing: border-box;
   border: 0;
   vertical-align: middle; }
-/* line 171, sass/module/_landing.scss */
+/* line 181, sass/module/_landing.scss */
 #bento2 .uk-container .uk-width-large-1-2 {
   width: 50%; }
-/* line 179, sass/module/_landing.scss */
+/* line 189, sass/module/_landing.scss */
 #bento2 .uk-container .caption img {
   max-width: 100%;
   height: auto;
   box-sizing: border-box; }
-/* line 186, sass/module/_landing.scss */
+/* line 196, sass/module/_landing.scss */
 #bento2 .uk-container .caption .uk-active {
   padding-left: 10px;
   margin-top: 10px; }
-/* line 192, sass/module/_landing.scss */
+/* line 202, sass/module/_landing.scss */
 #bento2 .uk-container .caption li {
   list-style-type: none;
   color: #FFF; }
 
-/* line 208, sass/module/_landing.scss */
+/* line 218, sass/module/_landing.scss */
 #section3 {
   margin-top: -50px; }
-  /* line 212, sass/module/_landing.scss */
+  /* line 222, sass/module/_landing.scss */
   #section3 .uk-overlay {
     display: inline-block;
     position: relative;
@@ -143,39 +131,39 @@
     vertical-align: middle;
     overflow: hidden;
     margin: 0; }
-  /* line 222, sass/module/_landing.scss */
+  /* line 232, sass/module/_landing.scss */
   #section3 .uk-panel {
     display: block;
     position: relative; }
-  /* line 227, sass/module/_landing.scss */
+  /* line 237, sass/module/_landing.scss */
   #section3 .image {
     position: relative;
     width: 100%; }
-  /* line 232, sass/module/_landing.scss */
+  /* line 242, sass/module/_landing.scss */
   #section3 h2 {
     position: absolute;
     top: 45%;
     left: 0;
     text-align: center;
     width: 100%; }
-  /* line 239, sass/module/_landing.scss */
+  /* line 249, sass/module/_landing.scss */
   #section3 .uk-overlay-background {
     background: rgba(255, 255, 255, 0.9); }
-    /* line 242, sass/module/_landing.scss */
+    /* line 252, sass/module/_landing.scss */
     #section3 .uk-overlay-background p {
       color: #000000;
       position: absolute;
       top: 45%;
       left: 0;
       width: 100%; }
-    /* line 252, sass/module/_landing.scss */
+    /* line 262, sass/module/_landing.scss */
     #section3 .uk-overlay-background div {
       text-align: center; }
 
-/* line 263, sass/module/_landing.scss */
+/* line 273, sass/module/_landing.scss */
 #section4 .uk-margin {
   margin-bottom: 25px; }
-/* line 268, sass/module/_landing.scss */
+/* line 278, sass/module/_landing.scss */
 #section4 h3 {
   text-align: center !important;
   font-size: 30px;
@@ -187,7 +175,7 @@
   font-weight: 500;
   text-transform: none;
   color: #636873; }
-/* line 286, sass/module/_landing.scss */
+/* line 296, sass/module/_landing.scss */
 #section4 p {
   text-align: center;
   margin-top: 30px;
@@ -196,7 +184,7 @@
   font-weight: 300;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   line-height: 28px; }
-/* line 296, sass/module/_landing.scss */
+/* line 306, sass/module/_landing.scss */
 #section4 button {
   display: inline-block;
   padding: 5px 40px;
@@ -209,14 +197,14 @@
   background-color: #444;
   border: none;
   border-radius: 15px; }
-/* line 312, sass/module/_landing.scss */
+/* line 322, sass/module/_landing.scss */
 #section4 .price-style {
   padding-top: 60px;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 60px;
   text-align: center !important; }
-/* line 320, sass/module/_landing.scss */
+/* line 330, sass/module/_landing.scss */
 #section4 .pricing {
   padding-top: 55px;
   text-align: center;
@@ -226,19 +214,19 @@
   font-weight: 300;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   line-height: 28px; }
-/* line 333, sass/module/_landing.scss */
+/* line 343, sass/module/_landing.scss */
 #section4 .button-basic {
   padding-top: 80px; }
-/* line 337, sass/module/_landing.scss */
+/* line 347, sass/module/_landing.scss */
 #section4 .button-expedited {
   padding-top: 25px; }
-/* line 342, sass/module/_landing.scss */
+/* line 352, sass/module/_landing.scss */
 #section4 .price {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 60px;
   text-align: center !important; }
-/* line 359, sass/module/_landing.scss */
+/* line 369, sass/module/_landing.scss */
 #section4 .uk-panel-title {
   font-size: 50px;
   line-height: 56px;
@@ -247,15 +235,15 @@
   margin-top: 150px;
   margin-bottom: 150px; }
 
-/* line 373, sass/module/_landing.scss */
+/* line 383, sass/module/_landing.scss */
 #contact h1 {
   font-family: 'PT Serif'; }
-/* line 377, sass/module/_landing.scss */
+/* line 387, sass/module/_landing.scss */
 #contact .uk-heading-large {
   font-weight: 400;
   text-transform: none;
   font-size: 72px; }
-/* line 382, sass/module/_landing.scss */
+/* line 392, sass/module/_landing.scss */
 #contact .panel-subtitle {
   margin: 30px auto;
   font-family: 'Raleway';
@@ -263,14 +251,14 @@
   color: #444444;
   font-size: 19px;
   line-height: 30px; }
-/* line 391, sass/module/_landing.scss */
+/* line 401, sass/module/_landing.scss */
 #contact p {
   display: block;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px; }
-/* line 398, sass/module/_landing.scss */
+/* line 408, sass/module/_landing.scss */
 #contact h3 {
   font-size: 24px;
   line-height: 32px;
@@ -280,30 +268,30 @@
   color: #444444;
   text-transform: none;
   text-rendering: auto; }
-/* line 410, sass/module/_landing.scss */
+/* line 420, sass/module/_landing.scss */
 #contact .uk-margin-large {
   margin-top: 50px;
   margin-bottom: 50px; }
-/* line 415, sass/module/_landing.scss */
+/* line 425, sass/module/_landing.scss */
 #contact .uk-margin-large-top {
   margin-top: 50px !important; }
-/* line 418, sass/module/_landing.scss */
+/* line 428, sass/module/_landing.scss */
 #contact .uk-grid {
   margin-left: -30px; }
-/* line 422, sass/module/_landing.scss */
+/* line 432, sass/module/_landing.scss */
 #contact .uk-icon-hover {
   color: #666666; }
-/* line 425, sass/module/_landing.scss */
+/* line 435, sass/module/_landing.scss */
 #contact .uk-icon-small {
   font-size: 120%;
   vertical-align: -10%;
   padding-left: 10px; }
 
 @media screen and (max-width: 768px) {
-  /* line 436, sass/module/_landing.scss */
+  /* line 446, sass/module/_landing.scss */
   #contact h1 {
     font-size: 52px !important; } }
 @media screen and (max-width: 400px) {
-  /* line 444, sass/module/_landing.scss */
+  /* line 454, sass/module/_landing.scss */
   #contact h1 {
     font-size: 32px !important; } }
