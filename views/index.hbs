@@ -1,12 +1,45 @@
-<section id="bento"> 
-	
+<section id="bento">
+		<div class="data-uk-sticky{top:100, animation: 'uk-animation-slide-top'} ">
+			<nav class="uk-navbar {{!-- uk-overlay-top --}}">
+				{{!-- <img src="/images/darklogo.jpg" alt="Demo"> --}}
+					    <div class="uk-navbar-flip">
+					        <ul class="uk-navbar-nav">
+					            <li><a href="#my-id"  data-uk-offcanvas>
+					            	<i class="uk-icon-navicon uk-icon-large" data-uk-offcanvas="{target:'#my-id'}"></i></a>
+					           	</li>
+					        </ul>
+					    </div>
+
+		    	<div id="my-id" class="uk-offcanvas">
+			    	<div class="uk-offcanvas-bar  uk-offcanvas-bar-flip">
+			    	<ul>
+				 		<li>Home</li>
+				 		<li>Features</li>
+				 		<li>Pages</li>
+				 		<li>Zoo</li>
+				 		<li>Search</li>
+ 					</ul>
+			    	</div>
+				</div>
+			</nav>
+		</div>
+
+
 	<div class="slideshow-wrapper">
-		<div class="uk-slidenav-position" data-uk-slideshow>
+		<div class="uk-slidenav-position" data-uk-slideshow>	
 		    <ul class="uk-slideshow">
 		        <li>
-		        	<div class="image-wrapper">
+		        <div class="image-wrapper">
 		        		<img src="/images/image1.jpeg" alt="Demo">
-		        	</div>
+		        	<div classs ="uk-overlay-panel uk-flex uk-flex-center uk-flex-middle uk-text-center uk-overlay-fade">
+		        		<div>
+		        			<div class="uk-margin">
+		        			
+		        				<img src="/images/darklogo.jpg">
+		        			</div>
+		        		</div>
+		        	</div>		
+		        </div>
 		        </li>
 		        <li>
 		        	<div class="image-wrapper">
@@ -15,7 +48,7 @@
 		        </li>
 		        <li>
 		        	<div class="image-wrapper">
-		        		<img src="/images/image3.jpeg" alt="Demo">
+		        		<img src="/images/image.jpeg" alt="Demo">
 		        	</div>
 		        </li>
 
@@ -32,6 +65,7 @@
 		    </ul>
 
 		</div>
+			
 	</div>
 	
 </section>
@@ -94,7 +128,7 @@
 					    <h2> Policy Sets </h2>
 					</div>
 					    <figcaption class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-flex uk-flex-center ">
-					    	<div>
+					    	<div class="uk-margin-small">
 					    	<p>This is an end to end approach that identifies weaknesses and areas needing improvement.<br> The offering includes:<br>1) comprehensive documentation;<br> 2) a detailed outline of your cybersecurity standing; and<br> 3) action items setting you up for the next year. </p>
 							</div>
 					    </figcaption>
@@ -115,7 +149,7 @@
 					    <figcaption class="uk-overlay-panel  uk-overlay-background uk-overlay-fade uk-flex uk-flex-center">
 					    	<div>
 						    	<p>
-						    		We deal with your updates to all policies, all the time. When you see yet another memo from your relevant regulatory body, we’re there to make sure your documentation keeps up. 
+						    		We deal with your updates to all policies, all the time. When you see yet another memo from your relevant regulatory body,we’re there to make sure your documentation keeps up. 
 						    	</p>
 					    		
 					    	</div>
@@ -136,7 +170,7 @@
 
 					    <figcaption class="uk-overlay-panel  uk-overlay-background uk-overlay-fade">
 					    <div>
-					    	<p>
+					    	<p class="overlay-text">
 					    		Text to Appear when hovering: We deal with your updates to all policies, all the time. When you see yet another memo from your relevant regulatory body, we’re there to make sure your documentation keeps up. 
 					    	</p>
 					    </div>
