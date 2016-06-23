@@ -9,26 +9,29 @@
 
 			.uk-slideshow{
 				height: 900px;
-				max-width: 1000px;
-			}	
+				position: relative;
+			    
+			  
+				// max-width: 1000px;
+				}	
 				.images{
 					height:800px;
 					max-width: 1000px;
 				}
 
-			.uk-margin{
-				width: 700px
-			}
+					.uk-margin{
+						width: 700px
+				}
 		
 			
-			.uk-navbar{
+				.uk-navbar{
 
-			padding: 20px 30px;
-			background-color: transparent;
-			position: relative;
+				padding: 20px 30px;
+				background-color: transparent;
+				position: relative;
 
-		}
-
+			}
+				
 
 
 
@@ -199,11 +202,11 @@
 				.uk-overlay {
 			    display: inline-block;
 			    position: relative;
-			    max-width: 100%;
+			    width: 100%;
 			    vertical-align: middle;
 			    overflow: hidden;
 			    margin: 0;
-				
+				height:100%;
 				}
 
 				.uk-panel{
@@ -213,11 +216,13 @@
 				}
 				.image{
 					position: relative; 
-		   			width: 100%; 	
+		   			width: 100%; 
+
 			   	}
 			   	img{
-			   		width:500px;
-			   		height:550px;
+			   		 width:100%;
+			   		height:100%;
+			   		// width:100%;
 			   	}
 
 			   	h2 { 
