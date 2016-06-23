@@ -1,55 +1,91 @@
 #bento {
 
-	.slideshow-wrapper {
-		ul {
-			li {
-				.image-wrapper {
-					max-height: 700px;
+
+	// background-position: 50% 50%;
+   background-size: 100px;
+ //   background-repeat: no-repeat;
+ 
+		.uk-container{
+
+			.uk-slideshow{
+				height: 900px;
+				max-width: 1000px;
+			}	
+				.images{
+					height:800px;
+					max-width: 1000px;
 				}
-				.uk-navbar{
 
-		padding: 25px 40px;
-		background-color: transparent;
-		position: relative;
-
-		}
+			.uk-margin{
+				width: 700px
 			}
-		}
-	}
-	background-color: rgb(48, 61, 77);
-	
-	
-	background-repeat: no-repeat;
-	
-    background-position: center; 
-
-	
-		.uk-sticky{
-		 height: 110px;
-		 margin: 0px;
-		 position: relative;
-		 z-index: 2;	
-
-			}
+		
 			
-		h1 {
-			font-size: 75px;
+			.uk-navbar{
+
+			padding: 20px 30px;
+			background-color: transparent;
+			position: relative;
 
 		}
+
+
+
+
+
+		// }
+
+}
+	// .slideshow-wrapper {
+	// 	ul {
+	// 		li {
+	// 			.image-wrapper {
+	// 				max-height: 700px;
+	// 			}
+	// 			.uk-navbar{
+
+	// 	padding: 25px 40px;
+	// 	background-color: transparent;
+	// 	position: relative;
+
+	// 	}
+	// 		}
+	// 	}
+	// }
+	// background-color: rgb(48, 61, 77);
+	
+	
+	// background-repeat: no-repeat;
+	
+ //    background-position: center; 
+
+	
+	// 	.uk-sticky{
+	// 	 height: 110px;
+	// 	 margin: 0px;
+	// 	 position: relative;
+	// 	 z-index: 2;	
+
+	// 		}
+			
+	// 	h1 {
+	// 		font-size: 75px;
+
+	// 	}
 
 		
 
 
-	.uk-navbar-flip {
+	// .uk-navbar-flip {
 
-				li {
-					list-style-type: none;
+	// 			li {
+	// 				list-style-type: none;
 
 				
 
-					color:	 #FFF;
-			  	  }
-				}
+	// 				color:	 #FFF;
+	// 		  	  }
+	// 			}
 
 			
 	
@@ -178,6 +214,10 @@
 				.image{
 					position: relative; 
 		   			width: 100%; 	
+			   	}
+			   	img{
+			   		width:500px;
+			   		height:550px;
 			   	}
 
 			   	h2 { 
