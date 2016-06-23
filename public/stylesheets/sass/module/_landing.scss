@@ -5,17 +5,21 @@
    background-size: 100px;
  //   background-repeat: no-repeat;
  
-		 // .uk-container{
+		 // 
+
+		 	.uk-offcanvas {
+		 		width: auto;
+		 	}
 
 			.uk-slideshow{
-				height: 900px;
+				// height: 900px;
 				position: relative;
 			    
 			  
 				// max-width: 1000px;
 				}	
 				.images{
-					height:800px;
+					// height:800px;
 					max-width: 1000px;
 				}
 
@@ -30,6 +34,9 @@
 				background-color: transparent;
 				position: relative;
 
+		 		img{
+		 			width:150px;
+		 		}
 			}
 			.uk-navbar-flip {
 
@@ -250,7 +257,7 @@
 
     				color: #000000;
     				 margin-top: 60px;
-   					 padding-top: 80px;
+   				 padding-top: 80px;
 
 				   	top: 45%; 
 				   	left: 0px;
