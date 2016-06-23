@@ -1,11 +1,10 @@
 #bento {
 
 
-	// background-position: 50% 50%;
    background-size: 100px;
- //   background-repeat: no-repeat;
+
  
-		 // 
+	
 
 		 	.uk-offcanvas {
 		 		width: auto;
@@ -53,62 +52,11 @@
 
 
 
-		// }
 
 }
-	// .slideshow-wrapper {
-	// 	ul {
-	// 		li {
-	// 			.image-wrapper {
-	// 				max-height: 700px;
-	// 			}
-	// 			.uk-navbar{
-
-	// 	padding: 25px 40px;
-	// 	background-color: transparent;
-	// 	position: relative;
-
-	// 	}
-	// 		}
-	// 	}
-	// }
-	// background-color: rgb(48, 61, 77);
 	
-	
-	// background-repeat: no-repeat;
-	
- //    background-position: center; 
-
-	
-	// 	.uk-sticky{
-	// 	 height: 110px;
-	// 	 margin: 0px;
-	// 	 position: relative;
-	// 	 z-index: 2;	
-
-	// 		}
-			
-	// 	h1 {
-	// 		font-size: 75px;
-
-	// 	}
-
-		
 
 
-	// .uk-navbar-flip {
-
-	// 			li {
-	// 				list-style-type: none;
-
-				
-
-	// 				color:	 #FFF;
-	// 		  	  }
-	// 			}
-
-			
-	
 
 		
 	
@@ -451,20 +399,63 @@
 	}
 
 
+
+	@media screen and (max-width: 960px) {
+		
+
+		#bento{
+			.uk-margin{
+
+				width:600px;
+			}
+		}
+	}
+
+
+
+
+
+
 	@media screen and (max-width: 768px) {
 		#contact {
 			h1 {
 				font-size: 52px!important;
 			}
 		}
+
+		#bento{
+			
+			.uk-margin{
+
+				width:500px;
+			}
+
+
+		}
+
+
+
 	}
 
-	@media screen and (max-width: 400px) {
+	@media screen and (max-width: 480px) {
 		#contact {
 			h1 {
 				font-size: 32px!important;
 			}
 		}
-	}
 
+		#bento{
+			.uk-margin{
+
+				width:200px;
+			}
+			.uk-navbar{
+				padding:0px 0px;
+			
+			img{
+				width:100px;
+			}
+		}
+		}
+	}
 
