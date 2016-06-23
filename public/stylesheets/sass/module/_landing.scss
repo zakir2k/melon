@@ -5,7 +5,7 @@
    background-size: 100px;
  //   background-repeat: no-repeat;
  
-		.uk-container{
+		 // .uk-container{
 
 			.uk-slideshow{
 				height: 900px;
@@ -31,6 +31,16 @@
 				position: relative;
 
 			}
+			.uk-navbar-flip {
+
+				li {
+					list-style-type: none;
+
+				
+
+					color:	 #FFF;
+			  	  }
+				}
 				
 
 
@@ -93,7 +103,7 @@
 			
 	
 
-		}
+		
 	
 
 
@@ -239,7 +249,9 @@
     			p{
 
     				color: #000000;
-    				position: absolute; 
+    				 margin-top: 60px;
+   					 padding-top: 80px;
+
 				   	top: 45%; 
 				   	left: 0px;
 				 
