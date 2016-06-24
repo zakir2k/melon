@@ -116,23 +116,24 @@
   /* line 200, sass/module/_landing.scss */
   #section3 .uk-overlay-background {
     background: rgba(255, 255, 255, 0.9); }
-    /* line 203, sass/module/_landing.scss */
+    /* line 202, sass/module/_landing.scss */
+    #section3 .uk-overlay-background ol {
+      font-size: 18px;
+      color: #000000; }
+    /* line 207, sass/module/_landing.scss */
     #section3 .uk-overlay-background p {
       color: #000000;
-      margin-top: 60px;
-      padding-top: 80px;
-      top: 45%;
-      left: 0px;
-      width: 100%;
-      font-size: 18px; }
-    /* line 217, sass/module/_landing.scss */
-    #section3 .uk-overlay-background div {
-      text-align: justify; }
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      /* line 223, sass/module/_landing.scss */
+      #section3 .uk-overlay-background p div {
+        text-align: justify; }
 
-/* line 230, sass/module/_landing.scss */
+/* line 238, sass/module/_landing.scss */
 #section4 .uk-margin {
   margin-bottom: 25px; }
-/* line 235, sass/module/_landing.scss */
+/* line 243, sass/module/_landing.scss */
 #section4 h3 {
   text-align: center !important;
   font-size: 30px;
@@ -144,7 +145,7 @@
   font-weight: 500;
   text-transform: none;
   color: #636873; }
-/* line 253, sass/module/_landing.scss */
+/* line 261, sass/module/_landing.scss */
 #section4 p {
   text-align: center;
   margin-top: 30px;
@@ -153,7 +154,7 @@
   font-weight: 300;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   line-height: 28px; }
-/* line 263, sass/module/_landing.scss */
+/* line 271, sass/module/_landing.scss */
 #section4 button {
   display: inline-block;
   padding: 5px 40px;
@@ -166,14 +167,14 @@
   background-color: #444;
   border: none;
   border-radius: 15px; }
-/* line 279, sass/module/_landing.scss */
+/* line 287, sass/module/_landing.scss */
 #section4 .price-style {
   padding-top: 60px;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 60px;
   text-align: center !important; }
-/* line 287, sass/module/_landing.scss */
+/* line 295, sass/module/_landing.scss */
 #section4 .pricing {
   padding-top: 55px;
   text-align: center;
@@ -183,19 +184,19 @@
   font-weight: 300;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   line-height: 28px; }
-/* line 300, sass/module/_landing.scss */
+/* line 308, sass/module/_landing.scss */
 #section4 .button-basic {
   padding-top: 80px; }
-/* line 304, sass/module/_landing.scss */
+/* line 312, sass/module/_landing.scss */
 #section4 .button-expedited {
   padding-top: 25px; }
-/* line 309, sass/module/_landing.scss */
+/* line 317, sass/module/_landing.scss */
 #section4 .price {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 60px;
   text-align: center !important; }
-/* line 326, sass/module/_landing.scss */
+/* line 334, sass/module/_landing.scss */
 #section4 .uk-panel-title {
   font-size: 50px;
   line-height: 56px;
@@ -204,15 +205,15 @@
   margin-top: 150px;
   margin-bottom: 150px; }
 
-/* line 340, sass/module/_landing.scss */
+/* line 348, sass/module/_landing.scss */
 #contact h1 {
   font-family: 'PT Serif'; }
-/* line 344, sass/module/_landing.scss */
+/* line 352, sass/module/_landing.scss */
 #contact .uk-heading-large {
   font-weight: 400;
   text-transform: none;
   font-size: 72px; }
-/* line 349, sass/module/_landing.scss */
+/* line 357, sass/module/_landing.scss */
 #contact .panel-subtitle {
   margin: 30px auto;
   font-family: 'Raleway';
@@ -220,14 +221,14 @@
   color: #444444;
   font-size: 19px;
   line-height: 30px; }
-/* line 358, sass/module/_landing.scss */
+/* line 366, sass/module/_landing.scss */
 #contact p {
   display: block;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px; }
-/* line 365, sass/module/_landing.scss */
+/* line 373, sass/module/_landing.scss */
 #contact h3 {
   font-size: 24px;
   line-height: 32px;
@@ -237,48 +238,48 @@
   color: #444444;
   text-transform: none;
   text-rendering: auto; }
-/* line 377, sass/module/_landing.scss */
+/* line 385, sass/module/_landing.scss */
 #contact .uk-margin-large {
   margin-top: 50px;
   margin-bottom: 50px; }
-/* line 382, sass/module/_landing.scss */
+/* line 390, sass/module/_landing.scss */
 #contact .uk-margin-large-top {
   margin-top: 50px !important; }
-/* line 385, sass/module/_landing.scss */
+/* line 393, sass/module/_landing.scss */
 #contact .uk-grid {
   margin-left: -30px; }
-/* line 389, sass/module/_landing.scss */
+/* line 397, sass/module/_landing.scss */
 #contact .uk-icon-hover {
   color: #666666; }
-/* line 392, sass/module/_landing.scss */
+/* line 400, sass/module/_landing.scss */
 #contact .uk-icon-small {
   font-size: 120%;
   vertical-align: -10%;
   padding-left: 10px; }
 
 @media screen and (max-width: 960px) {
-  /* line 406, sass/module/_landing.scss */
+  /* line 414, sass/module/_landing.scss */
   #bento .uk-margin {
     width: 600px; } }
 @media screen and (max-width: 768px) {
-  /* line 420, sass/module/_landing.scss */
+  /* line 428, sass/module/_landing.scss */
   #contact h1 {
     font-size: 52px !important; }
 
-  /* line 427, sass/module/_landing.scss */
+  /* line 435, sass/module/_landing.scss */
   #bento .uk-margin {
     width: 500px; } }
 @media screen and (max-width: 480px) {
-  /* line 441, sass/module/_landing.scss */
+  /* line 449, sass/module/_landing.scss */
   #contact h1 {
     font-size: 32px !important; }
 
-  /* line 447, sass/module/_landing.scss */
+  /* line 455, sass/module/_landing.scss */
   #bento .uk-margin {
     width: 200px; }
-  /* line 451, sass/module/_landing.scss */
+  /* line 459, sass/module/_landing.scss */
   #bento .uk-navbar {
     padding: 0px 0px; }
-    /* line 454, sass/module/_landing.scss */
+    /* line 462, sass/module/_landing.scss */
     #bento .uk-navbar img {
       width: 100px; } }
