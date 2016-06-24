@@ -1,11 +1,12 @@
 <section id="bento">
+
 	<div class="uk-block-muted">
-		<div class="uk-width-small-1-1 uk-width-meduim-1-1 uk-large-1-1 uk-width-xl-1-1">
-			<div class="uk-panel ">	
+		<div class="uk-width-small-1-1 uk-width-medium-1-1 uk-large-1-1 uk-width-xl-1-1">
+			<div class="uk-panel">	
 				<div class="uk-slidenav-position uk-position-relative" data-uk-slideshow="{autoplay:true,autoplayInterval:5000}">	
 					<ul class="uk-slideshow">
-						<li class="uk-active  uk-responsive-height">
-						    <div class="uk-cover-background uk-position-cover " style="background-image: url('images/image1.jpeg')"></div>
+						<li class="uk-active uk-responsive-height">
+						    <div class="uk-cover-background uk-position-cover" style="background-image: url('images/image1.jpeg')"></div>
 						    	<img src="/images/image1.jpeg" alt="image1.jpeg">
 								<div class="uk-overlay-panel uk-flex uk-flex-center uk-flex-middle uk-text-center uk-overlay-fade">
 						        	<div class="uk-margin">
@@ -43,8 +44,8 @@
 											        <li data-uk-slideshow-item="1"><a href="">image2.jpeg</a></li>
 											        <li data-uk-slideshow-item="2"><a href="">image.jpeg</a></li>
 								    		  </ul>
-		    						</div>	
-				<div>
+			    						</div>	
+						</div>
 			</div>		
 	</div>
 
@@ -73,9 +74,9 @@
 								</div>
 						</nav>
 					</div>
-		</div>
-		{{!-- </div>	 --}}
 		
+		{{!-- </div>	 --}}
+</div>		
 </section>
 
 
@@ -119,7 +120,7 @@
 					{{!-- </div> --}}
 					    <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-flex uk-flex-center">
 					   
-						   {{!--  <div class="uk-margin-medium"> --}}
+						   
 								
 								    <p align="center">We conduct a tailored diligence of your vendors and provide you with a clean summary outlining any issues to remediate, as well as a detailed analysis for your records.
 								    </p>
@@ -176,7 +177,7 @@
 		</ul>
 
 		<ul class="uk-grid uk-grid-collapse uk-margin-top-remove">
-			<li class="uk-width-large-1-3 uk-width-medium-1-3 ">
+			<li class="uk-width-large-1-3 uk-width-medium-1-3">
 				<div class="uk-panel">
 					<figure class="uk-overlay uk-overlay-hover">
 						<div class="image">
@@ -382,7 +383,7 @@
 				</div>
 
 				<div class="uk-width-small-1-1 uk-width-large-2-3">
-					<form class="uk-form">
+					<form id="frmContact" class="uk-form">
 							
 						<div class="uk-form-row">
 							<input type="text" placeholder="Name" class="uk-width-1-1">
@@ -391,7 +392,7 @@
 							<input type="number" placeholder="Phone Number" class="uk-width-1-1">
 						</div>
 						<div class="uk-form-row">
-							<input type="email" placeholder="Email" class="uk-width-1-1">
+							<input id="email" placeholder="Email" class="uk-width-1-1">
 						</div>
 
 						<div class="uk-form-row">
@@ -403,7 +404,7 @@
 						</div>
 
 						<div class="uk-form-row">
-							<button class="uk-button uk-button-large uk-button-primary">
+							<button type="submit" class="uk-button uk-button-large uk-button-primary">
 								Submit Messsage
 							</button>
 						</div>		
@@ -412,6 +413,7 @@
 				</div>	
 			</div>	
 				
+
 			
 		</div>
 				<div class= "uk-grid uk-grid-small uk-grid-medium uk-grid-large">
@@ -422,6 +424,25 @@
 	</div>
 </section>
 
+<script type="text/javascript">
+	var frmContact = document.getElementById('frmContact');
+	console.log('Form Contact:',frmContact);
+	function validateEmail(email) {
+	    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+	    return re.test(email);
+	}
+
+	frmContact.addEventListener('submit', function(evt){
+	    evt.preventDefault();
+	  	let email = document.getElementById('email').value;
+	  	if(!validateEmail(email)){
+	  		alert('Invalid Email, Try Again');
+	  	}	
+	  	console.log('Email:',email);
+
+	});
+
+</script>
 
 
 

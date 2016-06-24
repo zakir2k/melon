@@ -2,9 +2,12 @@
 		// 
 	
 
+				
 
-
- 
+ 			.uk-height-viewport{
+ 				min-height: 100vh;
+				height: auto
+ 			}
 				
 
 		 	.uk-offcanvas {
@@ -426,10 +429,19 @@
 
 
 		}
+		#section3{
+			.uk-overlay-background {
+    				background: rgba(255, 255, 255, 0.9);
+    					
 
+    			p{
 
-
+    				color: #323232;
+    			 	font-size: 18px !important;;
+			}
+		}
 	}
+}
 
 	@media screen and (max-width: 480px) {
 		#contact {
@@ -443,6 +455,7 @@
 
 				width:200px;
 			}
+
 			.uk-navbar{
 				padding:0px 0px;
 			
@@ -450,6 +463,18 @@
 				width:100px;
 			}
 		}
-		}
 	}
+
+	.uk-overlay-background {
+    				background: rgba(255, 255, 255, 0.9);
+    					
+
+    			p{
+
+    				color: #323232;
+    			 	font-size: 18px !important;;
+			}
+		}
+
+}
 
