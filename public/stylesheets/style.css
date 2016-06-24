@@ -1,30 +1,27 @@
-/* line 1, sass/module/_landing.scss */
-#bento {
-  background-size: 100px; }
-  /* line 9, sass/module/_landing.scss */
-  #bento .uk-offcanvas {
-    width: auto; }
-  /* line 13, sass/module/_landing.scss */
-  #bento .uk-slideshow {
-    position: relative; }
-  /* line 20, sass/module/_landing.scss */
-  #bento .images {
-    max-width: 1000px; }
-  /* line 25, sass/module/_landing.scss */
-  #bento .uk-margin {
-    width: 700px; }
-  /* line 30, sass/module/_landing.scss */
-  #bento .uk-navbar {
-    padding: 20px 30px;
-    background-color: transparent;
-    position: relative; }
-    /* line 36, sass/module/_landing.scss */
-    #bento .uk-navbar img {
-      width: 150px; }
-  /* line 42, sass/module/_landing.scss */
-  #bento .uk-navbar-flip li {
-    list-style-type: none;
-    color: #FFF; }
+/* line 10, sass/module/_landing.scss */
+#bento .uk-offcanvas {
+  width: auto; }
+/* line 14, sass/module/_landing.scss */
+#bento .uk-slideshow {
+  position: relative; }
+/* line 21, sass/module/_landing.scss */
+#bento .images {
+  max-width: 1000px; }
+/* line 26, sass/module/_landing.scss */
+#bento .uk-margin {
+  width: 700px; }
+/* line 31, sass/module/_landing.scss */
+#bento .uk-navbar {
+  padding: 20px 30px;
+  background-color: transparent;
+  position: relative; }
+  /* line 37, sass/module/_landing.scss */
+  #bento .uk-navbar img {
+    width: 150px; }
+/* line 43, sass/module/_landing.scss */
+#bento .uk-navbar-flip li {
+  list-style-type: none;
+  color: #FFF; }
 
 /* line 70, sass/module/_landing.scss */
 #bento2 .uk-container p {
