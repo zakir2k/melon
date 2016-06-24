@@ -4,10 +4,7 @@
 
 				
 
- 			.uk-height-viewport{
- 				min-height: 100vh;
-				height: auto
- 			}
+ 			
 				
 
 		 	.uk-offcanvas {
@@ -335,6 +332,7 @@
 	}
 
 	#contact{
+		margin-top: 30px;
 		h1{
 
 			font-family: 'PT Serif';
@@ -464,17 +462,16 @@
 			}
 		}
 	}
-
+		#section3{
 	.uk-overlay-background {
-    				background: rgba(255, 255, 255, 0.9);
-    					
+    	
 
     			p{
 
     				color: #323232;
-    			 	font-size: 18px !important;;
+    			 	font-size: 16px !important;;
 			}
 		}
-
+	}	
 }
 
