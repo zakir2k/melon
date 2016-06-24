@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "production": "PORT=80 forever start -a ./bin/www"
+   "production" : "forever stop production && npm run startProduction || npm run startProduction",
+    "startProduction": "PORT=80 forever start -a --uid \"production\" ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.13.2",
