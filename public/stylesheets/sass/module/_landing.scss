@@ -14,7 +14,10 @@
 		 			border-top: 1px solid rgba(0,0,0,.3);
 		 			box-shadow: inset 0 1px 0 rgba(255,255,255,.05);
     				text-shadow: 0 1px 0 rgba(0,0,0,.5);
-
+    				list-style-type:none;
+    			a:link{
+    				text-decoration:none;
+    			}	
 
 		 		}
 		 	}
@@ -45,18 +48,34 @@
 		 		img{
 		 			width:150px;
 		 		}
-			}
-			.uk-navbar-flip {
 
-				li {
+		 		.uk-navbar-flip {
+
+		 		
+		 		ul {
+		 			li {
 					list-style-type: none;
-
-				
-
 					color:	 #FFF;
+					a:hover {
+					background-color: transparent;
+					color: #f1f1f1;
+					}
+					
+					
+					a:visited{
+						background-color: transparent;
+						color: #f1f1f1;
+						}
+					a:focus{
+						background-color:transparent
+					}
 			  	  }
-				}
+		 		}
 				
+			}
+		}
+			
+					
 
 
 
@@ -255,7 +274,7 @@
 		}
 		p{
 			text-align: center;
-			margin-top: 30px;
+			margin-top: 80px;
 			display: block;
 			font-size: 18px;
 		    font-weight: 300;
