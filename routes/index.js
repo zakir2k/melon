@@ -4,7 +4,7 @@ var mailService = require('../services/mail.js');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Scryber Security' });
+  res.render('index', { title: 'Scrybersecurity' });
 });
 
 router.get('/contact', function(req, res, next) {
