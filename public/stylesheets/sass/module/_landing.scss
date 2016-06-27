@@ -257,6 +257,9 @@
 			.uk-margin {
     		margin-bottom: 25px;
 		}
+		h2{
+			font-family:novecento_sans_widenormal;
+		}
 
 		
 		h3{
@@ -307,7 +310,7 @@
 		}
 		 	.price-style{
 		 		padding-top:60px;
-		 		font-family: "Raleway", Helvetica, Arial, sans-serif;
+		 		
 	    		font-weight: 500;
 	    		font-size: 60px;
 	    		text-align: center !important;
@@ -331,24 +334,17 @@
 
 		 	}
 		 	.button-expedited{
-		 		 padding-top: 25px;
+		 		 padding-top: 60px;
 		 	}
 
 
 		.price{
-			 font-family: "Raleway", Helvetica, Arial, sans-serif;
+			 
     		 font-weight: 500;
     		font-size: 60px;
-    		// margin-top: 40px;
-    		// margin-left:15px;
-    			text-align: center !important;
+    		text-align: center !important;
 
-  //   			sup{
-		// 		font-size: 32px;
-	 //    		font-weight: 500;
-	 //   			top: -1.7em;
-	 //   			margin-right: 500px;
-		// }
+  
 	}
 		
 
@@ -379,7 +375,7 @@
 			.panel-subtitle{
 
 				margin: 30px auto;
-			    font-family: 'Raleway';
+			   font-family:novecento_sans_widenormal;
 			    text-transform: uppercase;
 			    color: #444444;
 			    font-size: 19px;
