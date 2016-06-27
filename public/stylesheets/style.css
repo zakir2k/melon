@@ -200,14 +200,15 @@
   color: #f1f1f1;
   background-color: #444;
   border: none;
-  border-radius: 15px; }
-/* line 311, sass/module/_landing.scss */
+  border-radius: 15px;
+  margin-top: 100px; }
+/* line 312, sass/module/_landing.scss */
 #section4 .price-style {
   padding-top: 60px;
   font-weight: 500;
   font-size: 60px;
   text-align: center !important; }
-/* line 319, sass/module/_landing.scss */
+/* line 320, sass/module/_landing.scss */
 #section4 .pricing {
   padding-top: 55px;
   text-align: center;
@@ -217,12 +218,12 @@
   font-weight: 300;
   font-family: novecento_sans_widenormal;
   line-height: 28px; }
-/* line 332, sass/module/_landing.scss */
-#section4 .button-basic {
-  padding-top: 80px; }
+/* line 333, sass/module/_landing.scss */
+#section4 .button-comprehensive {
+  margin-top: -70px; }
 /* line 336, sass/module/_landing.scss */
-#section4 .button-expedited {
-  padding-top: 60px; }
+#section4 .button-ongoing {
+  margin-top: -20px; }
 /* line 341, sass/module/_landing.scss */
 #section4 .price {
   font-weight: 500;
@@ -326,26 +327,37 @@
     /* line 480, sass/module/_landing.scss */
     #section3 .uk-overlay-background p {
       color: #323232;
-      font-size: 18px !important; } }
+      font-size: 18px !important; }
+
+  /* line 488, sass/module/_landing.scss */
+  #section4 .button-comprehensive {
+    margin-top: -50px; } }
 @media screen and (max-width: 480px) {
-  /* line 491, sass/module/_landing.scss */
+  /* line 497, sass/module/_landing.scss */
   #contact h1 {
     font-size: 32px !important; }
 
-  /* line 497, sass/module/_landing.scss */
+  /* line 503, sass/module/_landing.scss */
   #section1 .uk-margin {
     width: 200px; }
-  /* line 502, sass/module/_landing.scss */
+  /* line 508, sass/module/_landing.scss */
   #section1 .uk-navbar {
     padding: 0px 0px; }
-    /* line 505, sass/module/_landing.scss */
+    /* line 511, sass/module/_landing.scss */
     #section1 .uk-navbar img {
       width: 100px; }
 
-  /* line 514, sass/module/_landing.scss */
+  /* line 520, sass/module/_landing.scss */
   #section3 .uk-overlay-background p {
     color: #323232;
-    font-size: 16px !important; } }
+    font-size: 16px !important; }
+
+  /* line 528, sass/module/_landing.scss */
+  #section4 .uk-margin-small {
+    margin-bottom: 20px; }
+  /* line 531, sass/module/_landing.scss */
+  #section4 .uk-panel-title {
+    font-size: 50px; } }
 @font-face {
   font-family: 'novecento_sans_widenormal';
   src: url("Novecentosanswide-Normal-webfont.eot");

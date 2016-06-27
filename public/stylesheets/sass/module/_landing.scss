@@ -304,6 +304,7 @@
 				  background-color: #444;
 				  border: none;
 				  border-radius: 15px;
+				  margin-top: 100px;
 				  // box-shadow: 0 9px #999;
 
 
@@ -329,12 +330,11 @@
 
 		 	}
 
-		 	.button-basic{
-		 		 padding-top: 80px;
-
+		 	.button-comprehensive{
+		 		margin-top:-70px;
 		 	}
-		 	.button-expedited{
-		 		 padding-top: 60px;
+		 	.button-ongoing{
+		 		 margin-top: -20px;
 		 	}
 
 
@@ -484,6 +484,12 @@
 			}
 		}
 	}
+		#section4{
+		.button-comprehensive{
+			margin-top: -50px;
+		}
+
+	}
 }
 
 	@media screen and (max-width: 480px) {
@@ -511,11 +517,19 @@
 	.uk-overlay-background {
     	
 
-    			p{
+    	p{
 
-    				color: #323232;
-    			 	font-size: 16px !important;;
+		color: #323232;
+	 	font-size: 16px !important;;
 			}
+		}
+	}
+			#section4{
+		.uk-margin-small{
+			margin-bottom:20px;
+		}
+		.uk-panel-title{
+			font-size: 50px;
 		}
 	}	
 }
