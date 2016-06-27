@@ -398,21 +398,21 @@
 					<form id="frmContact" class="uk-form">
 							
 						<div class="uk-form-row">
-							<input type="text" placeholder="Name" class="uk-width-1-1">
+							<input id="name" type="text" placeholder="Name" class="uk-width-1-1">
 						</div>
 						<div class="uk-form-row">
-							<input type="number" placeholder="Phone Number" class="uk-width-1-1">
+							<input id="number" type="number" placeholder="Phone Number" class="uk-width-1-1">
 						</div>
 						<div class="uk-form-row">
 							<input id="email" placeholder="Email" class="uk-width-1-1">
 						</div>
 
 						<div class="uk-form-row">
-							<textarea rows="4" cols="4" placeholder="What You Need(what services interest you, questions you have, list  of regulatory bodies or audit firms relevant to you, or just a time frame for us to schedule a call with you.)" class="uk-width-1-1"></textarea>
+							<textarea id="needed" rows="4" cols="4" placeholder="What You Need(what services interest you, questions you have, list  of regulatory bodies or audit firms relevant to you, or just a time frame for us to schedule a call with you.)" class="uk-width-1-1"></textarea>
 						</div>
 
 						<div class="uk-form-row">
-							<input type="date" placeholder="Deadline for What I Need (if any):" class="uk-width-1-1">
+							<input id="date" type="date" placeholder="Deadline for What I Need (if any):" class="uk-width-1-1">
 						</div>
 
 						<div class="uk-form-row">
@@ -447,10 +447,22 @@
 	frmContact.addEventListener('submit', function(evt){
 	    evt.preventDefault();
 	  	let email = document.getElementById('email').value;
+	  	let name = document.getElementById('name').value;
+	  	let number = document.getElementById('number').value;
+	  	let needed = document.getElementById('needed').value;
+	  	let date = document.getElementById('date').value;
 	  	if(!validateEmail(email)){
 	  		alert('Invalid Email, Try Again');
 	  	}	
+	  	console.log('Name:',name);
+	  	console.log('Number:',number);
 	  	console.log('Email:',email);
+	  	console.log('Needed:',needed);
+	  	console.log('Date:',date);
+	  	
+	  	let contactData = {
+	  		
+	  	}
 
 	});
 
