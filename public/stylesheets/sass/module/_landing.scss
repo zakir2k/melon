@@ -1,5 +1,8 @@
 #section1 {
 		// 
+			.uk-dotnav{
+				margin-bottom: 10px;
+			}
 			p{
 				font-family:novecento_sans_widenormal;	
 				font-weight: 400;
@@ -469,6 +472,10 @@
 
 				width:500px;
 			}
+			p{
+				font-size: 20px;
+    			line-height: 24px 
+			}
 
 
 		}
@@ -511,7 +518,12 @@
 			img{
 				width:100px;
 			}
-		}
+			}
+			p{
+				font-size: 10px;
+    			line-height: 16px; 
+			}
+		
 	}
 		#section3{
 	.uk-overlay-background {
