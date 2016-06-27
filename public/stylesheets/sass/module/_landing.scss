@@ -91,7 +91,7 @@
 		.uk-container{
 
 				p{
-			 		font-family: Raleway, Helvetica, Arial, sans-serif;
+			 		font-family:novecento_sans_widenormal;
 		   			font-weight: 400;
 		    		font-size: 14px;
 		    		line-height: 18px;
@@ -110,7 +110,7 @@
 			  	 }
 					h3{
 
-						font-family: "Raleway", Helvetica, Arial, sans-serif;
+						font-family:novecento_sans_widenormal;
 		    			font-weight: 500;
 		    			font-size: 50px;
 		    			line-height: 56px;
@@ -217,7 +217,9 @@
 			   	}
 
 			   	h2 { 
-			   		color: #FFFFFF;
+
+			   	   font-family:novecento_sans_widenormal;
+			   	   color: #FFFFFF;
 				   position: absolute; 
 				   top: 45%; 
 				   left: 0;
@@ -231,7 +233,7 @@
     			p{
 
     				color: #323232;
-    				 
+    				font-family:novecento_sans_widenormal;
     				display: flex;
 				    align-items: center;
 				    justify-content: center;
@@ -270,6 +272,7 @@
 		    font-weight: 500;
 		    text-transform: none;
 		    color: #636873;
+		    font-family:novecento_sans_widenormal;
 
 		}
 		p{
@@ -280,9 +283,10 @@
 		    font-weight: 300;
 		    font-family: "Raleway", Helvetica, Arial, sans-serif;
 		    line-height: 28px;
-		
+			font-family:novecento_sans_widenormal;
 		}
 		button{
+			font-family:novecento_sans_widenormal;
 				  display: inline-block;
 				  padding: 5px 40px;
 				  font-size: 20px;
@@ -313,7 +317,7 @@
 				display: block;
 				font-size: 18px;
 			    font-weight: 300;
-			    font-family: "Raleway", Helvetica, Arial, sans-serif;
+			   font-family:novecento_sans_widenormal;
 			    line-height: 28px;
 
 
@@ -346,10 +350,10 @@
 		
 
 			.uk-panel-title{
-			font-size: 50px;
-	    	line-height: 56px;
-	    	font-family: "Raleway", Helvetica, Arial, sans-serif;
-	    	font-weight: 500;
+			font-weight: 400;
+			text-transform: none;
+			font-size: 72px;
+	    	font-family:novecento_sans_widenormal;
 	    	margin-top: 150px;
 	    	margin-bottom: 150px;
 		}
@@ -362,7 +366,7 @@
 		margin-top: 30px;
 		h1{
 
-			font-family: 'PT Serif';
+			font-family:novecento_sans_widenormal;
 		}
 			 .uk-heading-large {
 			    font-weight: 400;
@@ -379,6 +383,7 @@
 			    line-height: 30px;
 		}
 			p {
+				font-family:novecento_sans_widenormal;
 			    display: block;
 			    -webkit-margin-before: 1em;
 			    -webkit-margin-after: 1em;
@@ -386,11 +391,11 @@
 			    -webkit-margin-end: 0px;
 		}
 			h3{
-
+				font-family:novecento_sans_widenormal;
 				font-size: 24px;
     			line-height: 32px;
     			margin: 0 0 15px 0;
-			    font-family: 'PT Serif';
+			   	
 			    font-weight: 400;
 			    color: #444444;
 			    text-transform: none;
@@ -418,6 +423,7 @@
 				    padding-left:10px;
 			}
 			button{
+					font-family:novecento_sans_widenormal;
 				  display: inline-block;
 				  padding: 5px 30px;
 				  font-size: 20px;
@@ -438,7 +444,7 @@
 	@media screen and (max-width: 960px) {
 		
 
-		#bento{
+		#section1{
 			.uk-margin{
 
 				width:600px;
@@ -458,7 +464,7 @@
 			}
 		}
 
-		#bento{
+		#section1{
 			
 			.uk-margin{
 
@@ -488,7 +494,7 @@
 			}
 		}
 
-		#bento{
+		#section1{
 			.uk-margin{
 
 				width:200px;
@@ -515,3 +521,17 @@
 	}	
 }
 
+
+
+@font-face {
+    font-family: 'novecento_sans_widenormal';
+    src: url('Novecentosanswide-Normal-webfont.eot');
+    src: url('Novecentosanswide-Normal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Novecentosanswide-Normal-webfont.woff2') format('woff2'),
+         url('Novecentosanswide-Normal-webfont.woff') format('woff'),
+         url('Novecentosanswide-Normal-webfont.ttf') format('truetype'),
+         url('Novecentosanswide-Normal-webfont.svg#novecento_sans_widenormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
