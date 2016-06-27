@@ -1,4 +1,4 @@
-#bento {
+#section1 {
 		// 
 	
 
@@ -67,7 +67,7 @@
 
 
 		
-#bento2{
+#section2{
 
 		.uk-container{
 
@@ -397,6 +397,19 @@
 				    font-size: 120%;
 				    vertical-align: -10%;
 				    padding-left:10px;
+			}
+			button{
+				  display: inline-block;
+				  padding: 5px 30px;
+				  font-size: 20px;
+				  cursor: pointer;
+				  text-align: center;
+				  text-decoration: none;
+				  outline: none;
+				  color: #f1f1f1;
+				  background-color: #444;
+				  border: none;
+				  border-radius: 10px;
 			}
 
 	}
