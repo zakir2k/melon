@@ -14,11 +14,11 @@ module.exports.sendContactEmail = function(email,name,cb){
 				
 				<body style='max-width:600px; width:auto; font-family:-apple-system, Lato, Helvetica, Arial; font-size:16; margin:0 auto; display: block; padding:0 6px; text-align: center; background: white'>
 					<div style="background-color:black; padding-top: 15px; padding-bottom: 15px;">
-						<img src='http://45.55.172.39/images/ScryberLogo.png' style='display:block; height:70px;'/>
+						<img src='http://45.55.172.39/images/ScryberLogo.png' style='display:block; width:300px; margin:15px auto;'/>
 					</div>
-					<p style='font-size: 2rem;'>Hi ${name},</p>
 					<center>
-						<p>Your email has been received! Thank you very much</p>
+						<h2 style='font-size:20;'>Hi ${name},</h2>
+						<p>Your email has been received! <br> We will contact you shortly, Thank you very much</p>
 					</center>
 				</body>
 			</html>`;
