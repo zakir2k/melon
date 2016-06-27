@@ -461,8 +461,32 @@
 	  	console.log('Date:',date);
 	  	
 	  	let contactData = {
-	  		
+	  		name,number,email,needed,date
 	  	}
+
+
+	  	var xhr = new XMLHttpRequest();
+        url = "contact";
+	      xhr.open("POST", url, true);
+	      xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+	      xhr.send(JSON.stringify(contactData));
+
+      xhr.onreadystatechange = function() {
+        console.log(xhr);
+        if(xhr.readyState == 4){
+          if (xhr.status == 200) {
+//                alert('Success');
+   alert('Thank you for sending your message, we will get back to you shortly!');
+// console.log(xhr.responseText);
+//                window.location.replace('/' + JSON.parse(xhr.response).sessionID);
+            }else{
+//               loggingIn = 0;
+              //document.getElementById('errContainer').innerHTML = xhr.response;
+            }  
+        }
+        
+      };
+
 
 	});
 
