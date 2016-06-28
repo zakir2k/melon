@@ -534,7 +534,7 @@
 }
 
 	@media screen and (max-width: 480px) {
-		#contact {
+			#contact {
 			h1 {
 				font-size: 32px!important;
 			}
@@ -552,14 +552,27 @@
 			img{
 				width:100px;
 			}
-			}
+		}
+
 			p{
 				font-size: 10px;
     			line-height: 16px; 
 			}
 		
 	}
+		#section2{
+			.uk-container{
+				h3{
+				font-size: 40px;
+    			line-height: 50px;	
+    			font-family:novecento_sans_widenormal;
+		    	font-weight: 500;
+				}
+			}
+	}
+		
 		#section3{
+	
 	.uk-overlay-background {
     	
 
@@ -586,8 +599,9 @@
 			justify-content: center;
 		}
 	}
-	}	
+}	
 }
+
 
 
 
