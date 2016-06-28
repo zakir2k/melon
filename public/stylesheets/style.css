@@ -100,7 +100,6 @@
   /* line 151, sass/module/_landing.scss */
   #section2 .uk-container img {
     max-width: 100%;
-    height: auto;
     box-sizing: border-box;
     border: 0;
     vertical-align: middle; }
@@ -387,7 +386,10 @@
     margin-bottom: 20px; }
   /* line 558, sass/module/_landing.scss */
   #section4 .uk-panel-title {
-    font-size: 50px; } }
+    font-size: 50px; }
+  /* line 561, sass/module/_landing.scss */
+  #section4 h3 {
+    line-height: 1; } }
 @font-face {
   font-family: 'novecento_sans_widenormal';
   src: url("Novecentosanswide-Normal-webfont.eot");

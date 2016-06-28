@@ -150,7 +150,7 @@
 
 						 img {
 				    		max-width: 100%;
-				    		height: auto;
+				    		// height: auto;
 				   			box-sizing: border-box;
 				    		border: 0;
 				    		vertical-align: middle;
@@ -557,6 +557,10 @@
 		}
 		.uk-panel-title{
 			font-size: 50px;
+		}
+		h3{
+
+			line-height: 1;
 		}
 	}	
 }
