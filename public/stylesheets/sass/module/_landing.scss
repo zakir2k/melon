@@ -315,7 +315,7 @@
 				  background-color: #444;
 				  border: none;
 				  border-radius: 15px;
-				  margin-top: 100px;
+				  margin-top: 25px;
 				  // box-shadow: 0 9px #999;
 
 
@@ -366,6 +366,11 @@
 	    	font-family:novecento_sans_widenormal;
 	    	margin-top: 150px;
 	    	margin-bottom: 150px;
+		}
+			.uk-link, a{
+			color: #f1f1f1;
+		    text-decoration: none;
+		    cursor: pointer
 		}
 
 
