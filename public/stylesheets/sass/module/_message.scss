@@ -1,0 +1,29 @@
+#message{
+
+	.uk-container{
+			img{
+				width: 400px;
+	    		height: 150px;
+	    		margin-top: 100px;
+		}
+			h1{
+				font-weight:600;
+				font-family:novecento_sans_widenormal;	
+		}
+			p{
+				font-family:novecento_sans_widenormal;
+				font-size: 18px;
+		}
+			.back{
+				text-align: center;
+				font-size: 24px;
+				margin-top: 40px;
+				font-family:novecento_sans_widenormal;
+				font-weight: 600;
+		}
+				link, a {
+				    color: #000;
+				    text-decoration: none;
+				    cursor: pointer;
+		}
+	}}

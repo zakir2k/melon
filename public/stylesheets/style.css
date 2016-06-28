@@ -399,3 +399,28 @@
   src: url("Novecentosanswide-Normal-webfont.eot?#iefix") format("embedded-opentype"), url("Novecentosanswide-Normal-webfont.woff2") format("woff2"), url("Novecentosanswide-Normal-webfont.woff") format("woff"), url("Novecentosanswide-Normal-webfont.ttf") format("truetype"), url("Novecentosanswide-Normal-webfont.svg#novecento_sans_widenormal") format("svg");
   font-weight: normal;
   font-style: normal; }
+/* line 4, sass/module/_message.scss */
+#message .uk-container img {
+  width: 400px;
+  height: 150px;
+  margin-top: 100px; }
+/* line 9, sass/module/_message.scss */
+#message .uk-container h1 {
+  font-weight: 600;
+  font-family: novecento_sans_widenormal; }
+/* line 13, sass/module/_message.scss */
+#message .uk-container p {
+  font-family: novecento_sans_widenormal;
+  font-size: 18px; }
+/* line 17, sass/module/_message.scss */
+#message .uk-container .back {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 40px;
+  font-family: novecento_sans_widenormal;
+  font-weight: 600; }
+/* line 24, sass/module/_message.scss */
+#message .uk-container link, #message .uk-container a {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }

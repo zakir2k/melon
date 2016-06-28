@@ -11,6 +11,10 @@ router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Express' });
 });
 
+router.get('/message', function(req, res, next) {
+  res.render('message', { title: 'Express' });
+})
+
 router.post('/contact', function(req, res, next) {
   var input = req.body;
   if(input.email){
