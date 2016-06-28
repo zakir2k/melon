@@ -14,7 +14,7 @@ router.get('/contact', function(req, res, next) {
 router.post('/contact', function(req, res, next) {
   var input = req.body;
   if(input.email){
-  	mailService.sendContactEmail(input.email,input.name, function(error,body){  		
+  	mailService.sendContactEmail(input.email,input.name, input.number, input.needed, input.date, function(error,body){  		
   		if(error){
   			console.log('Error in sending mail:',error);
 
