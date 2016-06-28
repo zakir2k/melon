@@ -453,6 +453,20 @@
 				  border: none;
 				  border-radius: 10px;
 			}
+			.button-form{
+				font-family:novecento_sans_widenormal;
+				  display: inline-block;
+				  padding: 5px 30px;
+				  font-size: 20px;
+				  cursor: pointer;
+				  text-align: center;
+				  text-decoration: none;
+				  outline: none;
+				  color: #f1f1f1;
+				  background-color: #444;
+				  border: none;
+				  border-radius: 10px;
+			}
 
 	}
 
@@ -515,6 +529,7 @@
 			line-height: 1;
 		}
 
+
 	}
 }
 
@@ -566,6 +581,11 @@
 
 			line-height: 1;
 		}
+		.uk-form{
+		.uk-flex{
+			justify-content: center;
+		}
+	}
 	}	
 }
 
