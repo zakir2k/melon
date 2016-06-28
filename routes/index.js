@@ -6,13 +6,13 @@ var mailService = require('../services/mail.js');
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Scrybersecurity' });
 });
-
+  
 router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Express' });
 });
 
-router.get('/message', function(req, res, next) {
-  res.render('message', { title: 'Express' });
+router.get('/thankyou', function(req, res, next) {
+  res.render('thankyou', { title: 'Express' });
 })
 
 router.post('/contact', function(req, res, next) {
