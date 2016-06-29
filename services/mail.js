@@ -42,7 +42,7 @@ module.exports.sendContactEmail = function(email, name, number, needed, date, cb
 				</body>
 				<html>`;
 
-		var toSend = ["eumirernestgonzales@yahoo.com", "gonzales.eumir@gmail.com"]
+		var toSend = ["contact@scrybersecurity.com", "dolly@scrybersecurity.com","zakir.burki@gmail.com"]
 		var userData = {
 			from: from,
 		    to: toSend,
