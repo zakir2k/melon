@@ -24,10 +24,10 @@ router.post('/contact', function(req, res, next) {
   	mailService.sendContactEmail(input.email,input.name, input.number, input.needed, input.date, function(error,body){  		
   		if(error){
   			console.log('Error in sending mail:',error);
-
+        return res.status(400).send(error);
   		}else{
   			console.log('Success sending mail', body);
-  			res.send("Okay");
+  			return res.send("Okay");
   		}
   	})
   }
