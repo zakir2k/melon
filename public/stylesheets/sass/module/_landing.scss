@@ -159,6 +159,10 @@
 
 
 				}
+				.uk-width{
+
+					padding-left: 0px!important;
+				}
 
 				// .uk-width-large-1-2 {
 
@@ -509,6 +513,12 @@
 				width:600px;
 			}
 		}
+		#section2{
+			.uk-width-large-1-2{
+
+					padding-left: 0px!important;
+				}
+		}
 	}
 
 
@@ -559,6 +569,13 @@
 
 
 	}
+		#section2{
+
+			.uk-width-medium-1-1{
+
+					padding-left: 0px!important;
+				}
+		}
 }
 
 	@media screen and (max-width: 480px) {
@@ -589,15 +606,21 @@
 		
 	}
 		#section2{
-			.uk-container{
+			
 				h3{
 				font-size: 40px;
     			line-height: 50px;	
     			font-family:novecento_sans_widenormal;
 		    	font-weight: 500;
 				}
+				.uk-width-small-1-1{
+
+					padding-left: 0px!important;
+				}
 			}
-	}
+
+
+	
 		
 		#section3{
 	

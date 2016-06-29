@@ -1,10 +1,22 @@
 #message{
+				.image{
+				padding-top:70px;
+				padding-bottom:70px;
+				padding-left:100px;
+				padding-right:100px;
+				background-color:black;
+				margin-top:150px;
+				}
 
 	.uk-container{
+
+
 			img{
-				width: 400px;
-	    		height: 150px;
-	    		margin-top: 100px;
+				background-color:#000000 ;
+				width: 600px;
+	    		height: auto;
+	    		// margin-top: 100px;
+	    		display: block;
 		}
 			h1{
 				font-weight:600;
