@@ -94,19 +94,20 @@
 		
 #section2{
 
-		.uk-container{
-			margin-top:50px;
+		
+			// margin-top:50px;
 
 				p{
 			 		font-family:novecento_sans_widenormal;
 		   			font-weight: 400;
 		    		font-size: 14px;
 		    		line-height: 18px;
-		    		    padding-top: 20px;
+		    		 padding-top: 20px;
 		    		letter-spacing: 1px;
-		    		margin: 0px !important;
+		    		// margin: 0px !important;
 		    		border-bottom-width: 20px;
   				 	 padding-bottom: 50px;
+  				 	 margin:20px;
 	    	}
 					li {
 							list-style-type: none;
@@ -116,7 +117,7 @@
 							color:	 #FFF;
 			  	 }
 					h3{
-
+						margin:20px;
 						font-family:novecento_sans_widenormal;
 		    			font-weight: 500;
 		    			font-size: 50px;
@@ -149,11 +150,13 @@
 				}
 
 						 img {
-				    		max-width: 100%;
-				    		// height: auto;
-				   			box-sizing: border-box;
-				    		border: 0;
-				    		vertical-align: middle;
+
+				    		width:auto;
+				    		height: 400px;
+				    		padding-top:10px;
+				    		padding-bottom:10px;
+				    		margin: 15px;
+
 
 				}
 
@@ -191,7 +194,7 @@
 
 	}	
 
-}
+
 
 
 	#section3{
