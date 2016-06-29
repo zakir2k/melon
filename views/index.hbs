@@ -402,7 +402,7 @@
 							<textarea id="needed" rows="4" cols="4" placeholder="What You Need (what services interest you, questions you have, list  of regulatory bodies or audit firms relevant to you, or just a time frame for us to schedule a call with you.)" class="uk-width-1-1"></textarea>
 						</div>
 							<div>
-								<p>Deadline for What I Need (if any): 	</p>
+								<p>Your Project Deadline</p>
 							</div>
 						<div class="uk-form-row">
 							<input id="date" type="date" placeholder="Deadline for What I Need (if any):" class="uk-width-1-1">
@@ -481,13 +481,14 @@
           if (xhr.status == 200) {
 //                alert('Success');
 //     
-		 window.location.replace('thankyou');
+			 window.location.replace('thankyou');
 		//   app.get('/thankyou', function (req, res) {
 		//   res.send('thankyou');
 		// });
 // console.log(xhr.responseText);
 //                window.location.replace('/' + JSON.parse(xhr.response).sessionID);
             }else{
+
 //               loggingIn = 0;
               //document.getElementById('errContainer').innerHTML = xhr.response;
             }  
