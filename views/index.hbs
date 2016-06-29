@@ -481,18 +481,9 @@
         console.log(xhr);
         if(xhr.readyState == 4){
           if (xhr.status == 200) {
-//                alert('Success');
-//     
 			 window.location.replace('thankyou');
-		//   app.get('/thankyou', function (req, res) {
-		//   res.send('thankyou');
-		// });
-// console.log(xhr.responseText);
-//                window.location.replace('/' + JSON.parse(xhr.response).sessionID);
             }else{
-
-//               loggingIn = 0;
-              //document.getElementById('errContainer').innerHTML = xhr.response;
+				alert('Error, please try again');
             }  
         }
         

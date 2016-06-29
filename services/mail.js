@@ -41,9 +41,11 @@ module.exports.sendContactEmail = function(email, name, number, needed, date, cb
 					<p style="text-align:left;"><b>Email:</b> ${email} <br><b>Name:</b> ${name} <br><b>Number:</b> ${number} <br><b>Service Inquiry:</b> ${needed} <br> <b>Date:</b> ${date}</p>
 				</body>
 				<html>`;
+
+		var toSend = ["eumirernestgonzales@yahoo.com", "gonzales.eumir@gmail.com"]
 		var userData = {
 			from: from,
-		    to: "dolly@scrybersecurity",
+		    to: toSend,
 		    subject: 'User inquiry on Scrybersecurity',
 		    html : inquiryMail
 		}
@@ -58,7 +60,8 @@ module.exports.sendContactEmail = function(email, name, number, needed, date, cb
 				});
 				// cb(err,body);
 			}else{
-				console.log(error)
+				console.log(err);
+				cb(err, null);
 			}
 
 		});
