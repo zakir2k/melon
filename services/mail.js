@@ -43,7 +43,7 @@ module.exports.sendContactEmail = function(email, name, number, needed, date, cb
 				<html>`;
 		var userData = {
 			from: from,
-		    to: "dolly@scrybersecurity",
+		    to: "rhea.dimayacyac16@gmail.com",
 		    subject: 'User inquiry on Scrybersecurity',
 		    html : inquiryMail
 		}
