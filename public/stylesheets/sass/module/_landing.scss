@@ -296,7 +296,7 @@
     		margin-bottom: 25px;
 		}
 		h2{
-			font-family: 'Lato', sans-serif;
+			font-family: novecento_sans_widenormal;
 			text-transform: lowercase;
 			font-weight: 300;
 
@@ -391,7 +391,14 @@
     		text-align: center !important;
 
   
-	}
+		}	
+		.price-sub{
+			 font-weight: 500;
+    		font-size: 50px;
+    		text-align: center !important;
+    		font-family: 'Lato', sans-serif;
+
+		}
 		
 
 			.uk-panel-title{
