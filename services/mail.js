@@ -42,7 +42,8 @@ module.exports.sendContactEmail = function(email, name, number, needed, date, cb
 				</body>
 				<html>`;
 
-		var toSend = ["contact@scrybersecurity.com", "dolly@scrybersecurity.com","zakir.burki@gmail.com"]
+		// var toSend = ["contact@scrybersecurity.com", "dolly@scrybersecurity.com","zakir.burki@gmail.com"];
+		var toSend = ["gonzales.eumir@gmail.com","rhea.dimayacyac@codeshop.io"];
 		var userData = {
 			from: from,
 		    to: toSend,

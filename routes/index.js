@@ -20,6 +20,16 @@ router.get('/thankyou', function(req, res, next) {
 
 router.post('/contact', function(req, res, next) {
   var input = req.body;
+  // return res.send(input);
+
+  // console.log(input.number);
+  // console.log(input.email);
+  // console.log(input.name);
+
+  //  if(!input.email) {
+  //   return res.redirect('/');
+  // }
+
   if(input.email){
   	mailService.sendContactEmail(input.email,input.name, input.number, input.needed, input.date, function(error,body){  		
   		if(error){
@@ -27,6 +37,7 @@ router.post('/contact', function(req, res, next) {
         return res.status(400).send(error);
   		}else{
   			console.log('Success sending mail', body);
+        return res.redirect('thankyou');
   			return res.send("Okay");
   		}
   	})
