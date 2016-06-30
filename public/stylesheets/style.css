@@ -68,12 +68,13 @@
   letter-spacing: 1px;
   border-bottom-width: 20px;
   padding-bottom: 50px;
-  margin: 20px; }
-/* line 112, sass/module/_landing.scss */
+  margin: 20px;
+  padding-left: 35px; }
+/* line 113, sass/module/_landing.scss */
 #section2 li {
   list-style-type: none;
   color: #FFF; }
-/* line 119, sass/module/_landing.scss */
+/* line 120, sass/module/_landing.scss */
 #section2 h3 {
   margin: 20px;
   font-family: novecento_sans_widenormal;
@@ -82,47 +83,47 @@
   line-height: 56px;
   color: #2c3343;
   text-transform: none; }
-/* line 133, sass/module/_landing.scss */
+/* line 134, sass/module/_landing.scss */
 #section2 .uk-panel {
   display: block;
   position: relative; }
-/* line 139, sass/module/_landing.scss */
+/* line 140, sass/module/_landing.scss */
 #section2 .uk-flex-middle {
   align-items: center; }
-/* line 143, sass/module/_landing.scss */
+/* line 144, sass/module/_landing.scss */
 #section2 .uk-overlay-scale {
   transform: scale(1);
   transition-duration: 0.3s;
   transition-timing-function: ease-out;
   transition-property: opacity, transform, filter; }
-/* line 152, sass/module/_landing.scss */
+/* line 153, sass/module/_landing.scss */
 #section2 img {
   width: auto;
   height: 400px;
   padding-top: 10px;
   padding-bottom: 10px;
   margin: 15px; }
-/* line 162, sass/module/_landing.scss */
+/* line 163, sass/module/_landing.scss */
 #section2 .uk-width {
   padding-left: 0px !important; }
-/* line 175, sass/module/_landing.scss */
+/* line 176, sass/module/_landing.scss */
 #section2 .caption img {
   max-width: 100%;
   height: auto;
   box-sizing: border-box; }
-/* line 182, sass/module/_landing.scss */
+/* line 183, sass/module/_landing.scss */
 #section2 .caption .uk-active {
   padding-left: 10px;
   margin-top: 10px; }
-/* line 188, sass/module/_landing.scss */
+/* line 189, sass/module/_landing.scss */
 #section2 .caption li {
   list-style-type: none;
   color: #FFF; }
 
-/* line 204, sass/module/_landing.scss */
+/* line 205, sass/module/_landing.scss */
 #section3 {
   margin-top: -50px; }
-  /* line 208, sass/module/_landing.scss */
+  /* line 209, sass/module/_landing.scss */
   #section3 .uk-overlay {
     display: inline-block;
     position: relative;
@@ -131,19 +132,19 @@
     overflow: hidden;
     margin: 0;
     height: 100%; }
-  /* line 218, sass/module/_landing.scss */
+  /* line 219, sass/module/_landing.scss */
   #section3 .uk-panel {
     display: block;
     position: relative; }
-  /* line 223, sass/module/_landing.scss */
+  /* line 224, sass/module/_landing.scss */
   #section3 .image {
     position: relative;
     width: 100%; }
-  /* line 228, sass/module/_landing.scss */
+  /* line 229, sass/module/_landing.scss */
   #section3 img {
     width: 100%;
     height: 100%; }
-  /* line 234, sass/module/_landing.scss */
+  /* line 235, sass/module/_landing.scss */
   #section3 h2 {
     font-family: novecento_sans_widenormal;
     color: #FFFFFF;
@@ -152,10 +153,10 @@
     left: 0;
     text-align: center;
     width: 100%; }
-  /* line 244, sass/module/_landing.scss */
+  /* line 245, sass/module/_landing.scss */
   #section3 .uk-overlay-background {
     background: rgba(255, 255, 255, 0.9); }
-    /* line 248, sass/module/_landing.scss */
+    /* line 249, sass/module/_landing.scss */
     #section3 .uk-overlay-background p {
       color: #323232;
       font-family: novecento_sans_widenormal;
@@ -163,7 +164,7 @@
       align-items: center;
       justify-content: center;
       font-size: 20px; }
-    /* line 258, sass/module/_landing.scss */
+    /* line 259, sass/module/_landing.scss */
     #section3 .uk-overlay-background h3 {
       color: #323232;
       font-family: novecento_sans_widenormal;
@@ -171,7 +172,7 @@
       margin-bottom: 10px;
       margin-right: 10px;
       font-weight: bold; }
-    /* line 269, sass/module/_landing.scss */
+    /* line 270, sass/module/_landing.scss */
     #section3 .uk-overlay-background ol li {
       color: #323232;
       font-family: novecento_sans_widenormal;
@@ -179,22 +180,22 @@
       justify-content: center;
       font-size: 20px; }
 
-/* line 294, sass/module/_landing.scss */
+/* line 295, sass/module/_landing.scss */
 #section4 .uk-margin {
   margin-bottom: 25px; }
-/* line 297, sass/module/_landing.scss */
+/* line 298, sass/module/_landing.scss */
 #section4 h2 {
   font-family: 'Lato', sans-serif;
   text-transform: lowercase;
   font-weight: 300; }
-/* line 304, sass/module/_landing.scss */
+/* line 305, sass/module/_landing.scss */
 #section4 sub {
   vertical-align: sub;
   font-size: smaller;
   position: relative;
   bottom: .25em;
   text-transform: lowercase; }
-/* line 313, sass/module/_landing.scss */
+/* line 314, sass/module/_landing.scss */
 #section4 h3 {
   text-align: center !important;
   margin-top: 50px;
@@ -208,7 +209,7 @@
   text-transform: none;
   color: #000;
   font-family: novecento_sans_widenormal; }
-/* line 329, sass/module/_landing.scss */
+/* line 330, sass/module/_landing.scss */
 #section4 p {
   text-align: center;
   margin-top: 80px;
@@ -218,7 +219,7 @@
   font-family: novecento_sans_widenormal;
   line-height: 28px;
   font-family: novecento_sans_widenormal; }
-/* line 339, sass/module/_landing.scss */
+/* line 340, sass/module/_landing.scss */
 #section4 button {
   font-family: novecento_sans_widenormal;
   display: inline-block;
@@ -233,13 +234,13 @@
   border: none;
   border-radius: 15px;
   margin-top: 25px; }
-/* line 357, sass/module/_landing.scss */
+/* line 358, sass/module/_landing.scss */
 #section4 .price-style {
   padding-top: 60px;
   font-weight: 500;
   font-size: 60px;
   text-align: center !important; }
-/* line 365, sass/module/_landing.scss */
+/* line 366, sass/module/_landing.scss */
 #section4 .pricing {
   padding-top: 55px;
   text-align: center;
@@ -249,18 +250,18 @@
   font-weight: 300;
   font-family: novecento_sans_widenormal;
   line-height: 28px; }
-/* line 378, sass/module/_landing.scss */
+/* line 379, sass/module/_landing.scss */
 #section4 .button-comprehensive {
   margin-top: -70px; }
-/* line 381, sass/module/_landing.scss */
+/* line 382, sass/module/_landing.scss */
 #section4 .button-ongoing {
   margin-top: -20px; }
-/* line 386, sass/module/_landing.scss */
+/* line 387, sass/module/_landing.scss */
 #section4 .price {
   font-weight: 500;
   font-size: 60px;
   text-align: center !important; }
-/* line 396, sass/module/_landing.scss */
+/* line 397, sass/module/_landing.scss */
 #section4 .uk-panel-title {
   font-weight: 400;
   text-transform: none;
@@ -268,24 +269,24 @@
   font-family: novecento_sans_widenormal;
   margin-top: 150px;
   margin-bottom: 150px; }
-/* line 404, sass/module/_landing.scss */
+/* line 405, sass/module/_landing.scss */
 #section4 .uk-link, #section4 a {
   color: #f1f1f1;
   text-decoration: none;
   cursor: pointer; }
 
-/* line 414, sass/module/_landing.scss */
+/* line 415, sass/module/_landing.scss */
 #contact {
   margin-top: 30px; }
-  /* line 416, sass/module/_landing.scss */
+  /* line 417, sass/module/_landing.scss */
   #contact h1 {
     font-family: novecento_sans_widenormal; }
-  /* line 420, sass/module/_landing.scss */
+  /* line 421, sass/module/_landing.scss */
   #contact .uk-heading-large {
     font-weight: 400;
     text-transform: none;
     font-size: 72px; }
-  /* line 425, sass/module/_landing.scss */
+  /* line 426, sass/module/_landing.scss */
   #contact .panel-subtitle {
     margin: 30px auto;
     font-family: novecento_sans_widenormal;
@@ -293,7 +294,7 @@
     color: #444444;
     font-size: 19px;
     line-height: 30px; }
-  /* line 434, sass/module/_landing.scss */
+  /* line 435, sass/module/_landing.scss */
   #contact p {
     font-family: novecento_sans_widenormal;
     display: block;
@@ -301,7 +302,7 @@
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px; }
-  /* line 442, sass/module/_landing.scss */
+  /* line 443, sass/module/_landing.scss */
   #contact h3 {
     font-family: novecento_sans_widenormal;
     font-size: 24px;
@@ -311,25 +312,25 @@
     color: #444444;
     text-transform: none;
     text-rendering: auto; }
-  /* line 454, sass/module/_landing.scss */
+  /* line 455, sass/module/_landing.scss */
   #contact .uk-margin-large {
     margin-top: 50px;
     margin-bottom: 50px; }
-  /* line 459, sass/module/_landing.scss */
+  /* line 460, sass/module/_landing.scss */
   #contact .uk-margin-large-top {
     margin-top: 50px !important; }
-  /* line 462, sass/module/_landing.scss */
+  /* line 463, sass/module/_landing.scss */
   #contact .uk-grid {
     margin-left: -30px; }
-  /* line 466, sass/module/_landing.scss */
+  /* line 467, sass/module/_landing.scss */
   #contact .uk-icon-hover {
     color: #666666; }
-  /* line 469, sass/module/_landing.scss */
+  /* line 470, sass/module/_landing.scss */
   #contact .uk-icon-small {
     font-size: 120%;
     vertical-align: -10%;
     padding-left: 10px; }
-  /* line 474, sass/module/_landing.scss */
+  /* line 475, sass/module/_landing.scss */
   #contact button {
     font-family: novecento_sans_widenormal;
     display: inline-block;
@@ -343,7 +344,7 @@
     background-color: #444;
     border: none;
     border-radius: 10px; }
-  /* line 488, sass/module/_landing.scss */
+  /* line 489, sass/module/_landing.scss */
   #contact .button-form {
     font-family: novecento_sans_widenormal;
     display: inline-block;
@@ -359,95 +360,95 @@
     border-radius: 10px; }
 
 @media screen and (max-width: 960px) {
-  /* line 511, sass/module/_landing.scss */
+  /* line 512, sass/module/_landing.scss */
   #section1 .uk-margin {
     width: 600px; }
 
-  /* line 517, sass/module/_landing.scss */
+  /* line 518, sass/module/_landing.scss */
   #section2 .uk-width-large-1-2 {
     padding-left: 0px !important; } }
 @media screen and (max-width: 768px) {
-  /* line 531, sass/module/_landing.scss */
+  /* line 532, sass/module/_landing.scss */
   #contact h1 {
     font-size: 52px !important; }
 
-  /* line 538, sass/module/_landing.scss */
+  /* line 539, sass/module/_landing.scss */
   #section1 .uk-margin {
     width: 500px; }
-  /* line 542, sass/module/_landing.scss */
+  /* line 543, sass/module/_landing.scss */
   #section1 p {
     font-size: 20px;
     line-height: 24px; }
 
-  /* line 550, sass/module/_landing.scss */
+  /* line 551, sass/module/_landing.scss */
   #section3 .uk-overlay-background {
     background: rgba(255, 255, 255, 0.9); }
-    /* line 554, sass/module/_landing.scss */
+    /* line 555, sass/module/_landing.scss */
     #section3 .uk-overlay-background p {
       color: #323232;
       font-size: 18px !important; }
 
-  /* line 562, sass/module/_landing.scss */
+  /* line 563, sass/module/_landing.scss */
   #section4 .button-comprehensive {
     margin-top: -50px; }
-  /* line 565, sass/module/_landing.scss */
+  /* line 566, sass/module/_landing.scss */
   #section4 h3 {
     line-height: 1; }
 
-  /* line 574, sass/module/_landing.scss */
+  /* line 575, sass/module/_landing.scss */
   #section2 .uk-width-medium-1-1 {
     padding-left: 0px !important; } }
 @media screen and (max-width: 480px) {
-  /* line 583, sass/module/_landing.scss */
+  /* line 584, sass/module/_landing.scss */
   #contact h1 {
     font-size: 32px !important; }
 
-  /* line 589, sass/module/_landing.scss */
+  /* line 590, sass/module/_landing.scss */
   #section1 .uk-margin {
     width: 200px; }
-  /* line 594, sass/module/_landing.scss */
+  /* line 595, sass/module/_landing.scss */
   #section1 .uk-navbar {
     padding: 0px 0px; }
-    /* line 597, sass/module/_landing.scss */
+    /* line 598, sass/module/_landing.scss */
     #section1 .uk-navbar img {
       width: 100px; }
-  /* line 602, sass/module/_landing.scss */
+  /* line 603, sass/module/_landing.scss */
   #section1 p {
     font-size: 10px;
     line-height: 16px; }
 
-  /* line 610, sass/module/_landing.scss */
+  /* line 611, sass/module/_landing.scss */
   #section2 h3 {
     font-size: 40px;
     line-height: 50px;
     font-family: novecento_sans_widenormal;
     font-weight: 500; }
-  /* line 616, sass/module/_landing.scss */
+  /* line 617, sass/module/_landing.scss */
   #section2 .uk-width-small-1-1 {
     padding-left: 0px !important; }
 
-  /* line 630, sass/module/_landing.scss */
+  /* line 631, sass/module/_landing.scss */
   #section3 .uk-overlay-background p {
     color: #323232;
     font-size: 16px !important; }
-  /* line 636, sass/module/_landing.scss */
+  /* line 637, sass/module/_landing.scss */
   #section3 .uk-overlay-background h3 {
     font-size: 10px; }
-  /* line 640, sass/module/_landing.scss */
+  /* line 641, sass/module/_landing.scss */
   #section3 .uk-overlay-background ol li {
     color: #323232;
     font-size: 16px !important; }
 
-  /* line 649, sass/module/_landing.scss */
+  /* line 650, sass/module/_landing.scss */
   #section4 .uk-margin-small {
     margin-bottom: 20px; }
-  /* line 652, sass/module/_landing.scss */
+  /* line 653, sass/module/_landing.scss */
   #section4 .uk-panel-title {
     font-size: 50px; }
-  /* line 655, sass/module/_landing.scss */
+  /* line 656, sass/module/_landing.scss */
   #section4 h3 {
     line-height: 1; }
-  /* line 660, sass/module/_landing.scss */
+  /* line 661, sass/module/_landing.scss */
   #section4 .uk-form .uk-flex {
     justify-content: center; } }
 @font-face {
