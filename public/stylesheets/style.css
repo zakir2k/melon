@@ -482,16 +482,6 @@
   /* line 707, sass/module/_landing.scss */
   #section4 .uk-form .uk-flex {
     justify-content: center; } }
-@font-face {
-  font-family: 'novecento_sans_widenormal';
-  src: url("Novecentosanswide-Normal-webfont.eot");
-  src: url("Novecentosanswide-Normal-webfont.eot?#iefix") format("embedded-opentype");
-  src: url("Novecentosanswide-Normal-webfont.woff2") format("woff2");
-  src: url("Novecentosanswide-Normal-webfont.woff") format("woff");
-  src: url("Novecentosanswide-Normal-webfont.ttf") format("truetype");
-  src: url("Novecentosanswide-Normal-webfont.svg#novecento_sans_widenormal") format("svg");
-  font-weight: normal;
-  font-style: normal; }
 /* line 2, sass/module/_message.scss */
 #message .image {
   padding-top: 70px;
