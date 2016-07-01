@@ -16,24 +16,24 @@ var privateKey  = fs.readFileSync('./cert/server.key', 'utf8');
           fs.readFileSync('./cert/gd_3.crt', 'utf8')
         ];
     var credentials = {key: privateKey, cert: cert,ca:ca};
-    // SHOULD BE HTTPS
-    var server = require('https').createServer(credentials);
 
-// var http = require('http');
+//     var server = require('https').createServer(credentials);
+
+var http = require('http');
 
 /**
  * Get port from environment and store in Express.
  */
 
-var port = 443; //443 because HTTPS runs on port 443
-//normalizePort(process.env.PORT || '3000');
+// var port = 443; //443 because HTTPS runs on port 443
+var port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
 /**
  * Create HTTP server.
  */
 
-// var server = http.createServer(app);
+var server = http.createServer(app);
 
 /**
  * Listen on provided port, on all network interfaces.
