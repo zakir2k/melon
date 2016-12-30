@@ -9,13 +9,8 @@ var debug = require('debug')('scryber:server');
 var fs = require('fs');
 
 var privateKey  = fs.readFileSync('./cert/server.key', 'utf8');
-    var cert = fs.readFileSync('./cert/55d161625175e1d4.crt', 'utf8');
-    var ca = [
-          fs.readFileSync('./cert/gd_1.crt', 'utf8'),
-          fs.readFileSync('./cert/gd_2.crt', 'utf8'),
-          fs.readFileSync('./cert/gd_3.crt', 'utf8')
-        ];
-    var credentials = {key: privateKey, cert: cert,ca:ca};
+    var cert = fs.readFileSync('./cert/server.crt', 'utf8');
+    var credentials = {key: privateKey, cert: cert};
 
     var https = require('https').createServer(credentials,app).listen(443);
 
@@ -26,7 +21,7 @@ var http = require('http');
  */
 
 // var port = 443; //443 because HTTPS runs on port 443
-var port = 80;// normalizePort(process.env.PORT || '3000');
+var port = 3000;// normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
 /**

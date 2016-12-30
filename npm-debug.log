@@ -1,33 +1,35 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'start' ]
-2 info using npm@3.8.9
-3 info using node@v4.4.3
+1 verbose cli [ '/Users/zakir2k/.nvm/versions/node/v6.7.0/bin/node',
+1 verbose cli   '/Users/zakir2k/.nvm/versions/node/v6.7.0/bin/npm',
+1 verbose cli   'start' ]
+2 info using npm@3.10.3
+3 info using node@v6.7.0
 4 verbose run-script [ 'prestart', 'start', 'poststart' ]
 5 info lifecycle scryber@0.0.0~prestart: scryber@0.0.0
 6 silly lifecycle scryber@0.0.0~prestart: no script for prestart, continuing
 7 info lifecycle scryber@0.0.0~start: scryber@0.0.0
 8 verbose lifecycle scryber@0.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle scryber@0.0.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/rhead/scryber/node_modules/.bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-10 verbose lifecycle scryber@0.0.0~start: CWD: /Users/rhead/scryber
+9 verbose lifecycle scryber@0.0.0~start: PATH: /Users/zakir2k/.nvm/versions/node/v6.7.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/zakir2k/melon/node_modules/.bin:/Users/zakir2k/.nvm/versions/node/v6.7.0/bin:/Users/zakir2k/.nvm/versions/node/v6.7.0/bin:/usr/local/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/MacGPG2/bin:/usr/java/jdk1.5.0_07/bin:/usr/java/jdk1.5.0_07/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools:/Users/zakir2k/phalcon-tools
+10 verbose lifecycle scryber@0.0.0~start: CWD: /Users/zakir2k/melon
 11 silly lifecycle scryber@0.0.0~start: Args: [ '-c', 'node ./bin/www' ]
 12 silly lifecycle scryber@0.0.0~start: Returned: code: 1  signal: null
 13 info lifecycle scryber@0.0.0~start: Failed to exec start script
 14 verbose stack Error: scryber@0.0.0 start: `node ./bin/www`
 14 verbose stack Exit status 1
-14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:245:16)
-14 verbose stack     at emitTwo (events.js:87:13)
-14 verbose stack     at EventEmitter.emit (events.js:172:7)
-14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
-14 verbose stack     at emitTwo (events.js:87:13)
-14 verbose stack     at ChildProcess.emit (events.js:172:7)
-14 verbose stack     at maybeClose (internal/child_process.js:827:16)
-14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+14 verbose stack     at EventEmitter.<anonymous> (/Users/zakir2k/.nvm/versions/node/v6.7.0/lib/node_modules/npm/lib/utils/lifecycle.js:242:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/Users/zakir2k/.nvm/versions/node/v6.7.0/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:877:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 15 verbose pkgid scryber@0.0.0
-16 verbose cwd /Users/rhead/scryber
-17 error Darwin 15.5.0
-18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
-19 error node v4.4.3
-20 error npm  v3.8.9
+16 verbose cwd /Users/zakir2k/melon
+17 error Darwin 16.4.0
+18 error argv "/Users/zakir2k/.nvm/versions/node/v6.7.0/bin/node" "/Users/zakir2k/.nvm/versions/node/v6.7.0/bin/npm" "start"
+19 error node v6.7.0
+20 error npm  v3.10.3
 21 error code ELIFECYCLE
 22 error scryber@0.0.0 start: `node ./bin/www`
 22 error Exit status 1
