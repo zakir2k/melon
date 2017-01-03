@@ -1,14 +1,14 @@
 # README #
 
-ScryberSecurity.com Website.
+MelonHK.com Website.
 
 Express and Node.js
-Digital Ocean Linux Ubuntu Hosted.
+Amazon Linux Ubuntu Hosted.
 
 UiKit v2.26
 
 To clone initial repository to desktop:
-> git clone https://bitbucket.org/dollyjkris/scryber.git
+> git clone https://bitbucket.org/thecodeshop/melon.git
 
 Add changes to git:
 > git add path\filename 
