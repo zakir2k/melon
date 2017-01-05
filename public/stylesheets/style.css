@@ -532,3 +532,78 @@
 .bio {
   margin: 10px;
 }
+
+
+/*banner-contact-us section*/
+.banner-contact-us {
+  background-image: url("../images/BG_contact.png");
+  text-align: center;
+  display: block;
+  background-size: cover;
+  background-position: 50% 50%; }
+  .banner-contact-us h1 {
+    color: #fff;
+    font-size: 100px;
+    text-align: center;
+    font-family: "monotonregular"; }
+  .banner-contact-us p {
+    margin-left: -320px;
+    margin-bottom: 0;
+    font-family: "lucida_granderegular";
+    color: #fff; }
+  .banner-contact-us .email {
+    margin-left: -340px;
+    margin-bottom: 0; }
+  .banner-contact-us .uk-button {
+    margin-bottom: 30px; }
+
+/*banner-gallery section*/
+.banner-gallery {
+  background: #F5B027; }
+  .banner-gallery p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "lucida_granderegular";
+    font-size: 18px; }
+  .banner-gallery .gallery-pictures ul {
+    max-height: 250px;
+    width: 250px;
+    border-style: solid;
+    border-width: 9px;
+    border-color: #fff;
+    display: block;
+    margin: auto;
+    margin-bottom: 25px; }
+  .banner-gallery .slideshow-dotnav {
+    display: block;
+    margin: 0, auto; }
+    .banner-gallery .slideshow-dotnav ul {
+      border-style: none;
+      border-width: 0;
+      padding-left: 30px; }
+  .banner-gallery .uk-slidenav {
+    position: absolute;
+    transform: translateY(-50%); }
+    .banner-gallery .uk-slidenav.uk-slidenav-previous {
+      left: 0; }
+    .banner-gallery .uk-slidenav.uk-slidenav-next {
+      right: 0; }
+
+/*banner*/
+.banner {
+  background-image: url("../images/BG/BG_blue.png"); }
+  .banner h1 {
+    display: block;
+    color: #ecedce;
+    font-size: 100px;
+    text-align: center;
+    font-family: "monotonregular";
+    margin-bottom: 0; }
+  .banner p {
+    color: #fff;
+    font-family: "grand_hotelregular";
+    font-size: 30px;
+    margin-right: -490px;
+    margin-bottom: 25px;
+    line-height: 20px; }
+

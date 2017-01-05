@@ -21,7 +21,7 @@ var http = require('http');
  */
 
 // var port = 443; //443 because HTTPS runs on port 443
-var port = 3000;// normalizePort(process.env.PORT || '3000');
+var port = 80;// normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
 /**
