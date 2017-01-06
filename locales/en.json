@@ -1,6 +1,7 @@
 {
-    "Welcome": "Hi, welcome to our site",
-    "Language": "Please choose your language",
-    "Contact Information" : "1 Elf rd, Unicorn Village, Wonderland, Earth"
+	"tagline": "Asia's Leading Science Fiction & Fantasy Conference",
+	"venue_date": "April 2017 ",
+	"hong_kong": "Hong Kong",
+	"email-input": "Your e-mail address",
+	"favourite-input": "Favourite Sci-Fi Story/Film"
 }
-
