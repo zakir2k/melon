@@ -5,9 +5,9 @@
 /* line 6, sass/module/_landing.scss */
 #section1 p {
   font-family: novecento_sans_widenormal;
-  font-weight: 400;
-  font-size: 23px;
-  line-height: 26px;
+  font-weight: bolder;
+  font-size: 50px;
+  line-height: 50px;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-top: 10px; }
@@ -60,10 +60,7 @@
 
 /* line 100, sass/module/_landing.scss */
 #section2 p {
-  font-family: novecento_sans_widenormal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
   padding-top: 20px;
   letter-spacing: 1px;
   border-bottom-width: 20px;
@@ -668,4 +665,9 @@ sub {
   font-size: 18px;
   color: white;
   font-weight: lighter;
+}
+
+
+p.text-great{
+  font-size: 24px;
 }
