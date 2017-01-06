@@ -9,28 +9,42 @@ var mailService = require('../services/mail.js');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Scrybersecurity' });
-});
-  
-router.get('/contact', function(req, res, next) {
-  res.render('contact', { title: 'Express' });
+  res.setLocale(req.cookies.i18n ? req.cookies.i18n:'en');
+  res.render('index', { 
+    i18n: res  
+    })
 });
 
-router.get('/thankyou', function(req, res, next) {
-  res.render('thankyou', { title: 'Express' });
-})
+router.get('/thankyou', function (req, res) {
+    res.render('thankyou', {
+    i18n: res
+    })
+});
+
+router.get('/zh', function (req, res) {
+    res.cookie('i18n', 'zh');
+    res.redirect('/')
+});
+
+router.get('/en', function (req, res) {
+    res.cookie('i18n', 'en');
+    res.redirect('/')
+});
+
+router.get('/hk', function (req, res) {
+    res.cookie('i18n', 'hk');
+    res.redirect('/')
+});
+
+router.get('/kl', function (req, res) {
+    res.cookie('i18n', 'kl');
+    res.redirect('/')
+});
+
+
 
 router.post('/contact', function(req, res, next) {
   var input = req.body;
-  // return res.send(input);
-
-  // console.log(input.number);
-  // console.log(input.email);
-  // console.log(input.name);
-
-  //  if(!input.email) {
-  //   return res.redirect('/');
-  // }
 
   if(input.email){
   	mailService.sendContactEmail(input.email,input.name, input.number, input.needed, input.date, function(error,body){  		
