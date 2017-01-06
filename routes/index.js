@@ -7,6 +7,16 @@ var app = express();
 
 var mailService = require('../services/mail.js');
 
+
+//redirect for www to naked-domain
+router.get('/*', function(req, res, next) {
+  if (req.headers.host.match(/^www/) !== null ) {
+    res.redirect('http://' + req.headers.host.replace(/^www\./, '') + req.url);
+  } else {
+    next();     
+  }
+})
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.setLocale(req.cookies.i18n ? req.cookies.i18n:'en');
