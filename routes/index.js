@@ -21,11 +21,6 @@ router.get('/thankyou', function (req, res) {
     })
 });
 
-router.get('/zh', function (req, res) {
-    res.cookie('i18n', 'zh');
-    res.redirect('/')
-});
-
 router.get('/en', function (req, res) {
     res.cookie('i18n', 'en');
     res.redirect('/')
@@ -36,11 +31,10 @@ router.get('/hk', function (req, res) {
     res.redirect('/')
 });
 
-router.get('/kl', function (req, res) {
-    res.cookie('i18n', 'kl');
+router.get('/zh', function (req, res) {
+    res.cookie('i18n', 'zh');
     res.redirect('/')
 });
-
 
 
 router.post('/contact', function(req, res, next) {
