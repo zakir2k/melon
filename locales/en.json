@@ -5,6 +5,8 @@
 	"coming": "COMING",
 	"venue_date": "April 2017",
 	"hong_kong": "Hong Kong",
-	"email-input": "Your e-mail address",
-	"favourite-input": "Favourite Sci-Fi Story/Film"
+	"email_input": "Your e-mail address",
+	"favourite_input": "Favourite Sci-Fi Story/Film",
+	"creative_talents": "Creative Talents",
+	"business_side": "The Business Side"
 }

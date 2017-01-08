@@ -2,9 +2,6 @@ var express = require('express');
 var router = express.Router();
 var app = express();
 
-
-
-
 var mailService = require('../services/mail.js');
 
 
