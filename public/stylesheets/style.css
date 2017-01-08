@@ -538,7 +538,7 @@
   background-size: cover;
   background-position: 50% 50%; }
   .banner-contact-us h1 {
-    color: #244349;
+    color: #041b75;
     font-size: 100px;
     text-align: center;
     font-family: "monotonregular"; }
@@ -589,7 +589,7 @@
   background-image: url("../images/BG/BG_blue.png"); }
   .banner h1 {
     display: block;
-    color: #ecedce;
+    color: #041b75;
     font-size: 100px;
     text-align: center;
     font-family: "monotonregular";
@@ -763,5 +763,42 @@ div#mc_embed_signup{
 }
 
 
+#section1{
+  color: #041b75 !important;
+}
 
-/*#244349 - font colour*/
+#section2{
+  color: #041b75 !important;
+}
+
+#sub-clients{
+  color: #041b75 !important;
+}
+
+#banner-profile{
+  color: #041b75 !important;
+}
+
+#banner-contact-us{
+  color: #041b75 !important;
+}
+
+#social{
+  color: #041b75 !important;
+}
+
+#footer{
+  color: #041b75 !important;
+}
+
+h1,h4,h3,h2{
+  color: #041b75 !important;
+}
+
+html.uk-notouch{
+  color: #041b75 !important;
+}
+
+
+
+/*#041b75 - font colour*/
