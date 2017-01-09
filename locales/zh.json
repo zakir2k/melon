@@ -8,11 +8,11 @@
 	"creative_talents": "创意人才",
 	"business_side": "业内人",
 	"event_sponsors": "大会赞助",
-	"creative_subtitle": " 作家：艺术家：电影制作人：游戏开发者 ",
+	"creative_subtitle": " 作家：视觉艺术家：电影制作人：游戏开发者 ",
 	"creative_text": " 与业内专家面对面交流。 为未来的创作集思广益，搭建人脉",
 	"business_subtitle": " 分销：投资：营销：媒体 ",
 	"business_text": " 寻觅发掘人才。获取资金。以最佳人选对接卓越理念",
-	"co-organizers": "主办团队",
+	"organizers": "主办团队",
 	"fritz_name": "戴福瑞",
 	"fritz_bio": "Fritz Demopoulos在中国和美国已经参与了媒体和网上行业多年。 他是QRC资本的创始合伙人。 他还共同创办了Qunar.com，Shawei.com，并在新闻集团有限公司担任高级管理职位。",
 	"siew_name": "Siew Hoon Yeoh",
@@ -23,6 +23,7 @@
 	"input_box2Title": "你最喜爱的科幻奇幻故事或电影是什么？",
 	"input_box2": "最喜爱的科幻奇幻故事或电影",
 	"sign_up": "注册",
-	"social_title": "Melon在社交媒体",
-	"footer": "Copyright © 2017 Melon Hong Kong."
+	"social_title": "Melon的社交媒体",
+	"footer": "Copyright © 2017 Melon Hong Kong.",
+	"co_organizers": "co_organizers"
 }
