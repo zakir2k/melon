@@ -735,7 +735,7 @@ input.mailchimp:focus {
 
 #mc-embedded-subscribe{
   font-size: 40px !important;
-  padding: 10px !important;
+  padding: 30px !important;
   background-color: orange;
   color: white;
   border: 3px double #FC6 !important;
