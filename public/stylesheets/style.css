@@ -4,8 +4,6 @@
   margin-bottom: 10px; }
 /* line 6, sass/module/_landing.scss */
 #section1 p {
-  font-family: 'Open Sans';
-  font-weight: bolder;
   font-size: 50px;
   line-height: 50px;
   text-transform: uppercase;
@@ -74,7 +72,6 @@
 /* line 120, sass/module/_landing.scss */
 #section2 h3 {
   margin: 20px;
-  font-family: 'Open Sans';
   font-weight: 500;
   font-size: 50px;
   line-height: 56px;
@@ -156,7 +153,6 @@
     /* line 249, sass/module/_landing.scss */
     #section3 .uk-overlay-background p {
       color: #323232;
-      font-family: 'Open Sans';
       display: flex;
       align-items: center;
       justify-content: center;
@@ -164,7 +160,6 @@
     /* line 259, sass/module/_landing.scss */
     #section3 .uk-overlay-background h3 {
       color: #323232;
-      font-family: 'Open Sans';
       font-size: 15px;
       margin-bottom: 10px;
       margin-right: 10px;
@@ -172,7 +167,6 @@
     /* line 270, sass/module/_landing.scss */
     #section3 .uk-overlay-background ol li {
       color: #323232;
-      font-family: 'Open Sans';
       align-items: center;
       justify-content: center;
       font-size: 20px; }
@@ -189,14 +183,12 @@
   line-height: 28px;
   font-weight: 500;
   text-transform: none;
-  color: #000;
-  font-family: 'Open Sans'; }
+  color: #000; }
 /* line 312, sass/module/_landing.scss */
 #section4 .uk-margin {
   margin-bottom: 25px; }
 /* line 315, sass/module/_landing.scss */
 #section4 h2 {
-  font-family: 'Open Sans';
   text-transform: lowercase;
   font-weight: 300; }
 /* line 322, sass/module/_landing.scss */
@@ -218,8 +210,7 @@
   line-height: 28px;
   font-weight: 500;
   text-transform: none;
-  color: #000;
-  font-family: 'Open Sans'; }
+  color: #000;}
 /* line 347, sass/module/_landing.scss */
 #section4 p {
   font-weight: 400;
@@ -228,11 +219,9 @@
   letter-spacing: 1px;
   text-align: justify;
   margin-top: 80px;
-  display: block;
-  font-family: 'Open Sans'; }
+  display: block;}
 /* line 361, sass/module/_landing.scss */
 #section4 button {
-  font-family: 'Open Sans';
   display: inline-block;
   padding: 5px 40px;
   font-size: 20px;
@@ -260,8 +249,7 @@
   padding-top: 55px;
   text-align: justify;
   margin-top: 30px;
-  display: block;
-  font-family: 'Open Sans'; }
+  display: block;}
 /* line 406, sass/module/_landing.scss */
 #section4 .button-comprehensive {
   margin-top: -70px; }
@@ -297,8 +285,7 @@
 #contact {
   margin-top: 30px; }
   /* line 451, sass/module/_landing.scss */
-  #contact h1 {
-    font-family: 'Open Sans'; }
+  #contact h1 {}
   /* line 455, sass/module/_landing.scss */
   #contact .uk-heading-large {
     font-weight: 400;
@@ -307,14 +294,12 @@
   /* line 460, sass/module/_landing.scss */
   #contact .panel-subtitle {
     margin: 30px auto;
-    font-family: 'Open Sans';
     text-transform: uppercase;
     color: #444444;
     font-size: 19px;
     line-height: 30px; }
   /* line 469, sass/module/_landing.scss */
   #contact p {
-    font-family: 'Open Sans';
     display: block;
     font-weight: 400;
     font-size: 14px;
@@ -322,7 +307,6 @@
     letter-spacing: 1px; }
   /* line 478, sass/module/_landing.scss */
   #contact h3 {
-    font-family: 'Open Sans';
     font-size: 24px;
     line-height: 32px;
     margin: 0 0 15px 0;
@@ -350,7 +334,6 @@
     padding-left: 10px; }
   /* line 510, sass/module/_landing.scss */
   #contact button {
-    font-family: 'Open Sans';
     display: inline-block;
     padding: 5px 30px;
     font-size: 20px;
@@ -365,7 +348,6 @@
     margin-bottom: 15px; }
   /* line 525, sass/module/_landing.scss */
   #contact .button-form {
-    font-family: 'Open Sans';
     display: inline-block;
     padding: 5px 30px;
     font-size: 20px;
@@ -379,7 +361,6 @@
     border-radius: 10px; }
   /* line 539, sass/module/_landing.scss */
   #contact .copy {
-    font-family: 'Open Sans';
     display: block;
     font-weight: 400;
     font-size: 14px;
@@ -449,7 +430,6 @@
   #section2 h3 {
     font-size: 40px;
     line-height: 50px;
-    font-family: 'Open Sans';
     font-weight: 500; }
   /* line 663, sass/module/_landing.scss */
   #section2 .uk-width-small-1-1 {
@@ -495,18 +475,15 @@
   display: block; }
 /* line 21, sass/module/_message.scss */
 #message .uk-container h1 {
-  font-weight: 600;
-  font-family: 'Open Sans'; }
+  font-weight: 600; }
 /* line 25, sass/module/_message.scss */
 #message .uk-container p {
-  font-family: 'Open Sans';
   font-size: 18px; }
 /* line 29, sass/module/_message.scss */
 #message .uk-container .back {
   text-align: center;
   font-size: 24px;
   margin-top: 40px;
-  font-family: 'Open Sans';
   font-weight: 600; }
 /* line 36, sass/module/_message.scss */
 #message .uk-container link, #message .uk-container a {
@@ -516,12 +493,16 @@
 
 @media screen and (max-width: 960px) {
   .slider-text{
+    font-family: 'Oswald', sans-serif !important;
+    font-weight: bold !important;
     font-size: 4VW !important;
   }
 }
 
 @media screen and (max-width: 768px) {
   .slider-text{
+    font-family: 'Oswald', sans-serif !important;
+    font-weight: bold !important;
     font-size: 5VW !important;
   }
 }
@@ -667,9 +648,22 @@ sub {
 }
 
 
+p.great-title{
+  font-size: 40px;
+  line-height: 40px;
+}
+
+
 p.text-great{
   font-size: 24px;
+  line-height: 24px;
 }
+
+p.text-great-title{
+  font-size: 40px;
+  line-height: 40px;
+}
+
 
 
 .bio-text{
@@ -757,38 +751,70 @@ div#mc_embed_signup{
   font-size: 23px !important;
 }
 
+@media screen and (max-width: 2000px) {
+  .slider-text-first{
+    font-family: 'Oswald', sans-serif !important;
+    font-weight: bold !important;
+    font-size: 4VW !important;
+    line-height: 4VW !important;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .slider-text-first{
+    font-family: 'Oswald', sans-serif !important;
+    font-weight: bold !important;
+    font-size: 4VW !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slider-text-first{
+    font-family: 'Oswald', sans-serif !important;
+    font-weight: bold !important;
+    font-size: 5VW !important;
+  }
+}
+
 .slider-text-small{
   font-size: 2.5em !important;
   line-height: 10vw !important;
 }
 
-
-#section1{
+p.#section1{
   color: #041b75 !important;
+  font-family: 'Oswald', sans-serif !important;
+  font-weight: bold !important;
 }
 
 #section2{
   color: #041b75 !important;
+  font-family: 'Oswald', sans-serif !important;
 }
 
 #sub-clients{
   color: #041b75 !important;
+    font-family: 'Oswald', sans-serif !important;
 }
 
-#banner-profile{
+h1,h4,h3,h2,div#banner-profile{
   color: #041b75 !important;
+  font-family: 'Roboto Condensed', sans-serif !important;
 }
 
-#banner-contact-us{
+h1,h4,h3,h2,div#banner-contact-us{
   color: #041b75 !important;
+  font-family: 'Roboto Condensed', sans-serif !important;
 }
 
-#social{
+h1,h4,h3,h2,div#social{
   color: #041b75 !important;
+  font-family: 'Roboto Condensed', sans-serif !important;
 }
 
-#footer{
+h1,h4,h3,h2,div#footer{
   color: #041b75 !important;
+  font-family: 'Roboto Condensed', sans-serif !important;
 }
 
 h1,h4,h3,h2{
