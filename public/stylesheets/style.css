@@ -674,6 +674,7 @@ p.text-great-title{
 .bio-title{
   font-size: 26px !important;
   font-weight: bold;
+  margin-top: 20px;
 }
 
 section#hong-kong{
@@ -826,6 +827,10 @@ html.uk-notouch{
   color: #041b75 !important;
 }
 
+.banner-tagline-cursive-text {
+  font-family: 'Covered By Your Grace', cursive;
+}
+
 .tagline-holder {
   display: flex;
   justify-content: inherit;
@@ -833,6 +838,80 @@ html.uk-notouch{
   flex-direction: column;
 }
 
+.sidenav-text {
+  line-height: 37px;
+  text-decoration: none;
+  color: #ccc;
+}
 
+.melon-logo {
+  width: 250px
+}
+
+.navbar-translate-text-holder {
+  color: white !important;;
+  font-size: 2.5em
+}
+
+.navbar-translate-text {
+  font-size: 20px;
+  padding: 2px;
+  text-decoration: none;
+  color: white;
+}
+
+.good-for-tagline {
+  font-size: 40px;
+  line-height: 40px
+}
+
+.good-for-tagline-details {
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.good-for-tagline-header {
+  color: #ffa500;
+  font-size: 52px;
+  line-height: 52px;
+  margin-bottom: 20px;
+}
+
+.event-sponsors-holder {
+  padding-top: 30px;
+}
+
+.event-organizer {
+  padding-top: 25px;
+}
+
+.co-organizer-text {
+  font-family: 'Roboto Condensed', sans-serif
+}
+
+.contact-title {
+  font-size: 40px;
+  line-height: 50px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.contact-email {
+  font-size: 1.5rem;
+  height: 75px;
+  border-width: 1px;
+  border-color:#d0d3de
+}
+
+.contact-story {
+  height: 75px;
+  font-size: 1.5rem;
+  border-width: 1px;
+  border-color:#d0d3de
+}
+
+.contact-hidden-input {
+  position: absolute;
+  left: -5000px;
+}
 
 /*#041b75 - font colour*/

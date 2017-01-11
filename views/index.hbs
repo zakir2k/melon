@@ -28,7 +28,7 @@
 
 							<div class="uk-overlay-panel uk-flex uk-flex-center uk-flex-middle uk-text-center uk-hidden-medium uk-hidden-large">
 								<div class="uk-margin tagline-holder">
-									<img style="width:250px" src="/images/melon_logo2.png" class="uk-hidden-large">
+									<img src="/images/melon_logo2.png" class="uk-hidden-large melon-logo">
 									<p class="slider-text-small">
 									<br>
 									{{{__ "tagline"}}}<br>
@@ -44,7 +44,7 @@
 							<div class="uk-cover-background uk-position-cover" style="background-image: url('https://s3-ap-southeast-1.amazonaws.com/melonhk/banner3_melonhk.jpg')"></div><img alt="melon2.png" src="/images/Melon2.png">
 							<div class="uk-overlay-panel uk-flex uk-flex-center uk-flex-middle uk-text-center uk-hidden-small">
 								<div class="uk-margin">
-									<p class="slider-text" style="font-family: 'Covered By Your Grace', cursive;">
+									<p class="slider-text banner-tagline-cursive-text">
 									{{{__ "paulKrugmanQuote"}}}<br>
 									<br>
 									- Paul Krugman</p>
@@ -53,8 +53,8 @@
 
 							<div class="uk-overlay-panel uk-flex uk-flex-center uk-flex-middle uk-text-center uk-hidden-medium uk-hidden-large">
 								<div class="uk-margin tagline-holder-small-screen">
-									<img style="width:250px" src="/images/melon_logo2.png" class="uk-hidden-large">
-									<p class="slider-text-small" style="font-family: 'Covered By Your Grace', cursive;">
+									<img src="/images/melon_logo2.png" class="uk-hidden-large melon-logo">
+									<p class="slider-text-small banner-tagline-cursive-text">
 									<br>
 									{{{__ "paulKrugmanQuote"}}}<br>
 									<br>
@@ -75,18 +75,18 @@
 
 		<div class="uk-overlay-panel uk-overlay-top">
 			<div class="uk-sticky-placeholder">
-				<nav class="uk-navbar-flip" style="color: white; font-size: 2.5em">
+				<nav class="uk-navbar-flip navbar-translate-text-holder">
 					<span class="uk-margin-large-right uk-hidden-small">
-						<a style="font-size:20px;padding:2px;text-decoration:none;" href="/en">En</a>
-	                    <a style="font-size:20px;padding:2px;text-decoration:none;" href="/zh">简</a>
-	                    <a style="font-size:20px;padding:2px;text-decoration:none;" href="/hk">繁</a>
-                    </span>
+						<a class="navbar-translate-text" href="/en">En</a>
+	          <a class="navbar-translate-text" href="/zh">简</a>
+	          <a class="navbar-translate-text" href="/hk">繁</a>
+          </span>
 					<img style="width:250px" src="/images/melon_logo2.png" class="uk-hidden-small">
 					<span class="uk-margin-small-left uk-hidden-medium uk-hidden-large">
-						<a style="font-size:20px;padding:2px;text-decoration:none;" href="/en">En</a>
-	                    <a style="font-size:20px;padding:2px;text-decoration:none;" href="/zh">简</a>
-	                    <a style="font-size:20px;padding:2px;text-decoration:none;" href="/hk">繁</a>
-                    </span>
+						<a class="navbar-translate-text" href="/en">En</a>
+	          <a class="navbar-translate-text" href="/zh">简</a>
+	          <a class="navbar-translate-text" href="/hk">繁</a>
+          </span>
 					<div class="uk-navbar-flip uk-hidden-notouch">
 						<ul class="uk-navbar-nav">
 							<li>
@@ -101,16 +101,16 @@
 									<a href="#section1">Home</a>
 								</li>
 								<li>
-									<a data-uk-smooth-scroll="" href="#section2">Good For</a>
+									<a data-uk-smooth-scroll="" href="#section2" class="sidenav-text">Good For</a>
 								</li>
 								<li>
-									<a data-uk-smooth-scroll="" href="#section3">Event Sponsors</a>
+									<a data-uk-smooth-scroll="" href="#section3" class="sidenav-text">Event Sponsors</a>
 								</li>
 								<li>
-									<a data-uk-smooth-scroll="" href="#section4">Co-Organizers</a>
+									<a data-uk-smooth-scroll="" href="#section4" class="sidenav-text">Co-Organizers</a>
 								</li>
 								<li>
-									<a data-uk-smooth-scroll="" href="#section5">Sign-up</a>
+									<a data-uk-smooth-scroll="" href="#section5" class="sidenav-text">Sign-up</a>
 								</li>
 							</ul>
 						</div>
@@ -124,13 +124,13 @@
 
 <section class="slant-top services-grid-box uk-block uk-position-relative uk-clearfix" id="section2">
 	<div class="uk-container uk-container-center uk-text-center">
-		<div class="uk-margin-large-bottom great-title" style="font-size: 40px; line-height: 40px">{{{__ "goodForTagline"}}}</div>
+		<div class="uk-margin-large-bottom great-title good-for-tagline">{{{__ "goodForTagline"}}}</div>
 		<div class="tcs-diagonal-top"></div>
-		<div class="tcs-boxes uk-grid" style="font-size: 25px; line-height: 25px;" data-uk-grid-margin="" data-uk-grid-match="{target:'&gt; div &gt; .uk-panel'}">
+		<div class="tcs-boxes uk-grid good-for-tagline-details" data-uk-grid-margin="" data-uk-grid-match="{target:'&gt; div &gt; .uk-panel'}">
 			<div class="uk-width-1-1 uk-width-medium-1-2">
 				<div class="uk-grid uk-flex-middle" data-uk-grid-margin="">
 					<div class="uk-width-medium-3-3 uk-flex-middle">
-						<div class="uk-margin-top text-great-title" style="color: #ffa500;font-size: 52px; line-height: 52px">
+						<div class="uk-margin-top text-great-title good-for-tagline-header">
 							{{{__ "creative_talents"}}}
 						</div>
 						<div>
@@ -145,7 +145,7 @@
 			<div class="uk-width-1-1 uk-width-medium-1-2">
 				<div class="uk-grid uk-flex-middle" data-uk-grid-margin="">
 					<div class="uk-width-medium-3-3 uk-flex-middle">
-						<div class="uk-margin-top text-great-title" style="color: #ffa500;font-size: 52px; line-height: 52px;">
+						<div class="uk-margin-top text-great-title good-for-tagline-header">
 							{{{__ "business_side"}}}
 						</div>
 						<div>
@@ -169,12 +169,12 @@
 
 
 <section class="sub clients">
-	<h1 class="sub-section-header black uk-text-center uk-margin-large-bottom uk-padding-large-top" style="padding-top: 30px;">
+	<h1 class="sub-section-header black uk-text-center uk-margin-large-bottom uk-padding-large-top event-sponsors-holder">
 		{{{__ "event_sponsors"}}}
 	</h1>
 	<div class="uk-container uk-container-center uk-text-center">
 		<div class="uk-grid">
-			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><img src="/images/qrc.png"></div>
+			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><img src="/images/qrc2.png"></div>
 			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><img src="/images/spoilt3.png"></div>
 			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><img src="/images/codeshop.png"></div>
 			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><img src="/images/uplive.png"></div>
@@ -189,7 +189,7 @@
 		<div class="uk-width-small-1-1 uk-width-meduim-1-1 uk-width-large-1-1 uk-width-xl-1-1">
 			<article class="uk-article">
 				<div class="uk-text-center">
-					<h1 class="" style="padding-top: 25px;">{{{__ "organizers"}}}</h1>
+					<h1 class="event-organizer">{{{__ "organizers"}}}</h1>
 				</div>
 			</article>
 		</div>
@@ -201,8 +201,8 @@
 					<div><img class="uk-border-circle" src="images/Fritz.png"></div>
 				</div>
 				<div class="uk-width-large-2-3 uk-width-small-1-1">
-					<p class="uk-text-center bio-title" style="font-family: 'Roboto Condensed', sans-serif">{{{__ "fritz_name"}}}</p>
-					<div class="bio-text" style="font-family: 'Roboto Condensed', sans-serif">
+					<p class="uk-text-center bio-title co-organizer-text">{{{__ "fritz_name"}}}</p>
+					<div class="bio-text co-organizer-text">
 						{{{__ "fritz_bio"}}}
 					</div>
 				</div>
@@ -214,8 +214,8 @@
 					<div><img class="uk-border-circle" src="images/Siew.png"></div>
 				</div>
 				<div class="uk-width-large-2-3 uk-width-small-1-1">
-					<p class="uk-text-center bio-title" style="font-family: 'Roboto Condensed', sans-serif">{{{__ "siew_name"}}}</p>
-					<div class="bio-text" style="font-family: 'Roboto Condensed', sans-serif">
+					<p class="uk-text-center bio-title co-organizer-text">{{{__ "siew_name"}}}</p>
+					<div class="bio-text co-organizer-text">
 						{{{__ "siew_bio"}}}
 					</div>
 				</div>
@@ -228,20 +228,20 @@
 
 <section class="banner-contact-us uk-block">
 	<div class="uk-margin-large-bottom">
-		<span style="font-size: 40px; line-height: 50px; font-family: 'Roboto Condensed', sans-serif;">{{{__ "contact_title"}}}</span>
+		<span class="contact-title" >{{{__ "contact_title"}}}</span>
 	</div>
 	<div id="mc_embed_signup" style="font-size: 40px">
 		<form action="//melonhk.us14.list-manage.com/subscribe/post?u=07422cbec4f3b781af0a05e05&amp;id=53f71fc917" class="validate uk-form uk-margin-large-bottom" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
 
 			<fieldset>
 
-				<h2 class="uk-text-center" style="font-family: 'Roboto Condensed', sans-serif"> {{{__ "input_box1Title"}}}</h2>
+				<h2 class="uk-text-center co-organizer-text"> {{{__ "input_box1Title"}}}</h2>
 
-				<input class="required email hp-custom-form mailchimp uk-width-1-2" id="mce-EMAIL" name="EMAIL" placeholder='{{{__ "input_box1"}}}' style=" font-size: 1.5vw; height: 75px; border-width: 1px; border-color:#d0d3de" type="email" value="">
+				<input style="font-size: 1.5rem;height: 75px;border-width: 1px;border-color:#d0d3de" class="contact-email required email hp-custom-form mailchimp uk-width-1-2" id="mce-EMAIL" name="EMAIL" placeholder='{{{__ "input_box1"}}}' type="email" value="">
 
-				<h2 class="uk-text-center" style="font-family: 'Roboto Condensed', sans-serif">{{{__ "input_box2Title"}}}</h2>
+				<h2 class="uk-text-center co-organizer-text">{{{__ "input_box2Title"}}}</h2>
 
-				<input class="required hp-custom-form mailchimp uk-width-1-2" id="mce-STORY" name="STORY" placeholder='{{{__ "input_box2"}}}' style="height: 75px; font-size: 1.5vw;border-width: 1px; border-color:#d0d3de" type="text" value="">
+				<input style="height: 75px;font-size: 1.5rem;border-width: 1px;border-color:#d0d3de" class="equired hp-custom-form mailchimp uk-width-1-2" id="mce-STORY" name="STORY" placeholder='{{{__ "input_box2"}}}' type="text" value="">
 
 				<div class="clear" id="mce-responses">
 					<div class="response" id="mce-error-response" style="display:none"></div>
@@ -249,11 +249,11 @@
 				</div>
 
 				<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-				<div aria-hidden="true" style="position: absolute; left: -5000px;">
+				<div aria-hidden="true" class="contact-hidden-input">
 					<input name="b_07422cbec4f3b781af0a05e05_53f71fc917" tabindex="-1" type="text" value="">
 				</div>
 				<div class="clear uk-margin-large-top">
-					<input style="font-family: 'Roboto Condensed', sans-serif" id="mc-embedded-subscribe" name="subscribe" type="submit" value='{{{__ "sign_up"}}}'>
+					<input class="co-organizer-text" id="mc-embedded-subscribe" name="subscribe" type="submit" value='{{{__ "sign_up"}}}'>
 				</div>
 			</fieldset>
 		</form>
