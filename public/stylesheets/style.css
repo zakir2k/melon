@@ -668,6 +668,7 @@ p.text-great-title{
 
 .bio-text{
   font-size: 19px !important;
+  padding: 20px;
 }
 
 .bio-title{
@@ -726,7 +727,7 @@ input.mailchimp {
     border-radius: 7px;
 }
 
-input.mailchimp:focus { 
+input.mailchimp:focus {
     outline: none;
     border-color: #9ecaed;
     box-shadow: 0 0 10px #9ecaed;
@@ -823,6 +824,13 @@ h1,h4,h3,h2{
 
 html.uk-notouch{
   color: #041b75 !important;
+}
+
+.tagline-holder {
+  display: flex;
+  justify-content: inherit;
+  align-items: center;
+  flex-direction: column;
 }
 
 
