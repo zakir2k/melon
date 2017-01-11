@@ -701,8 +701,18 @@ section#hong-kong{
     z-index: 10;
 }
 
-.mouse-icon.scroll {
-    color: #3E2B69;
+.mouse-icon {
+    border: 2px solid #fff;
+    border-radius: 16px;
+    display: block;
+    height: 50px;
+    margin: -100px auto 50px;
+    position: relative;
+    width: 30px;
+    z-index: 10;
+}
+
+.mouse-icon .scroll {#3289EC
     animation-delay: 0s;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -711,7 +721,7 @@ section#hong-kong{
     animation-timing-function: linear;
 }
 
-.mouse-icon.scroll {
+.mouse-icon .scroll {
     background: #fff none repeat scroll 0 0;
     border-radius: 10px;
     height: 10px;
@@ -720,6 +730,21 @@ section#hong-kong{
     position: relative;
     top: 4px;
     width: 4px;
+}
+
+@keyframes scrolling {
+0% {
+    opacity: 0;
+    top: 5px;
+}
+30% {
+    opacity: 1;
+    top: 10px;
+}
+100% {
+    opacity: 0;
+    top: 25px;
+}
 }
 
 
