@@ -668,11 +668,13 @@ p.text-great-title{
 
 .bio-text{
   font-size: 19px !important;
+  color: #041b75;
   padding: 20px;
 }
 
 .bio-title{
   font-size: 26px !important;
+  color: #041b75;
   font-weight: bold;
   margin-top: 20px;
 }
@@ -779,7 +781,7 @@ div#mc_embed_signup{
 }
 
 .slider-text-small{
-  font-size: 2.5em !important;
+  font-size: 2em !important;
   line-height: 10vw !important;
 }
 
@@ -831,11 +833,21 @@ html.uk-notouch{
   font-family: 'Covered By Your Grace', cursive;
 }
 
+.banner-tagline-cursive-text-small{
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 1.75em !important;
+}
+
 .tagline-holder {
   display: flex;
   justify-content: inherit;
   align-items: center;
   flex-direction: column;
+}
+
+.tagline-holder-small-screen{
+  margin:none;
+  padding:none;
 }
 
 .sidenav-text {
