@@ -960,19 +960,19 @@ html.uk-notouch{
 #booknow{
   font-size: 40px !important;
   padding: 30px !important;
-  background-color: orange;
+  background-color: blue;
   color: white;
-  border: 3px double #FC6 !important;
-  border-top-color: #FC9 !important;
-  border-left-color: #FC9 !important;
+  border: 3px double #240AFF !important;
+  border-top-color: #240AFF !important;
+  border-left-color: #240AFF !important;
 }
 
 #booknow:hover {
-  border-color: #F00 #C30 #C30 #F00 !important;
+  border-color: #000120 #E5EAF3 #E5EAF3 #000120 !important;
 }
 
 div#booknow{
-  font-size: 23px !important;
+  font-size: 35px !important;
 }
 
 /*#041b75 - font colour*/
