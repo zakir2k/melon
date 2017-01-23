@@ -1,4 +1,6 @@
 @import url(../../../font/nove_normal/stylesheet.css);
+@import url(../../../font/klingon/stylesheet.css);
+
 /* line 3, sass/module/_landing.scss */
 #section1 .uk-dotnav {
   margin-bottom: 10px; }
@@ -949,6 +951,28 @@ html.uk-notouch{
 .contact-hidden-input {
   position: absolute;
   left: -5000px;
+}
+
+.klingon{
+  font-family: 'klingon' serif;
+}
+
+#booknow{
+  font-size: 40px !important;
+  padding: 30px !important;
+  background-color: orange;
+  color: white;
+  border: 3px double #FC6 !important;
+  border-top-color: #FC9 !important;
+  border-left-color: #FC9 !important;
+}
+
+#booknow:hover {
+  border-color: #F00 #C30 #C30 #F00 !important;
+}
+
+div#booknow{
+  font-size: 23px !important;
 }
 
 /*#041b75 - font colour*/

@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'klingon';
+    src: url('./klingon.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+}

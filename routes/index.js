@@ -43,6 +43,11 @@ router.get('/zh', function (req, res) {
     res.redirect('/')
 });
 
+router.get('/kl', function (req, res) {
+    res.cookie('i18n', 'kl');
+    res.redirect('/')
+});
+
 
 router.post('/contact', function(req, res, next) {
   var input = req.body;
