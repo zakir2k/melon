@@ -957,7 +957,7 @@ html.uk-notouch{
   font-family: 'klingon' serif;
 }
 
-#booknow{
+#bookindustrynow{
   font-size: 40px !important;
   padding: 30px !important;
   background-color: blue;
@@ -967,13 +967,34 @@ html.uk-notouch{
   border-left-color: #240AFF !important;
 }
 
-#booknow:hover {
+#bookindustrynow:hover {
   border-color: #000120 #E5EAF3 #E5EAF3 #000120 !important;
 }
 
-div#booknow{
+div#bookindustrynow{
   font-size: 35px !important;
+  line-height: 35px;
 }
+
+#bookfannow{
+  font-size: 40px !important;
+  padding: 30px !important;
+  background-color: orange;
+  color: white;
+  border: 3px double red !important;
+  border-top-color: red !important;
+  border-left-color: red !important;
+}
+
+#bookfannow:hover {
+  border-color: #000120 #E5EAF3 #E5EAF3 #000120 !important;
+}
+
+div#bookfannow{
+  font-size: 35px !important;
+  line-height: 35px;
+}
+
 
 header#page-header{
   z-index:10;

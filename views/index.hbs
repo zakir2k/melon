@@ -362,7 +362,7 @@
 <hr>
 
 
-<div id="industryday"class="uk-container-center uk-container uk-width-2-3">
+<!-- <div id="industryday"class="uk-container-center uk-container uk-width-2-3">
 <section class="tm-bottom-a uk-grid" data-uk-grid-margin="" data-uk-grid-match="{target:'&gt; div &gt; .uk-panel'}">
 		<div class="uk-text-center uk-container-center">
 			<h1 class="uk-text uk-text-center">{{{__ "event_program"}}}</h1>
@@ -446,16 +446,21 @@
 	</section>
 </div>
 
-<hr>
+<hr> -->
 
 <section id="tickets" class="uk-margin-large-top uk-container uk-container-center" id="join">
 	<div>
 		<h1 class="uk-text uk-text-center">{{{__ "contact_title"}}}</h1>
 		<div class="bio-text co-organizer-text">
-			<div class="clear uk-text-center uk-container uk-container-center" style="max-width: 300px" style="text-decoration: none">
+			<div class="clear uk-text-center uk-container uk-container-center" style="max-width: 500px" style="text-decoration: none">
 				<a href="https://eventbrite.com" target="_blank" style="text-decoration: none">
-				<div class="co-organizer-text" id="booknow" style="text-decoration: none;">
-				{{{__ "book_now"}}}</div></a>
+				<div class="co-organizer-text uk-margin-small-bottom" id="bookindustrynow" style="text-decoration: none;">
+				{{{__ "book_industry_now"}}}</div>
+				</a>
+				<a href="https://eventbrite.com" target="_blank" style="text-decoration: none">
+				<div class="co-organizer-text uk-margin-small-bottom" id="bookfannow" style="text-decoration: none;">
+				{{{__ "book_fan_now"}}}</div>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -463,37 +468,13 @@
 
 <hr>
 
-<section class="banner-contact-us uk-block">
+<section class="uk-margin-large-top uk-margin-large-bottom uk-container uk-container-center" id="contact">
 	<div class="uk-margin-large-bottom">
-		<span class="contact-title">{{{__ "keep_updated"}}}</span>
-	</div>
-	<div id="mc_embed_signup" style="font-size: 40px">
-		<form action="//melonhk.us14.list-manage.com/subscribe/post?u=07422cbec4f3b781af0a05e05&amp;id=53f71fc917" class="validate uk-form uk-margin-large-bottom" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
-
-			<fieldset>
-
-				<h2 class="uk-text-center co-organizer-text"> {{{__ "input_box1Title"}}}</h2>
-
-				<input style="font-size: 1.5rem;height: 75px;border-width: 1px;border-color:#d0d3de" class="contact-email required email hp-custom-form mailchimp uk-width-1-2" id="mce-EMAIL" name="EMAIL" placeholder='{{{__ "input_box1"}}}' type="email" value="">
-
-				<h2 class="uk-text-center co-organizer-text">{{{__ "input_box2Title"}}}</h2>
-
-				<input style="height: 75px;font-size: 1.5rem;border-width: 1px;border-color:#d0d3de" class="equired hp-custom-form mailchimp uk-width-1-2" id="mce-STORY" name="STORY" placeholder='{{{__ "input_box2"}}}' type="text" value="">
-
-				<div class="clear" id="mce-responses">
-					<div class="response" id="mce-error-response" style="display:none"></div>
-					<div class="response" id="mce-success-response" style="display:none"></div>
-				</div>
-
-				<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-				<div aria-hidden="true" class="contact-hidden-input">
-					<input name="b_07422cbec4f3b781af0a05e05_53f71fc917" tabindex="-1" type="text" value="">
-				</div>
-				<div class="clear uk-margin-large-top">
-					<input class="co-organizer-text" id="mc-embedded-subscribe" name="subscribe" type="submit" value='{{{__ "sign_up"}}}'>
-				</div>
-			</fieldset>
-		</form>
+		<h1 class="uk-text uk-text-center">{{{__ "contact_us"}}}</h1>
+		<div class="bio-text co-organizer-text">
+			{{{__ "general"}}}
+		<br><br>{{{__ "media"}}}
+		</div>
 	</div>
 </section>
 
