@@ -1,17 +1,52 @@
+<header id="page-header" class="hp-header uk-position-relative uk-clearfix">
+	<div class="nav-wrapper" id="main-navigation" data-uk-sticky="{animation: 'uk-animation-slide-top'}">
+	    <div class="uk-container-center uk-container">
+	        <div class="uk-grid">
+	            <div class="uk-width-1-1">
+	                <nav class="uk-navbar uk-position-relative ">
+	                    <img style="position:absolute; top:7px; width:150px" class="logo-img" src="images/melon_logo2.png" width="80"/>
+	                    <ul class="uk-navbar-nav uk-visible-large uk-float-right">
+			              <li><a data-uk-smooth-scroll="{offset:130}" href="#speakers">Speakers</a></li>
+			              <li><a data-uk-smooth-scroll="{offset:130}" href="#industryday">Industry Day</a></li>
+			              <li><a data-uk-smooth-scroll="{offset:130}" href="#fanday">Fan Day</a></li>
+			              <li><a data-uk-smooth-scroll="{offset:130}" href="#tickets">Tickets</a></li>
+			              <li><a data-uk-smooth-scroll="{offset:130}" href="#news">News</a></li>
+	                    </ul>
+	                    <a class="uk-navbar-toggle uk-navbar-flip uk-hidden-large" data-uk-offcanvas href="#mobile-nav"></a>
+	                </nav>
+	                <div id="mobile-nav" class="uk-offcanvas">
+					    <div class="uk-offcanvas-bar uk-block">
+					        <ul class="uk-nav uk-nav-offcanvas" data-uk-nav>
+				              <li><a data-uk-smooth-scroll="{offset:130}" href="#speakers">Speakers</a></li>
+				              <li><a data-uk-smooth-scroll="{offset:130}" href="#industryday">Industry Day</a></li>
+				              <li><a data-uk-smooth-scroll="{offset:130}" href="#fanday">Fan Day</a></li>
+				              <li><a data-uk-smooth-scroll="{offset:130}" href="#tickets">Tickets</a></li>
+				              <li><a data-uk-smooth-scroll="{offset:130}" href="#news">News</a></li>
+					        </ul>
+					    </div>
+					</div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+</header>
+
 <section id="section1">
 	<div class="uk-block-muted">
 		<div class="uk-width-small-1-1 uk-width-medium-1-1 uk-large-1-1 uk-width-xl-1-1">
 			<div class="uk-panel">
 				<div class="uk-slidenav-position uk-position-relative" data-uk-slideshow="{autoplay:true,autoplayInterval:9000}">
 					<ul class="uk-slideshow uk-slideshow-fullscreen uk-viewport-height" data-uk-slideshow="">
+
 						<li class="uk-active uk-responsive-height">
-							<div class="uk-cover-background uk-position-cover" style="background-image: url('https://s3-ap-southeast-1.amazonaws.com/melonhk/banner1_melonhk.jpg')"></div>
+							<div class="uk-cover-background uk-position-cover" style="background-image: url('https://s3-ap-southeast-1.amazonaws.com/melonhk/melon_1.jpg');top:-110px"></div>
 
 							<div class="uk-overlay-panel uk-flex uk-flex-left uk-flex-top uk-text-left uk-hidden-small">
 								<div class="uk-margin">
 									<p class="slider-text-first"><br>
 									<br>
-									{{{__ "tagline"}}}<br>
+									Industry Day Text<br>
+									Industry Day Text<br>
 									<br>
 									<br>
 								</div>
@@ -37,11 +72,47 @@
 									{{{__ "hong_kong"}}}</p>
 								</div>
 							</div>
+						</li>
 
+						<li class="uk-responsive-height">
+							<div class="uk-cover-background uk-position-cover" style="background-image: url('https://s3-ap-southeast-1.amazonaws.com/melonhk/banner1_melonhk.jpg')"></div>
+
+							<div class="uk-overlay-panel uk-flex uk-flex-left uk-flex-top uk-text-left uk-hidden-small">
+								<div class="uk-margin">
+									<p class="slider-text-first"><br>
+									<br>
+									Fan Day Text<br>
+									Fan Day Text<br>
+									<br>
+									<br>
+									<br>
+								</div>
+							</div>
+
+							<div class="uk-overlay-panel uk-flex uk-flex-right uk-flex-bottom uk-text-right uk-hidden-small">
+								<div class="uk-margin">
+									<p class="slider-text-first">
+									<br>
+									{{{__ "venue_date"}}}<br>
+									{{{__ "hong_kong"}}}</p>
+								</div>
+							</div>
+
+							<div class="uk-overlay-panel uk-flex uk-flex-center uk-flex-middle uk-text-center uk-hidden-medium uk-hidden-large">
+								<div class="uk-margin tagline-holder">
+									<img src="/images/melon_logo2.png" class="uk-hidden-large melon-logo">
+									<p class="slider-text-small">
+									<br>
+									{{{__ "tagline"}}}<br>
+									<br>
+									{{{__ "venue_date"}}}<br>
+									{{{__ "hong_kong"}}}</p>
+								</div>
+							</div>
 						</li>
 
 						<li>
-							<div class="uk-cover-background uk-position-cover" style="background-image: url('https://s3-ap-southeast-1.amazonaws.com/melonhk/banner3_melonhk.jpg')"></div>
+							<div class="uk-cover-background uk-position-cover" style="background-image: url('https://s3-ap-southeast-1.amazonaws.com/melonhk/banner2_melonhk.jpg')"></div>
 							<div class="uk-overlay-panel uk-flex uk-flex-center uk-flex-middle uk-text-center uk-hidden-small">
 								<div class="uk-margin">
 									<p class="slider-text banner-tagline-cursive-text">
@@ -62,67 +133,20 @@
 								</div>
 							</div>
 						</li>
-					</ul><a class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous" href=""></a> <a class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next" href=""></a>
+					</ul>
+					
+					<a class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous" href=""></a>
+					<a class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next" href=""></a>
+					
 					<div class="uk-overlay-panel uk-overlay-bottom">
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="mouse-icon hidden-xs uk-hidden-small">
-				<div class="scroll"></div>
-		</div>
-
-		<div class="uk-overlay-panel uk-overlay-top">
-			<div class="uk-sticky-placeholder">
-				<nav class="uk-navbar-flip navbar-translate-text-holder">
-					<span class="uk-margin-large-right uk-hidden-small">
-						<a class="navbar-translate-text" href="/en">En</a>
-	          <a class="navbar-translate-text" href="/zh">简</a>
-	          <a class="navbar-translate-text" href="/hk">繁</a>
-	          <!-- <a class="navbar-translate-text klingon" href="/kl">Kl</a> -->
-          </span>
-					<img style="width:250px" src="/images/melon_logo2.png" class="uk-hidden-small">
-					<span class="uk-margin-small-left uk-hidden-medium uk-hidden-large">
-						<a class="navbar-translate-text" href="/en">En</a>
-	          <a class="navbar-translate-text" href="/zh">简</a>
-	          <a class="navbar-translate-text" href="/hk">繁</a>
-	          <!-- <a class="navbar-translate-text klingon" href="/kl">Kl</a> -->
-          </span>
-					<div class="uk-navbar-flip uk-hidden-notouch">
-						<ul class="uk-navbar-nav">
-							<li>
-								<a data-uk-offcanvas="" href="#my-id"><i class="uk-icon-navicon uk-icon-large clickable" data-uk-offcanvas="{target:'#my-id'}"></i></a>
-							</li>
-						</ul>
-					</div>
-					<div class="uk-offcanvas" id="my-id">
-						<div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
-							<ul>
-								<li>
-									<a href="#section1">{{{__ "menu_home"}}}Home</a>
-								</li>
-								<li>
-									<a data-uk-smooth-scroll="" href="#section2" class="sidenav-text">{{{__ "menu_good_for"}}}Good For</a>
-								</li>
-								<li>
-									<a data-uk-smooth-scroll="" href="#section3" class="sidenav-text">{{{__ "menu_sponsors"}}}Event Sponsors</a>
-								</li>
-								<li>
-									<a data-uk-smooth-scroll="" href="#section4" class="sidenav-text">{{{__ "menu_organizer"}}}</a>
-								</li>
-								<li>
-									<a data-uk-smooth-scroll="" href="#section5" class="sidenav-text">{{{__ "menu_book"}}}Book Now</a>
-								</li>
-								<li>
-									<a data-uk-smooth-scroll="" href="#section5" class="sidenav-text">{{{__ "menu_sign_up"}}}Update Me</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</nav>
-			</div>
-		</div>
+		<!-- <div class="mouse-icon hidden-xs uk-hidden-small">
+			<div class="scroll"></div>
+		</div> -->
 	</div>
 </section>
 
@@ -189,26 +213,50 @@
 </section>
 <hr>
 
-<section>
+<section id="speakers">
 	<div class="uk-container uk-container-center uk-text-center">
 		<div class="uk-margin-large-bottom great-title good-for-tagline">{{{__ "speakers"}}}</div>
 		<div class="uk-grid">
 			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker1" data-uk-modal><img src="/images/speakers/curtis.jpg"></a>
-			<div class="uk-margin-small-top">{{{__ "speaker1_name"}}}</div></div>
+			<div class="uk-margin-small-top">{{{__ "speaker1_name"}}}
+	        <br>{{{__ "speaker1_title"}}}
+	        <br>{{{__ "speaker1_country"}}}
+			</div></div>
 			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker2" data-uk-modal><img src="/images/speakers/andy.jpg"></a>
-			<div class="uk-margin-small-top">{{{__ "speaker2_name"}}}</div></div>
+			<div class="uk-margin-small-top">{{{__ "speaker2_name"}}}
+	        <br>{{{__ "speaker2_title"}}}
+	        <br>{{{__ "speaker2_country"}}}
+			</div></div>
 			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker3" data-uk-modal><img src="/images/speakers/andrew.jpg"></a>
-			<div class="uk-margin-small-top">{{{__ "speaker3_name"}}}</div></div>
+			<div class="uk-margin-small-top">{{{__ "speaker3_name"}}}
+	        <br>{{{__ "speaker3_title"}}}
+	        <br>{{{__ "speaker3_country"}}}
+			</div></div>
 			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker4" data-uk-modal><img src="/images/speakers/jl.jpg"></a>
-			<div class="uk-margin-small-top">{{{__ "speaker4_name"}}}</div></div>
+			<div class="uk-margin-small-top">{{{__ "speaker4_name"}}}
+	        <br>{{{__ "speaker4_title"}}}
+	        <br>{{{__ "speaker4_country"}}}
+			</div></div>
 			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker5" data-uk-modal><img src="/images/speakers/derek.jpg"></a>
-			<div class="uk-margin-small-top">{{{__ "speaker5_name"}}}</div></div>
+			<div class="uk-margin-small-top">{{{__ "speaker5_name"}}}
+	        <br>{{{__ "speaker5_title"}}}
+	        <br>{{{__ "speaker5_country"}}}
+			</div></div>
 			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker6" data-uk-modal><img src="/images/speakers/eric.jpg"></a>
-			<div class="uk-margin-small-top">{{{__ "speaker6_name"}}}</div></div>
+			<div class="uk-margin-small-top">{{{__ "speaker6_name"}}}
+	        <br>{{{__ "speaker5_title"}}}
+	        <br>{{{__ "speaker5_country"}}}
+			</div></div>
 			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker7" data-uk-modal><img src="/images/speakers/lavie.jpg"></a>
-			<div class="uk-margin-small-top">{{{__ "speaker7_name"}}}</div></div>
+			<div class="uk-margin-small-top">{{{__ "speaker7_name"}}}
+	        <br>{{{__ "speaker6_title"}}}
+	        <br>{{{__ "speaker6_country"}}}
+			</div></div>
 			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker8" data-uk-modal><img src="/images/speakers/paul.jpg"></a>
-			<div class="uk-margin-small-top">{{{__ "speaker8_name"}}}</div></div>
+			<div class="uk-margin-small-top">{{{__ "speaker8_name"}}}
+	        <br>{{{__ "speaker7_title"}}}
+	        <br>{{{__ "speaker7_country"}}}
+			</div></div>
 		</div>
 	</div>
 </section>
@@ -303,7 +351,7 @@
 <hr>
 
 
-<div class="uk-container-center uk-container uk-width-2-3">
+<div id="industryday"class="uk-container-center uk-container uk-width-2-3">
 <section class="tm-bottom-a uk-grid" data-uk-grid-margin="" data-uk-grid-match="{target:'&gt; div &gt; .uk-panel'}">
 		<div class="uk-text-center uk-container-center">
 			<h1 class="uk-text uk-text-center">{{{__ "event_program"}}}</h1>
@@ -389,7 +437,7 @@
 
 <hr>
 
-<section class="uk-margin-large-top uk-container uk-container-center" id="join">
+<section id="tickets" class="uk-margin-large-top uk-container uk-container-center" id="join">
 	<div>
 		<h1 class="uk-text uk-text-center">{{{__ "contact_title"}}}</h1>
 		<div class="bio-text co-organizer-text">
@@ -446,7 +494,6 @@
 		<div class="bio-text co-organizer-text">
 			{{{__ "join_team_text"}}}
 
-
 		<br><br>{{{__ "join_team_click"}}}
 		</div>
 	</div>
@@ -454,7 +501,7 @@
 
 <hr>
 
-	<section class="uk-margin-large-top uk-margin-large-bottom uk-container uk-container-center" id="social">
+	<section id="news" class="uk-margin-large-top uk-margin-large-bottom uk-container uk-container-center" id="social">
 		<h1 class="uk-text uk-text-center">{{{__ "social_title"}}}</h1>
 		<script src="//assets.juicer.io/embed.js" type="text/javascript">
 		</script>
@@ -484,6 +531,8 @@
 	        		<img src="images/speakers/curtis.jpg"/>
 	        	</div>
 	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker1_name"}}}
+	        	<br>{{{__ "speaker1_title"}}}
+	        	<br>{{{__ "speaker1_country"}}}
 	        	</div>
 		        <p>
 		        {{{__ "speaker1_bio"}}}
@@ -499,7 +548,10 @@
 	        <div class="uk-container uk-container-center">
 	        	<div class="uk-text-center"><img src="images/speakers/andy.jpg"/>
 	        	</div>
-	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker2_name"}}}</div>
+	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker2_name"}}}
+	        	<br>{{{__ "speaker2_title"}}}
+	        	<br>{{{__ "speaker2_country"}}}
+	        	</div>
 		        <p>
 		        {{{__ "speaker2_bio"}}}
 		 		</p>
@@ -513,7 +565,10 @@
 	        
 	        <div class="uk-container uk-container-center">
 	        	<div class="uk-text-center"><img src="images/speakers/andrew.jpg"/></div>
-	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker3_name"}}}</div>
+	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker3_name"}}}
+	        	<br>{{{__ "speaker3_title"}}}
+	        	<br>{{{__ "speaker3_country"}}}
+	        	</div>
 		        <p>
 		        {{{__ "speaker3_bio"}}}
 		 		</p>
@@ -527,7 +582,10 @@
 	        
 	        <div class="uk-container uk-container-center">
 	        	<div class="uk-text-center"><img src="images/speakers/jl.jpg"/></div>
-	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker4_name"}}}</div>
+	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker4_name"}}}
+	        	<br>{{{__ "speaker4_title"}}}
+	        	<br>{{{__ "speaker4_country"}}}
+	        	</div>
 		        <p>
 		        {{{__ "speaker4_bio"}}}
 		 		</p>
@@ -541,7 +599,10 @@
 	        
 	        <div class="uk-container uk-container-center">
 	        	<div class="uk-text-center"><img src="images/speakers/derek.jpg"/></div>
-	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker5_name"}}}</div>
+	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker5_name"}}}
+	        	<br>{{{__ "speaker5_title"}}}
+	        	<br>{{{__ "speaker5_country"}}}
+	        	</div>
 		        <p>
 		        {{{__ "speaker5_bio"}}}
 		 		</p>
@@ -554,7 +615,10 @@
 	        <a class="uk-modal-close uk-close"></a>
 	        <div class="uk-container uk-container-center">
 	        	<div class="uk-text-center"><img src="images/speakers/eric.jpg"/></div>
-	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker6_name"}}}</div>
+	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker6_name"}}}
+	        	<br>{{{__ "speaker6_title"}}}
+	        	<br>{{{__ "speaker6_country"}}}
+	        	</div>
 		        <p>
 		        {{{__ "speaker6_bio"}}}
 		 		</p>
@@ -568,7 +632,10 @@
 	        
 	        <div class="uk-container uk-container-center">
 	        	<div class="uk-text-center"><img src="images/speakers/lavie.jpg"/></div>
-	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker7_name"}}}</div>
+	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker7_name"}}}
+	        	<br>{{{__ "speaker7_title"}}}
+	        	<br>{{{__ "speaker7_country"}}}
+	        	</div>
 		        <p>
 		        {{{__ "speaker7_bio"}}}
 		 		</p>
@@ -582,7 +649,10 @@
 	        
 	        <div class="uk-container uk-container-center">
 	        	<div class="uk-text-center"><img src="images/speakers/paul.jpg"/></div>
-	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker8_name"}}}</div>
+	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker8_name"}}}
+	        	<br>{{{__ "speaker8_title"}}}
+	        	<br>{{{__ "speaker8_country"}}}
+	        	</div>
 		        <p>
 		        {{{__ "speaker8_bio"}}}
 		 		</p>

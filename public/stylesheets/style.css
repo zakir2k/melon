@@ -975,4 +975,67 @@ div#booknow{
   font-size: 35px !important;
 }
 
+header#page-header{
+  z-index:10;
+}
+
+a.tcs-logo{
+  padding:18px 0 0 0;
+}
+
+.uk-navbar-toggle, .uk-navbar-toggle:hover{
+  color:#777777;
+}
+
+.nav-wrapper, .uk-navbar{
+  background-color: #1f2d3d !important;
+  -webkit-box-shadow: 0 6px 4px -4px #999 !important;
+  -moz-box-shadow: 0 6px 4px -4px #999 !important;
+  box-shadow: 0 8px 4px -4px #999 !important;
+}
+
+.uk-navbar-nav>li>a{
+    display: block;
+    height: 110px;
+    line-height: 65px !important;
+    color: white !important;
+    font-size: 22px !important;
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.uk-navbar-nav>li.uk-open>a, .uk-navbar-nav>li:hover>a, .uk-navbar-nav>li>a:focus {
+    background-color: #1f2d3d !important;
+    color: white !important;
+}
+
+.uk-navbar-nav>li:hover, .uk-navbar-nav>li:active, .uk-navbar-nav>li>a:hover, .uk-navbar-nav>li>a:active{
+    background-color: #1f2d3d !important;
+    color: orange !important;
+}
+
+.uk-navbar-nav > li{
+  margin:0 10px;
+}
+
+.nav-bar-small .uk-navbar-nav>li>a{
+    height: 55px;
+    line-height: 55px;
+}
+
+.uk-navbar{
+  height: 64px !important;
+  background-color: #1f2d3d !important;
+  color: white !important;
+  -webkit-box-shadow: 0 6px 4px -4px #999 !important;
+  -moz-box-shadow: 0 6px 4px -4px #999 !important;
+  box-shadow: 0 8px 4px -4px #999 !important;
+}
+
+.uk-navbar-toggle {
+    font-size: 28px !important;
+    line-height: 61px !important;
+    color: white !important;
+    text-decoration: none;
+}
+
 /*#041b75 - font colour*/
