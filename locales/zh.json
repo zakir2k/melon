@@ -79,5 +79,21 @@
 	"menu_sponsors": "Sponsors",
 	"menu_organizer": "Co-Organizers",
 	"menu_book": "Book Now",
-	"menu_sign_up": "Keep Updated"
+	"menu_sign_up": "Keep Updated",
+	"speaker1_title": "speaker1_title",
+	"speaker1_country": "speaker1_country",
+	"speaker2_title": "speaker2_title",
+	"speaker2_country": "speaker2_country",
+	"speaker3_title": "speaker3_title",
+	"speaker3_country": "speaker3_country",
+	"speaker4_title": "speaker4_title",
+	"speaker4_country": "speaker4_country",
+	"speaker5_title": "speaker5_title",
+	"speaker5_country": "speaker5_country",
+	"speaker6_title": "speaker6_title",
+	"speaker6_country": "speaker6_country",
+	"speaker7_title": "speaker7_title",
+	"speaker7_country": "speaker7_country",
+	"speaker8_title": "speaker8_title",
+	"speaker8_country": "speaker8_country"
 }

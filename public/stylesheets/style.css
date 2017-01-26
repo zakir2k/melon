@@ -1038,4 +1038,24 @@ a.tcs-logo{
     text-decoration: none;
 }
 
-/*#041b75 - font colour*/
+.translations{
+  position: relative;
+  left: 81vw;
+  top: 25px;
+}
+
+.translations > a:hover{
+  text-decoration: none;
+  color: orange;
+}
+
+.translations-small{
+  position: relative;
+  left: 45vw;
+  top: 25px;
+}
+
+.translations-small > a:hover{
+  text-decoration: none;
+  color: orange;
+}
