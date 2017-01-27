@@ -6,11 +6,11 @@
 	                <nav class="uk-navbar uk-position-relative ">
 	                    <a data-uk-smooth-scroll="{offset:130}" href="#home"><img style="position:absolute; top:7px; width:150px" class="logo-img" src="images/melon_logo2.png" width="80"/></a>
 	                    <ul class="uk-navbar-nav uk-visible-large uk-float-right">
-			              <li><a data-uk-smooth-scroll="{offset:130}" href="#speakers">Speakers</a></li>
-			              <li><a data-uk-smooth-scroll="{offset:130}" href="#venues">Industry Day</a></li>
-			              <li><a data-uk-smooth-scroll="{offset:130}" href="#venues">Fan Day</a></li>
-			              <li><a data-uk-smooth-scroll="{offset:130}" href="#tickets">Tickets</a></li>
-			              <li><a data-uk-smooth-scroll="{offset:130}" href="#news">News</a></li>
+			              <li><a data-uk-smooth-scroll="{offset:130}" href="#speakers">{{{__ "menu_speakers"}}}</a></li>
+			              <li><a data-uk-smooth-scroll="{offset:130}" href="#venues">{{{__ "menu_industry"}}}</a></li>
+			              <li><a data-uk-smooth-scroll="{offset:130}" href="#venues">{{{__ "menu_fan_day"}}}</a></li>
+			              <li><a data-uk-smooth-scroll="{offset:130}" href="#tickets">{{{__ "menu_tickets"}}}</a></li>
+			              <li><a data-uk-smooth-scroll="{offset:130}" href="#news">{{{__ "menu_news"}}}</a></li>
 	                    </ul>
 	                   	<span class="translations uk-hidden-small">
 	                   	  <a class="navbar-translate-text" href="/en">En</a>
@@ -28,11 +28,11 @@
 	                <div id="mobile-nav" class="uk-offcanvas">
 					    <div class="uk-offcanvas-bar uk-block">
 					        <ul class="uk-nav uk-nav-offcanvas" data-uk-nav>
-				              <li><a data-uk-smooth-scroll="{offset:130}" href="#speakers">Speakers</a></li>
-				              <li><a data-uk-smooth-scroll="{offset:130}" href="#venues">Industry Day</a></li>
-				              <li><a data-uk-smooth-scroll="{offset:130}" href="#venues">Fan Day</a></li>
-				              <li><a data-uk-smooth-scroll="{offset:130}" href="#tickets">Tickets</a></li>
-				              <li><a data-uk-smooth-scroll="{offset:130}" href="#news">News</a></li>
+				              <li><a data-uk-smooth-scroll="{offset:130}" href="#speakers">{{{__ "menu_speakers"}}}</a></li>
+				              <li><a data-uk-smooth-scroll="{offset:130}" href="#venues">{{{__ "menu_industry"}}}</a></li>
+				              <li><a data-uk-smooth-scroll="{offset:130}" href="#venues">{{{__ "menu_fan_day"}}}</a></li>
+				              <li><a data-uk-smooth-scroll="{offset:130}" href="#tickets">{{{__ "menu_tickets"}}}</a></li>
+				              <li><a data-uk-smooth-scroll="{offset:130}" href="#news">{{{__ "menu_news"}}}</a></li>
 					        </ul>
 					    </div>
 					</div>
@@ -228,46 +228,96 @@
 	<div class="uk-container uk-container-center uk-text-center">
 		<div class="uk-margin-large-bottom great-title good-for-tagline">{{{__ "speakers"}}}</div>
 		<div class="uk-grid">
-			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker1" data-uk-modal><img src="/images/speakers/curtis.jpg"></a>
+<!-- 			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker1" data-uk-modal><img src="{{{__ 'speaker1_picture'}}}"></a>
 			<div class="uk-margin-small-top">{{{__ "speaker1_name"}}}
 	        <br>{{{__ "speaker1_title"}}}
 	        <br>{{{__ "speaker1_country"}}}
-			</div></div>
-			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker2" data-uk-modal><img src="/images/speakers/andy.jpg"></a>
+			</div></div> -->
+			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker2" data-uk-modal><img src="{{{__ 'speaker2_picture'}}}"></a>
 			<div class="uk-margin-small-top">{{{__ "speaker2_name"}}}
 	        <br>{{{__ "speaker2_title"}}}
 	        <br>{{{__ "speaker2_country"}}}
 			</div></div>
-			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker3" data-uk-modal><img src="/images/speakers/andrew.jpg"></a>
+			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker3" data-uk-modal><img src="{{{__ 'speaker3_picture'}}}"></a>
 			<div class="uk-margin-small-top">{{{__ "speaker3_name"}}}
 	        <br>{{{__ "speaker3_title"}}}
 	        <br>{{{__ "speaker3_country"}}}
 			</div></div>
-			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker4" data-uk-modal><img src="/images/speakers/jl.jpg"></a>
+<!-- 			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker4" data-uk-modal><img src="{{{__ 'speaker4_picture'}}}"></a>
 			<div class="uk-margin-small-top">{{{__ "speaker4_name"}}}
 	        <br>{{{__ "speaker4_title"}}}
 	        <br>{{{__ "speaker4_country"}}}
-			</div></div>
-			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker5" data-uk-modal><img src="/images/speakers/derek.jpg"></a>
+			</div></div> -->
+<!-- 			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker5" data-uk-modal><img src="{{{__ 'speaker5_picture'}}}"></a>
 			<div class="uk-margin-small-top">{{{__ "speaker5_name"}}}
 	        <br>{{{__ "speaker5_title"}}}
 	        <br>{{{__ "speaker5_country"}}}
-			</div></div>
-			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker6" data-uk-modal><img src="/images/speakers/eric.jpg"></a>
+			</div></div> -->
+			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker6" data-uk-modal><img src="{{{__ 'speaker6_picture'}}}"></a>
 			<div class="uk-margin-small-top">{{{__ "speaker6_name"}}}
-	        <br>{{{__ "speaker5_title"}}}
-	        <br>{{{__ "speaker5_country"}}}
-			</div></div>
-			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker7" data-uk-modal><img src="/images/speakers/lavie.jpg"></a>
-			<div class="uk-margin-small-top">{{{__ "speaker7_name"}}}
 	        <br>{{{__ "speaker6_title"}}}
 	        <br>{{{__ "speaker6_country"}}}
 			</div></div>
-			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker8" data-uk-modal><img src="/images/speakers/paul.jpg"></a>
-			<div class="uk-margin-small-top">{{{__ "speaker8_name"}}}
+			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker7" data-uk-modal><img src="{{{__ 'speaker7_picture'}}}"></a>
+			<div class="uk-margin-small-top">{{{__ "speaker7_name"}}}
 	        <br>{{{__ "speaker7_title"}}}
 	        <br>{{{__ "speaker7_country"}}}
 			</div></div>
+			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker8" data-uk-modal><img src="{{{__ 'speaker8_picture'}}}"></a>
+			<div class="uk-margin-small-top">{{{__ "speaker8_name"}}}
+	        <br>{{{__ "speaker8_title"}}}
+	        <br>{{{__ "speaker8_country"}}}
+			</div></div>
+<!-- 			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker9" data-uk-modal><img src="{{{__ 'speaker9_picture'}}}"></a>
+			<div class="uk-margin-small-top">{{{__ "speaker9_name"}}}
+	        <br>{{{__ "speaker9_title"}}}
+	        <br>{{{__ "speaker9_country"}}}
+			</div></div> -->
+			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker10" data-uk-modal><img src="{{{__ 'speaker10_picture'}}}"></a>
+			<div class="uk-margin-small-top">{{{__ "speaker10_name"}}}
+	        <br>{{{__ "speaker10_title"}}}
+	        <br>{{{__ "speaker10_country"}}}
+			</div></div>
+<!-- 			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker11" data-uk-modal><img src="{{{__ 'speaker11_picture'}}}"></a>
+			<div class="uk-margin-small-top">{{{__ "speaker11_name"}}}
+	        <br>{{{__ "speaker11_title"}}}
+	        <br>{{{__ "speaker11_country"}}}
+			</div></div> -->
+			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker12" data-uk-modal><img src="{{{__ 'speaker12_picture'}}}"></a>
+			<div class="uk-margin-small-top">{{{__ "speaker12_name"}}}
+	        <br>{{{__ "speaker12_title"}}}
+	        <br>{{{__ "speaker12_country"}}}
+			</div></div>
+			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker13" data-uk-modal><img src="{{{__ 'speaker13_picture'}}}"></a>
+			<div class="uk-margin-small-top">{{{__ "speaker13_name"}}}
+	        <br>{{{__ "speaker13_title"}}}
+	        <br>{{{__ "speaker13_country"}}}
+			</div></div>
+<!-- 			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker14" data-uk-modal><img src="{{{__ 'speaker14_picture'}}}"></a>
+			<div class="uk-margin-small-top">{{{__ "speaker14_name"}}}
+	        <br>{{{__ "speaker14_title"}}}
+	        <br>{{{__ "speaker14_country"}}}
+			</div></div>
+			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker15" data-uk-modal><img src="{{{__ 'speaker15_picture'}}}"></a>
+			<div class="uk-margin-small-top">{{{__ "speaker15_name"}}}
+	        <br>{{{__ "speaker15_title"}}}
+	        <br>{{{__ "speaker15_country"}}}
+			</div></div>
+			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker16" data-uk-modal><img src="{{{__ 'speaker16_picture'}}}"></a>
+			<div class="uk-margin-small-top">{{{__ "speaker16_name"}}}
+	        <br>{{{__ "speaker16_title"}}}
+	        <br>{{{__ "speaker16_country"}}}
+			</div></div>
+			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker17" data-uk-modal><img src="{{{__ 'speaker17_picture'}}}"></a>
+			<div class="uk-margin-small-top">{{{__ "speaker17_name"}}}
+	        <br>{{{__ "speaker17_title"}}}
+	        <br>{{{__ "speaker17_country"}}}
+			</div></div>
+			<div class="uk-width-large-1-4 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-4 flex-center uk-margin-large-bottom"><a href="#bio-speaker18" data-uk-modal><img src="{{{__ 'speaker18_picture'}}}"></a>
+			<div class="uk-margin-small-top">{{{__ "speaker18_name"}}}
+	        <br>{{{__ "speaker18_title"}}}
+	        <br>{{{__ "speaker18_country"}}}
+			</div></div> -->
 		</div>
 	</div>
 </section>
@@ -520,7 +570,7 @@
 	        
 	        <div class="uk-container uk-container-center">
 	        	<div class="uk-text-center">
-	        		<img src="images/speakers/curtis.jpg"/>
+	        		<img src="{{{__ 'speaker1_picture'}}}"/>
 	        	</div>
 	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker1_name"}}}
 	        	<br>{{{__ "speaker1_title"}}}
@@ -538,7 +588,7 @@
 	        <a class="uk-modal-close uk-close"></a>
 	        
 	        <div class="uk-container uk-container-center">
-	        	<div class="uk-text-center"><img src="images/speakers/andy.jpg"/>
+	        	<div class="uk-text-center"><img src="{{{__ 'speaker2_picture'}}}"/>
 	        	</div>
 	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker2_name"}}}
 	        	<br>{{{__ "speaker2_title"}}}
@@ -556,7 +606,7 @@
 	        <a class="uk-modal-close uk-close"></a>
 	        
 	        <div class="uk-container uk-container-center">
-	        	<div class="uk-text-center"><img src="images/speakers/andrew.jpg"/></div>
+	        	<div class="uk-text-center"><img src="{{{__ 'speaker3_picture'}}}"/></div>
 	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker3_name"}}}
 	        	<br>{{{__ "speaker3_title"}}}
 	        	<br>{{{__ "speaker3_country"}}}
@@ -573,7 +623,7 @@
 	        <a class="uk-modal-close uk-close"></a>
 	        
 	        <div class="uk-container uk-container-center">
-	        	<div class="uk-text-center"><img src="images/speakers/jl.jpg"/></div>
+	        	<div class="uk-text-center"><img src="{{{__ 'speaker4_picture'}}}"/></div>
 	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker4_name"}}}
 	        	<br>{{{__ "speaker4_title"}}}
 	        	<br>{{{__ "speaker4_country"}}}
@@ -590,7 +640,7 @@
 	        <a class="uk-modal-close uk-close"></a>
 	        
 	        <div class="uk-container uk-container-center">
-	        	<div class="uk-text-center"><img src="images/speakers/derek.jpg"/></div>
+	        	<div class="uk-text-center"><img src="{{{__ 'speaker5_picture'}}}"/></div>
 	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker5_name"}}}
 	        	<br>{{{__ "speaker5_title"}}}
 	        	<br>{{{__ "speaker5_country"}}}
@@ -606,7 +656,7 @@
 	    <div class="uk-modal-dialog">
 	        <a class="uk-modal-close uk-close"></a>
 	        <div class="uk-container uk-container-center">
-	        	<div class="uk-text-center"><img src="images/speakers/eric.jpg"/></div>
+	        	<div class="uk-text-center"><img src="{{{__ 'speaker6_picture'}}}"/></div>
 	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker6_name"}}}
 	        	<br>{{{__ "speaker6_title"}}}
 	        	<br>{{{__ "speaker6_country"}}}
@@ -623,7 +673,7 @@
 	        <a class="uk-modal-close uk-close"></a>
 	        
 	        <div class="uk-container uk-container-center">
-	        	<div class="uk-text-center"><img src="images/speakers/lavie.jpg"/></div>
+	        	<div class="uk-text-center"><img src="{{{__ 'speaker7_picture'}}}"/></div>
 	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker7_name"}}}
 	        	<br>{{{__ "speaker7_title"}}}
 	        	<br>{{{__ "speaker7_country"}}}
@@ -640,13 +690,183 @@
 	        <a class="uk-modal-close uk-close"></a>
 	        
 	        <div class="uk-container uk-container-center">
-	        	<div class="uk-text-center"><img src="images/speakers/paul.jpg"/></div>
+	        	<div class="uk-text-center"><img src="{{{__ 'speaker8_picture'}}}"/></div>
 	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker8_name"}}}
 	        	<br>{{{__ "speaker8_title"}}}
 	        	<br>{{{__ "speaker8_country"}}}
 	        	</div>
 		        <p>
 		        {{{__ "speaker8_bio"}}}
+		 		</p>
+	 		</div>
+	    </div>
+	</div>
+
+	<div id="bio-speaker9" class="uk-modal">
+	    <div class="uk-modal-dialog">
+	        <a class="uk-modal-close uk-close"></a>
+	        
+	        <div class="uk-container uk-container-center">
+	        	<div class="uk-text-center"><img src="{{{__ 'speaker9_picture'}}}"/></div>
+	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker9_name"}}}
+	        	<br>{{{__ "speaker9_title"}}}
+	        	<br>{{{__ "speaker9_country"}}}
+	        	</div>
+		        <p>
+		        {{{__ "speaker9_bio"}}}
+		 		</p>
+	 		</div>
+	    </div>
+	</div>
+
+	<div id="bio-speaker10" class="uk-modal">
+	    <div class="uk-modal-dialog">
+	        <a class="uk-modal-close uk-close"></a>
+	        
+	        <div class="uk-container uk-container-center">
+	        	<div class="uk-text-center"><img src="{{{__ 'speaker10_picture'}}}"/></div>
+	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker10_name"}}}
+	        	<br>{{{__ "speaker10_title"}}}
+	        	<br>{{{__ "speaker10_country"}}}
+	        	</div>
+		        <p>
+		        {{{__ "speaker10_bio"}}}
+		 		</p>
+	 		</div>
+	    </div>
+	</div>
+
+	<div id="bio-speaker11" class="uk-modal">
+	    <div class="uk-modal-dialog">
+	        <a class="uk-modal-close uk-close"></a>
+	        
+	        <div class="uk-container uk-container-center">
+	        	<div class="uk-text-center"><img src="{{{__ 'speaker11_picture'}}}"/></div>
+	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker11_name"}}}
+	        	<br>{{{__ "speaker11_title"}}}
+	        	<br>{{{__ "speaker11_country"}}}
+	        	</div>
+		        <p>
+		        {{{__ "speaker11_bio"}}}
+		 		</p>
+	 		</div>
+	    </div>
+	</div>
+
+	<div id="bio-speaker12" class="uk-modal">
+	    <div class="uk-modal-dialog">
+	        <a class="uk-modal-close uk-close"></a>
+	        
+	        <div class="uk-container uk-container-center">
+	        	<div class="uk-text-center"><img src="{{{__ 'speaker12_picture'}}}"/></div>
+	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker12_name"}}}
+	        	<br>{{{__ "speaker12_title"}}}
+	        	<br>{{{__ "speaker12_country"}}}
+	        	</div>
+		        <p>
+		        {{{__ "speaker12_bio"}}}
+		 		</p>
+	 		</div>
+	    </div>
+	</div>
+
+	<div id="bio-speaker13" class="uk-modal">
+	    <div class="uk-modal-dialog">
+	        <a class="uk-modal-close uk-close"></a>
+	        
+	        <div class="uk-container uk-container-center">
+	        	<div class="uk-text-center"><img src="{{{__ 'speaker13_picture'}}}"/></div>
+	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker13_name"}}}
+	        	<br>{{{__ "speaker13_title"}}}
+	        	<br>{{{__ "speaker13_country"}}}
+	        	</div>
+		        <p>
+		        {{{__ "speaker13_bio"}}}
+		 		</p>
+	 		</div>
+	    </div>
+	</div>
+
+	<div id="bio-speaker14" class="uk-modal">
+	    <div class="uk-modal-dialog">
+	        <a class="uk-modal-close uk-close"></a>
+	        
+	        <div class="uk-container uk-container-center">
+	        	<div class="uk-text-center"><img src="{{{__ 'speaker14_picture'}}}"/></div>
+	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker14_name"}}}
+	        	<br>{{{__ "speaker14_title"}}}
+	        	<br>{{{__ "speaker14_country"}}}
+	        	</div>
+		        <p>
+		        {{{__ "speaker14_bio"}}}
+		 		</p>
+	 		</div>
+	    </div>
+	</div>
+
+	<div id="bio-speaker15" class="uk-modal">
+	    <div class="uk-modal-dialog">
+	        <a class="uk-modal-close uk-close"></a>
+	        
+	        <div class="uk-container uk-container-center">
+	        	<div class="uk-text-center"><img src="{{{__ 'speaker15_picture'}}}"/></div>
+	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker15_name"}}}
+	        	<br>{{{__ "speaker15_title"}}}
+	        	<br>{{{__ "speaker15_country"}}}
+	        	</div>
+		        <p>
+		        {{{__ "speaker15_bio"}}}
+		 		</p>
+	 		</div>
+	    </div>
+	</div>
+
+	<div id="bio-speaker16" class="uk-modal">
+	    <div class="uk-modal-dialog">
+	        <a class="uk-modal-close uk-close"></a>
+	        
+	        <div class="uk-container uk-container-center">
+	        	<div class="uk-text-center"><img src="{{{__ 'speaker16_picture'}}}"/></div>
+	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker16_name"}}}
+	        	<br>{{{__ "speaker16_title"}}}
+	        	<br>{{{__ "speaker16_country"}}}
+	        	</div>
+		        <p>
+		        {{{__ "speaker16_bio"}}}
+		 		</p>
+	 		</div>
+	    </div>
+	</div>
+
+	<div id="bio-speaker17" class="uk-modal">
+	    <div class="uk-modal-dialog">
+	        <a class="uk-modal-close uk-close"></a>
+	        
+	        <div class="uk-container uk-container-center">
+	        	<div class="uk-text-center"><img src="{{{__ 'speaker17_picture'}}}"/></div>
+	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker17_name"}}}
+	        	<br>{{{__ "speaker17_title"}}}
+	        	<br>{{{__ "speaker17_country"}}}
+	        	</div>
+		        <p>
+		        {{{__ "speaker17_bio"}}}
+		 		</p>
+	 		</div>
+	    </div>
+	</div>
+
+	<div id="bio-speaker18" class="uk-modal">
+	    <div class="uk-modal-dialog">
+	        <a class="uk-modal-close uk-close"></a>
+	        
+	        <div class="uk-container uk-container-center">
+	        	<div class="uk-text-center"><img src="{{{__ 'speaker18_picture'}}}"/></div>
+	        	<div class="uk-text-center uk-margin-small-top">{{{__ "speaker18_name"}}}
+	        	<br>{{{__ "speaker18_title"}}}
+	        	<br>{{{__ "speaker18_country"}}}
+	        	</div>
+		        <p>
+		        {{{__ "speaker18_bio"}}}
 		 		</p>
 	 		</div>
 	    </div>
