@@ -1081,3 +1081,9 @@ a.tcs-logo{
   text-decoration: none;
   color: orange;
 }
+
+.block-text{
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em
+}
