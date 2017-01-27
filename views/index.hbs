@@ -7,8 +7,8 @@
 	                    <a data-uk-smooth-scroll="{offset:130}" href="#home"><img style="position:absolute; top:7px; width:150px" class="logo-img" src="images/melon_logo2.png" width="80"/></a>
 	                    <ul class="uk-navbar-nav uk-visible-large uk-float-right">
 			              <li><a data-uk-smooth-scroll="{offset:130}" href="#speakers">{{{__ "menu_speakers"}}}</a></li>
-			              <li><a data-uk-smooth-scroll="{offset:130}" href="#venues">{{{__ "menu_industry"}}}</a></li>
-			              <li><a data-uk-smooth-scroll="{offset:130}" href="#venues">{{{__ "menu_fan_day"}}}</a></li>
+			              <li><a data-uk-smooth-scroll="{offset:130}" href="#industryday">{{{__ "menu_industry"}}}</a></li>
+			              <li><a data-uk-smooth-scroll="{offset:130}" href="#fanday">{{{__ "menu_fan_day"}}}</a></li>
 			              <li><a data-uk-smooth-scroll="{offset:130}" href="#tickets">{{{__ "menu_tickets"}}}</a></li>
 			              <li><a data-uk-smooth-scroll="{offset:130}" href="#news">{{{__ "menu_news"}}}</a></li>
 	                    </ul>
@@ -29,8 +29,8 @@
 					    <div class="uk-offcanvas-bar uk-block">
 					        <ul class="uk-nav uk-nav-offcanvas" data-uk-nav>
 				              <li><a data-uk-smooth-scroll="{offset:130}" href="#speakers">{{{__ "menu_speakers"}}}</a></li>
-				              <li><a data-uk-smooth-scroll="{offset:130}" href="#venues">{{{__ "menu_industry"}}}</a></li>
-				              <li><a data-uk-smooth-scroll="{offset:130}" href="#venues">{{{__ "menu_fan_day"}}}</a></li>
+				              <li><a data-uk-smooth-scroll="{offset:130}" href="#industryday">{{{__ "menu_industry"}}}</a></li>
+				              <li><a data-uk-smooth-scroll="{offset:130}" href="#fanday">{{{__ "menu_fan_day"}}}</a></li>
 				              <li><a data-uk-smooth-scroll="{offset:130}" href="#tickets">{{{__ "menu_tickets"}}}</a></li>
 				              <li><a data-uk-smooth-scroll="{offset:130}" href="#news">{{{__ "menu_news"}}}</a></li>
 					        </ul>
@@ -285,33 +285,14 @@
 	</div>
 </section>
 
-
-
-<section id="venues">
-	<div class="uk-container uk-container-center uk-text-center">
-		<div class="uk-margin-large-bottom uk-margin-large-top great-title">{{{__ "venues"}}}</div>
-		<div class="uk-grid">
-			<div class="uk-width-large-1-2 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-2 flex-center uk-margin-large-bottom">
-			<a href="http://www.eatonhouse.com.hk" target="_blank"><img src="/images/eaton_house.jpg"></a>
-			<h1>{{{__ "eaton_house"}}}</h1>
-			<h3>{{{__ "eaton_address"}}}</h3>
-			<h2>{{{__ "day_1"}}}</h2>
-			</div>
-			<div class="uk-width-large-1-2 uk-width-small-1-2 uk-width-extra-small-1-2 uk-width-medium-1-2 flex-center uk-margin-large-bottom">
-			<a href="http://www.hku.hk/visit/" target="_blank"><img src="/images/hku.jpg"></a>
-			<h1>{{{__ "hku"}}}</h1>
-			<h3>{{{__ "hku_address"}}}</h3>
-			<h2>{{{__ "day_2"}}}</h2>
-			</div>
-		</div>
-	</div>
-</section>
-
 <hr>
 
-<section class="slant-top services-grid-box uk-block uk-position-relative uk-clearfix" id="section2">
+<section id="industryday" class="slant-top services-grid-box uk-block uk-position-relative uk-clearfix" >
 	<div class="uk-container uk-container-center uk-text-center">
-		<div class="uk-margin-large-bottom great-title">{{{__ "goodForTagline"}}}</div>
+	<h1 class="sub-section-header black uk-text-center uk-margin-large-bottom uk-padding-large-top event-sponsors-holder great-title">
+		{{{__ "industryday"}}}
+	</h1>
+		<div class="uk-margin-large-bottom great-title">{{{__ "industryTagline"}}}</div>
 		<div class="tcs-diagonal-top"></div>
 		<div class="tcs-boxes uk-grid good-for-tagline-details" data-uk-grid-margin="" data-uk-grid-match="{target:'&gt; div &gt; .uk-panel'}">
 			<div class="uk-width-1-1 uk-width-medium-1-2">
@@ -345,10 +326,46 @@
 				</div>
 			</div>
 		</div>
+		<div class="uk-grid">
+			<div class="uk-width-large-1-1 uk-width-small-1-1 uk-width-extra-small-1-1 uk-width-medium-1-1 flex-center uk-margin-large-bottom">
+			<a href="http://www.eatonhouse.com.hk" target="_blank"><img alt="eaton house" style="max-width:600px" src="/images/eaton_house.jpg"></a>
+			<h1>{{{__ "eaton_house"}}}</h1>
+			<h4>{{{__ "eaton_address"}}}</h4>
+			<h1>{{{__ "day_1"}}}</h1>
+			</div>
+		</div>
+		<div class="clear uk-text-center uk-container uk-container-center" style="max-width: 500px" style="text-decoration: none">
+			<a href="https://eventbrite.com" target="_blank" style="text-decoration: none">
+			<div class="co-organizer-text uk-margin-small-bottom" id="bookindustrynow" style="text-decoration: none;">
+			{{{__ "book_industry_now"}}}</div>
+			</a>
+		</div>
 	</div>
 </section>
 
-<hr>
+<section id="fanday">
+	<div class="uk-container uk-container-center uk-text-center">
+	<h1 class="sub-section-header uk-text-center uk-margin-large-bottom uk-padding-large-top event-sponsors-holder great-title">
+		<span style="color:white"> {{{__ "fanday"}}}</span>
+	</h1>
+		<div class="uk-margin-large-bottom great-title" style="color:white">{{{__ "fanTagline"}}}</div>
+		<div class="uk-grid" style="color:white">
+			<div class="uk-width-large-1-1 uk-width-small-1-1 uk-width-extra-small-1-1 uk-width-medium-1-1 flex-center uk-margin-large-bottom">
+			<a href="https://google.com.hk/maps" target="_blank"><img alt="hku" style="max-width:600px" src="/images/hkmap.jpg"></a>
+			<h1><span style="color:white">{{{__ "hku"}}}</span></h1>
+			<h4><span style="color:white">{{{__ "hku_address"}}}</span></h4>
+			<h1><span style="color:white">{{{__ "day_2"}}}</span></h1>
+			</div>
+		</div>
+		<div class="clear uk-text-center uk-container uk-container-center uk-margin-large-bottom" style="max-width: 500px" style="text-decoration: none">
+			<a href="https://eventbrite.com" target="_blank" style="text-decoration: none">
+			<div class="co-organizer-text uk-margin-small-bottom" id="bookfannow" style="text-decoration: none;">
+			{{{__ "book_fan_now"}}}</div>
+			</a>
+		</div>
+	</div>
+</section>
+
 
 <section class="uk-flex uk-flex-center uk-flex-middle uk-hidden-small" id="hong-kong" style="background-image: url('https://s3-ap-southeast-1.amazonaws.com/melonhk/hk_banner2_melonhk.jpg')">
 </section>
@@ -356,8 +373,6 @@
 <section class="uk-responsive-width uk-hidden-medium uk-hidden-large" style="max-width: 100vw">
 	<img src="/images/hk_skyline_small.jpg" alt="hong_kong_skyline">
 </section>
-
-
 
 
 <section class="sub clients">
@@ -442,7 +457,7 @@
 </div>
 
 
-<div id="industryday"class="uk-container-center uk-container uk-width-2-3">
+<div id="program" class="uk-container-center uk-container uk-width-2-3">
 <section class="tm-bottom-a uk-grid" data-uk-grid-margin="" data-uk-grid-match="{target:'&gt; div &gt; .uk-panel'}">
 		<div class="uk-text-center uk-container-center">
 			<h1 class="uk-text uk-text-center great-title">{{{__ "event_program"}}}</h1>

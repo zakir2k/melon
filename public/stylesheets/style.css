@@ -59,7 +59,7 @@
       background-color: transparent; }
 
 /* line 100, sass/module/_landing.scss */
-#section2 p {
+#industryday p {
   font-weight: 400;
   padding-top: 20px;
   letter-spacing: 1px;
@@ -68,11 +68,11 @@
   margin: 20px;
   padding-left: 35px; }
 /* line 113, sass/module/_landing.scss */
-#section2 li {
+#industryday li {
   list-style-type: none;
   color: #FFF; }
 /* line 120, sass/module/_landing.scss */
-#section2 h3 {
+#industryday h3 {
   margin: 20px;
   font-weight: 500;
   font-size: 50px;
@@ -80,39 +80,39 @@
   color: #2c3343;
   text-transform: none; }
 /* line 134, sass/module/_landing.scss */
-#section2 .uk-panel {
+#industryday .uk-panel {
   display: block;
   position: relative; }
 /* line 140, sass/module/_landing.scss */
-#section2 .uk-flex-middle {
+#industryday .uk-flex-middle {
   align-items: center; }
 /* line 144, sass/module/_landing.scss */
-#section2 .uk-overlay-scale {
+#industryday .uk-overlay-scale {
   transform: scale(1);
   transition-duration: 0.3s;
   transition-timing-function: ease-out;
   transition-property: opacity, transform, filter; }
 /* line 153, sass/module/_landing.scss */
-#section2 img {
+#industryday img {
   width: auto;
   height: 400px;
   padding-top: 10px;
   padding-bottom: 10px;
   margin: 15px; }
 /* line 163, sass/module/_landing.scss */
-#section2 .uk-width {
+#industryday .uk-width {
   padding-left: 0px !important; }
 /* line 176, sass/module/_landing.scss */
-#section2 .caption img {
+#industryday .caption img {
   max-width: 100%;
   height: auto;
   box-sizing: border-box; }
 /* line 183, sass/module/_landing.scss */
-#section2 .caption .uk-active {
+#industryday .caption .uk-active {
   padding-left: 10px;
   margin-top: 10px; }
 /* line 189, sass/module/_landing.scss */
-#section2 .caption li {
+#industryday .caption li {
   list-style-type: none;
   color: #FFF; }
 
@@ -376,7 +376,7 @@
     width: 600px; }
 
   /* line 564, sass/module/_landing.scss */
-  #section2 .uk-width-large-1-2 {
+  #industryday .uk-width-large-1-2 {
     padding-left: 0px !important; } }
 @media screen and (max-width: 768px) {
   /* line 578, sass/module/_landing.scss */
@@ -407,7 +407,7 @@
     line-height: 1; }
 
   /* line 621, sass/module/_landing.scss */
-  #section2 .uk-width-medium-1-1 {
+  #industryday .uk-width-medium-1-1 {
     padding-left: 0px !important; } }
 @media screen and (max-width: 480px) {
   /* line 630, sass/module/_landing.scss */
@@ -429,12 +429,12 @@
     line-height: 16px; }
 
   /* line 657, sass/module/_landing.scss */
-  #section2 h3 {
+  #industryday h3 {
     font-size: 40px;
     line-height: 50px;
     font-weight: 500; }
   /* line 663, sass/module/_landing.scss */
-  #section2 .uk-width-small-1-1 {
+  #industryday .uk-width-small-1-1 {
     padding-left: 0px !important; }
 
   /* line 677, sass/module/_landing.scss */
@@ -692,7 +692,7 @@ section#hong-kong{
   background-image: url(/images/parallax-top.jpg);
   background-attachment: fixed;
   border: none !important;
-  min-height: 250px;
+  min-height: 350px;
 }
 
 .mouse-icon {
@@ -819,7 +819,7 @@ p.#section1{
   font-weight: bold !important;
 }
 
-#section2{
+#industryday{
   color: #041b75 !important;
   font-family: 'Oswald', sans-serif !important;
 }
@@ -961,11 +961,9 @@ html.uk-notouch{
 #bookindustrynow{
   font-size: 40px !important;
   padding: 30px !important;
-  background-color: blue;
+  background-color: orange;
+  border-radius: 50px;
   color: white;
-  border: 3px double #240AFF !important;
-  border-top-color: #240AFF !important;
-  border-left-color: #240AFF !important;
 }
 
 #bookindustrynow:hover {
@@ -980,11 +978,9 @@ div#bookindustrynow{
 #bookfannow{
   font-size: 40px !important;
   padding: 30px !important;
-  background-color: orange;
+  border-radius: 50px;
+  background-color: blue;
   color: white;
-  border: 3px double red !important;
-  border-top-color: red !important;
-  border-left-color: red !important;
 }
 
 #bookfannow:hover {
@@ -1086,4 +1082,13 @@ a.tcs-logo{
   margin-left: auto;
   margin-right: auto;
   width: 20em
+}
+
+#fanday{
+  background-color: #1f2d3d;
+  color: white !important;
+}
+
+h1.#fanday{
+  color: white !important;
 }

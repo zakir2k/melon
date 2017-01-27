@@ -65,7 +65,7 @@
 	"speaker2_name": "Andrew Bannister",
 	"speaker2_title": "Author",
 	"speaker2_country": "UK",
-	"speaker2_picture": "speaker2_picture",
+	"speaker2_picture": "/images/speakers/andrew.jpg",
 	"speaker3_name": "Andy Tian",
 	"speaker3_title": "CEO, UP Live",
 	"speaker3_country": "China",
@@ -162,5 +162,11 @@
 	"dictionary": "dictionary",
 	"noun": "noun",
 	"definition": "definition",
-	"description": "description"
+	"description": "description",
+	"industry_date": "industry_date",
+	"fan_date": "fan_date",
+	"industryday": "industryday",
+	"industryTagline": "industryTagline",
+	"fanday": "fanday",
+	"fanTagline": "fanTagline"
 }
