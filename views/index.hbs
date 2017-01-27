@@ -3,10 +3,10 @@
 	    <div class="uk-container">
 	        <div class="uk-grid">
 	            <div class="uk-width-1-1">
-	                <nav class="uk-navbar-container uk-position-relative uk-navbar-left" uk-navbar style="min-height: 100px">
+	                <nav class="uk-navbar-container uk-position-relative uk-navbar-left" uk-navbar style="min-height: 80px">
 	                    <div class="uk-navbar-left">
 		                  	<a uk-scroll="{offset:130}" href="#home">
-		                    <img style="position:absolute; top:27px; left:50px; width:150px" class="logo-img" src="images/melon_logo2.png" width="80"/></a>
+		                    <img style="position:absolute; top:7px; left:20px; width:195px" class="logo-img" src="images/melon_logo2.png" width="80"/></a>
 	                    </div>
 
 	                    <div class="uk-navbar-center">
@@ -21,12 +21,12 @@
 
 	                    <div class="uk-navbar-right">
 		                    <div class="uk-navbar-item">
-		                        <span class="translations uk-visible@l">
+		                        <span class="translations uk-visible@m">
 			                   	  <a class="navbar-translate-text" href="/en">En</a>
 			                   	  <a class="navbar-translate-text" href="/zh">简</a>
 				          		  <a class="navbar-translate-text" href="/hk">繁</a>
 				          		</span>
-				          		<span class="translations-small uk-visible@s">
+				          		<span class="translations-small uk-hidden@m">
 			                   	  <a class="navbar-translate-text" href="/en">En</a>
 			                   	  <a class="navbar-translate-text" href="/zh">简</a>
 				          		  <a class="navbar-translate-text" href="/hk">繁</a>
@@ -34,9 +34,7 @@
 		                    </div>
 		          		</div>
 	                <a class="uk-navbar-toggle uk-navbar-right uk-hidden@l" uk-navbar-toggle-icon uk-toggle href="#mobile-nav"></a>
-	                </nav>
-	          </nav>
-	                <div id="mobile-nav" uk-offcanvas>
+				    <div id="mobile-nav" uk-offcanvas="flip:true">
 					    <div class="uk-offcanvas-bar uk-section">
 					        <ul class="uk-nav uk-nav-default" uk-nav>
 				              <li><a uk-scroll="{offset:130}" href="#speakers">{{{__ "menu_speakers"}}}</a></li>
@@ -47,6 +45,7 @@
 					        </ul>
 					    </div>
 					</div>
+	                </nav>
 	            </div>
 	        </div>
 	    </div>
@@ -58,10 +57,11 @@
 		<div class="uk-width-1-1@s uk-width-1-1@m uk-large-1-1 uk-width-xl-1-1">
 			<div class="uk-panel">
 				<div class="uk-slidenav-position uk-position-relative" data-uk-slideshow="{autoplay:true,autoplayInterval:9000}">
-					<ul class="uk-slideshow uk-slideshow-fullscreen uk-viewport-height" data-uk-slideshow="">
+
+					<ul class="rslides">
 
 						<li class="uk-active uk-responsive-height">
-							<div class="uk-background-cover uk-position-cover" style="background-image: url('https://s3-ap-southeast-1.amazonaws.com/melonhk/melon_1.jpg');top:-110px"></div>
+							<img src="https://s3-ap-southeast-1.amazonaws.com/melonhk/banner1_melonhk.jpg">
 
 							<div class="uk-overlay uk-flex uk-flex-left uk-flex-top uk-text-left uk-hidden@s">
 								<div class="uk-margin">
@@ -96,7 +96,7 @@
 						</li>
 
 						<li class="uk-responsive-height">
-							<div class="uk-background-cover uk-position-cover" style="background-image: url('https://s3-ap-southeast-1.amazonaws.com/melonhk/banner1_melonhk.jpg')"></div>
+							<img src="https://s3-ap-southeast-1.amazonaws.com/melonhk/banner2_melonhk.jpg">
 
 							<div class="uk-overlay uk-flex uk-flex-left uk-flex-top uk-text-left uk-hidden@s">
 								<div class="uk-margin">
@@ -132,7 +132,8 @@
 						</li>
 
 						<li>
-							<div class="uk-background-cover uk-position-cover" style="background-image: url('https://s3-ap-southeast-1.amazonaws.com/melonhk/banner2_melonhk.jpg')"></div>
+							<img src="https://s3-ap-southeast-1.amazonaws.com/melonhk/banner3_melonhk.jpg">
+
 							<div class="uk-overlay uk-flex uk-flex-center uk-flex-middle uk-text-center uk-hidden@s">
 								<div class="uk-margin">
 									<p class="slider-text banner-tagline-cursive-text">
@@ -193,17 +194,63 @@
 	        <br>{{{__ "speaker1_country"}}}
 			</div></div> -->
 
-			<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker2" uk-toggle><img src="{{{__ 'speaker2_picture'}}}"></a>
-			<div class="uk-margin-small-top"><b>{{{__ "speaker2_name"}}}</b>
-	        <br><span style="font-style: italic;">{{{__ "speaker2_title"}}}</span>	
-	        <br>{{{__ "speaker2_country"}}}
-			</div></div>
+			<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom">
+				<a href="#bio-speaker2" uk-toggle> 
+					<img src="{{{__ 'speaker2_picture'}}}">
+				</a>
+				<div class="uk-margin-small-top"><b>{{{__ "speaker2_name"}}}</b>
+		        	<br>
+		        	<span style="font-style: italic;">{{{__ "speaker2_title"}}}</span>	
+		        	<br>{{{__ "speaker2_country"}}}
+				</div>
+			</div>
+
+			<div id="bio-speaker2" uk-modal>
+			    <div class="uk-modal-dialog uk-modal-body">
+			        <a class="uk-modal-close-default" uk-close></a>
+			        
+			        <div class="uk-container">
+			        	<div class="uk-text-center"><img src="{{{__ 'speaker2_picture'}}}"/>
+			        	</div>
+			        	<div class="uk-text-center uk-margin-small-top">
+			        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker2_name"}}}</b></span>
+			        	<br>{{{__ "speaker2_title"}}}
+			        	<br>{{{__ "speaker2_country"}}}
+			        	</div>
+				        <p class="uk-hidden@l">
+				        {{{__ "speaker2_bio"}}}
+				 		</p>
+				        <p class="block-text uk-hidden@s">{{{__ "speaker2_bio"}}}</p>
+			 		</div>
+			    </div>
+			</div>
+
 
 			<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker3" uk-toggle><img src="{{{__ 'speaker3_picture'}}}"></a>
 			<div class="uk-margin-small-top"><b>{{{__ "speaker3_name"}}}</b>
 	        <br><span style="font-style: italic;">{{{__ "speaker3_title"}}}</span>	
 	        <br>{{{__ "speaker3_country"}}}
 			</div></div>
+
+			<div id="bio-speaker3" uk-modal>
+			    <div class="uk-modal-dialog uk-modal-body">
+			        <a class="uk-modal-close-default" uk-close></a>
+			        
+			        <div class="uk-container">
+			        	<div class="uk-text-center"><img src="{{{__ 'speaker3_picture'}}}"/></div>
+			        	<div class="uk-text-center uk-margin-small-top">
+			        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker3_name"}}}</b></span>
+			        	<br>{{{__ "speaker3_title"}}}
+			        	<br>{{{__ "speaker3_country"}}}
+			        	</div>
+				        <p class="uk-hidden@l">
+				        {{{__ "speaker3_bio"}}}
+				 		</p>
+				        <p class="block-text uk-hidden@s">{{{__ "speaker3_bio"}}}</p>
+			 		</div>
+			    </div>
+			</div>
+
 <!-- 			<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker4" uk-toggle><img src="{{{__ 'speaker4_picture'}}}"></a>
 			<div class="uk-margin-small-top"><b>{{{__ "speaker4_name"}}}</b>
 	        <br><span style="font-style: italic;">{{{__ "speaker4_title"}}}</span>	
@@ -215,11 +262,36 @@
 	        <br>{{{__ "speaker5_country"}}}
 			</div></div> -->
 
-			<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker6" uk-toggle><img src="{{{__ 'speaker6_picture'}}}"></a>
-			<div class="uk-margin-small-top"><b>{{{__ "speaker6_name"}}}</b>
-	        <br><span style="font-style: italic;">{{{__ "speaker6_title"}}}</span>
-	        <br>{{{__ "speaker6_country"}}}
-			</div></div>
+			<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom">
+				<!-- This is a button toggling the modal -->
+				<a href="#bio-speaker6" uk-toggle><img src="{{{__ 'speaker6_picture'}}}"></a>
+				<div class="uk-margin-small-top"><b>{{{__ "speaker6_name"}}}</b>
+			        <br><span style="font-style: italic;">{{{__ "speaker6_title"}}}</span>
+			        <br>{{{__ "speaker6_country"}}}
+				</div>
+			</div>
+
+			<div id="bio-speaker6" uk-modal="center: true">
+			     <div class="uk-modal-dialog uk-modal-body">
+		  			<button class="uk-modal-close-default" type="button" uk-close></button>
+			  		<div class="uk-modal-header">
+			            <h2 class="uk-modal-title uk-text-center">	<span style="font-size:20px; color: orange"><b>{{{__ "speaker6_name"}}}</b></span></h2>
+			        </div>
+			        <div class="uk-modal-body">
+			        	<div class="uk-text-center"><img src="{{{__ 'speaker6_picture'}}}"/></div>
+			        	<div class="uk-text-center uk-margin-small-top">
+				        	{{{__ "speaker6_title"}}}, {{{__ "speaker6_country"}}}
+					        <p class="uk-hidden@s">
+					        	{{{__ "speaker6_bio"}}}
+					 		</p>
+					        <p class="block-text uk-visible@l">
+					        	{{{__ "speaker6_bio"}}}
+					        </p>
+			        	</div>
+			 		</div>
+			    </div>
+			</div>
+
 
 			<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker7" uk-toggle><img src="{{{__ 'speaker7_picture'}}}"></a>
 			<div class="uk-margin-small-top"><b>{{{__ "speaker7_name"}}}</b>
@@ -227,11 +299,50 @@
 	        <br>{{{__ "speaker7_country"}}}
 			</div></div>
 
+			<div id="bio-speaker7" uk-modal>
+			    <div class="uk-modal-dialog uk-modal-body">
+			        <a class="uk-modal-close-default" uk-close></a>
+			        
+			        <div class="uk-container">
+			        	<div class="uk-text-center"><img src="{{{__ 'speaker7_picture'}}}"/></div>
+			        	<div class="uk-text-center uk-margin-small-top">
+			        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker7_name"}}}</b></span>
+			        	<br>{{{__ "speaker7_title"}}}
+			        	<br>{{{__ "speaker7_country"}}}
+			        	</div>
+				        <p class="uk-hidden@l">
+				        {{{__ "speaker7_bio"}}}
+				 		</p>
+				        <p class="block-text uk-hidden@s">{{{__ "speaker7_bio"}}}</p>
+			 		</div>
+			    </div>
+			</div>
+
+
 			<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker8" uk-toggle><img src="{{{__ 'speaker8_picture'}}}"></a>
 			<div class="uk-margin-small-top"><b>{{{__ "speaker8_name"}}}</b>
 	        <br><span style="font-style: italic;">{{{__ "speaker8_title"}}}</span>	
 	        <br>{{{__ "speaker8_country"}}}
 			</div></div>
+
+			<div id="bio-speaker8" uk-modal>
+			    <div class="uk-modal-dialog uk-modal-body">
+			        <a class="uk-modal-close-default" uk-close></a>
+			        
+			        <div class="uk-container">
+			        	<div class="uk-text-center"><img src="{{{__ 'speaker8_picture'}}}"/></div>
+			        	<div class="uk-text-center uk-margin-small-top">
+			        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker8_name"}}}</b></span>
+			        	<br>{{{__ "speaker8_title"}}}
+			        	<br>{{{__ "speaker8_country"}}}
+			        	</div>
+				        <p class="uk-hidden@l">
+				        {{{__ "speaker8_bio"}}}
+				 		</p>
+				        <p class="block-text uk-hidden@s">{{{__ "speaker8_bio"}}}</p>
+			 		</div>
+			    </div>
+			</div>
 
 	<!-- 		<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker9" uk-toggle><img src="{{{__ 'speaker9_picture'}}}"></a>
 			<div class="uk-margin-small-top"><b>{{{__ "speaker9_name"}}}</b>
@@ -245,11 +356,52 @@
 	        <br>{{{__ "speaker10_country"}}}
 			</div></div>
 
-<!-- 			<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker11" uk-toggle><img src="{{{__ 'speaker11_picture'}}}"></a>
-			<div class="uk-margin-small-top"><b>{{{__ "speaker11_name"}}}</b>
-	        <br><span style="font-style: italic;">{{{__ "speaker11_title"}}}</span>	
-	        <br>{{{__ "speaker11_country"}}}
-			</div></div> -->
+			<div id="bio-speaker10" uk-modal>
+			    <div class="uk-modal-dialog uk-modal-body">
+			        <a class="uk-modal-close-default" uk-close></a>
+			        
+			        <div class="uk-container">
+			        	<div class="uk-text-center"><img src="{{{__ 'speaker10_picture'}}}"/></div>
+			        	<div class="uk-text-center uk-margin-small-top">
+			        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker10_name"}}}</b></span>
+			        	<br>{{{__ "speaker10_title"}}}
+			        	<br>{{{__ "speaker10_country"}}}
+			        	</div>
+				        <p class="uk-hidden@l">
+				        {{{__ "speaker10_bio"}}}
+				 		</p>
+				        <p class="block-text uk-hidden@s">{{{__ "speaker10_bio"}}}</p>
+			 		</div>
+			    </div>
+			</div>
+
+
+			<!-- <div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker11" uk-toggle><img src="{{{__ 'speaker11_picture'}}}"></a>
+						<div class="uk-margin-small-top"><b>{{{__ "speaker11_name"}}}</b>
+				        <br><span style="font-style: italic;">{{{__ "speaker11_title"}}}</span>	
+				        <br>{{{__ "speaker11_country"}}}
+						</div></div> -->
+
+
+			<div id="bio-speaker11" uk-modal>
+			    <div class="uk-modal-dialog uk-modal-body">
+			        <a class="uk-modal-close-default" uk-close></a>
+			        
+			        <div class="uk-container">
+			        	<div class="uk-text-center"><img src="{{{__ 'speaker11_picture'}}}"/></div>
+			        	<div class="uk-text-center uk-margin-small-top">
+			        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker11_name"}}}</b></span>
+			        	<br>{{{__ "speaker11_title"}}}
+			        	<br>{{{__ "speaker11_country"}}}
+			        	</div>
+				        <p class="uk-hidden@l">
+				        {{{__ "speaker11_bio"}}}
+				 		</p>
+				        <p class="block-text uk-hidden@s">{{{__ "speaker11_bio"}}}</p>
+			 		</div>
+			    </div>
+			</div>
+
 
 			<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker12" uk-toggle><img src="{{{__ 'speaker12_picture'}}}"></a>
 			<div class="uk-margin-small-top"><b>{{{__ "speaker12_name"}}}</b>
@@ -257,11 +409,51 @@
 	        <br>{{{__ "speaker12_country"}}}
 			</div></div>
 
+
+			<div id="bio-speaker12" uk-modal>
+			    <div class="uk-modal-dialog uk-modal-body">
+			        <a class="uk-modal-close-default" uk-close></a>
+			        
+			        <div class="uk-container">
+			        	<div class="uk-text-center"><img src="{{{__ 'speaker12_picture'}}}"/></div>
+			        	<div class="uk-text-center uk-margin-small-top">
+			        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker12_name"}}}</b></span>
+			        	<br>{{{__ "speaker12_title"}}}
+			        	<br>{{{__ "speaker12_country"}}}
+			        	</div>
+				        <p class="uk-hidden@l">
+				        {{{__ "speaker12_bio"}}}
+				 		</p>
+				        <p class="block-text uk-hidden@s">{{{__ "speaker12_bio"}}}</p>
+			 		</div>
+			    </div>
+			</div>
+
+
 			<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker13" uk-toggle><img src="{{{__ 'speaker13_picture'}}}"></a>
 			<div class="uk-margin-small-top"><b>{{{__ "speaker13_name"}}}</b>
 	        <br><span style="font-style: italic;">{{{__ "speaker13_title"}}}</span>	
 	        <br>{{{__ "speaker13_country"}}}
 			</div></div>
+
+			<div id="bio-speaker13" uk-modal>
+			    <div class="uk-modal-dialog uk-modal-body">
+			        <a class="uk-modal-close-default" uk-close></a>
+			        
+			        <div class="uk-container">
+			        	<div class="uk-text-center"><img src="{{{__ 'speaker13_picture'}}}"/></div>
+			        	<div class="uk-text-center uk-margin-small-top">
+			        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker13_name"}}}</b></span>
+			        	<br>{{{__ "speaker13_title"}}}
+			        	<br>{{{__ "speaker13_country"}}}
+			        	</div>
+				        <p class="uk-hidden@l">
+				        {{{__ "speaker13_bio"}}}
+				 		</p>
+				        <p class="block-text uk-hidden@s">{{{__ "speaker13_bio"}}}</p>
+			 		</div>
+			    </div>
+			</div>
 
 			<!-- <div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker14" uk-toggle><img src="{{{__ 'speaker14_picture'}}}"></a>
 			<div class="uk-margin-small-top"><b>{{{__ "speaker14_name"}}}</b>
@@ -340,7 +532,7 @@
 		<div class="uk-grid">
 			<div class="uk-width-1-1@l uk-width-1-1@s uk-width-extra-small-1-1 uk-width-1-1@m flex-center uk-margin-large-bottom">
 			<div><a href="http://www.eatonhouse.com.hk" target="_blank">
-				<img alt="eaton house" style="width:500px; max-width:90vw" class="uk-responsive-height" src="/images/eaton_house.jpg"></a>\
+				<img alt="eaton house" style="width:500px; max-width:90vw" class="uk-responsive-height" src="/images/eaton_house.jpg"></a>
 			</div>
 			<h1>{{{__ "eaton_house"}}}</h1>
 			<h4>{{{__ "eaton_address"}}}</h4>
@@ -355,6 +547,7 @@
 		</div>
 	</div>
 </section>
+
 
 <section id="fanday">
 	<div class="uk-container uk-text-center">
@@ -408,19 +601,18 @@
 <hr>
 
 <section class="banner-profile">
-	<div class="uk-grid uk-grid-small uk-grid-medium uk-grid-large uk-grid		<div class="uk-width-1-1@s uk-width-meduim-1-1 uk-width-1-1@l uk-width-xl-1-1">
-			<article class="uk-article">
-				<div class="uk-text-center">
-					<h1 class="event-organizer great-title">{{{__ "organizers"}}}</h1>
-				</div>
-			</article>
+	<div class="uk-grid uk-grid-small uk-grid-medium uk-grid-large uk-grid">
+		<div class="uk-width-1-1@s uk-width-meduim-1-1 uk-width-1-1@l uk-width-xl-1-1">
+			<h2 class="sub-section-header black uk-text-center uk-margin-large-bottom uk-padding-large-top great-title">
+				{{{__ "organizers"}}}
+			</h2>
 		</div>
 	</div>
 	<div class="uk-grid">
 		<div class="uk-width-1-2@l uk-width-1-1@s uk-margin-large-bottom">
 			<div class="uk-grid">
 				<div class="uk-width-1-3@l uk-width-1-1@s uk-text-center">
-					<div><img src="images/Fritz.png"></div>
+					<div><img class="uk-border-rounded" src="images/Fritz.png"></div>
 				</div>
 				<div class="uk-width-2-3@l uk-width-1-1@s">
 					<p class="uk-text-center bio-title co-organizer-text">{{{__ "fritz_name"}}}</p>
@@ -433,7 +625,7 @@
 		<div class="uk-width-1-2@l uk-width-1-1@s">
 			<div class="uk-grid">
 				<div class="uk-width-1-3@l uk-width-1-1@s uk-text-center">
-					<div><img src="images/Siew.png"></div>
+					<div><img class="uk-border-rounded" src="images/Siew.png"></div>
 				</div>
 				<div class="uk-width-2-3@l uk-width-1-1@s">
 					<p class="uk-text-center bio-title co-organizer-text">{{{__ "siew_name"}}}</p>
@@ -470,17 +662,18 @@
 </div>
 
 
-<div id="program" class= uk-container uk-width-2-3">
-<section class="tm-bottom-a uk-grid" uk-grid uk-height-match>
-		<div class="uk-text-center">
-			<h1 class="uk-text uk-text-center great-title">{{{__ "event_program"}}}</h1>
-		</div>
+<h2 class="sub-section-header black uk-text-center uk-margin-large-bottom uk-padding-large-top great-title">
+	{{{__ "event_program"}}}
+</h2>
+
+<div id="program" class="uk-container uk-width-2-3">
+<section class="tm-bottom-a uk-container" uk-grid uk-height-match>
 		<div class="uk-width-1-1 uk-row-first">
 			<div class="uk-panel">
 				<div class="tm-event">
 					<div class="uk-flex uk-flex-between">
 						<div class="tm-event-nav uk-flex uk-flex-right">
-							<ul class="uk-subnav" uk-switcher="{connect: '#wk-746', animation: 'fade'}">
+							<ul uk-tab="connect: #agenda" uk-switcher="animation: uk-animation-fade">
 								<li aria-expanded="true" class="uk-active">
 									<a href="" style="font-size: 2em">{{{__ "program_day1"}}} &nbsp;&nbsp;&nbsp;</a>
 								</li>
@@ -490,7 +683,7 @@
 							</ul>
 						</div>
 					</div>
-					<ul class="uk-switcher" id="wk-746">
+					<ul class="uk-switcher" id="agenda">
 						<li aria-hidden="true" class="" style="animation-duration: 200ms;">
 							<div class="uk-grid uk-grid-collapse uk-width-1-1">
 								<div class="uk-width-1-3@m">
@@ -617,45 +810,6 @@
 	    </div>
 	</div>
 
-	<div id="bio-speaker2" uk-modal>
-	    <div class="uk-modal-body">
-	        <a class="uk-modal-close-default" uk-close></a>
-	        
-	        <div class="uk-container">
-	        	<div class="uk-text-center"><img src="{{{__ 'speaker2_picture'}}}"/>
-	        	</div>
-	        	<div class="uk-text-center uk-margin-small-top">
-	        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker2_name"}}}</b></span>
-	        	<br>{{{__ "speaker2_title"}}}
-	        	<br>{{{__ "speaker2_country"}}}
-	        	</div>
-		        <p class="uk-hidden@l">
-		        {{{__ "speaker2_bio"}}}
-		 		</p>
-		        <p class="block-text uk-hidden@s">{{{__ "speaker2_bio"}}}</p>
-	 		</div>
-	    </div>
-	</div>
-
-	<div id="bio-speaker3" uk-modal>
-	    <div class="uk-modal-body">
-	        <a class="uk-modal-close-default" uk-close></a>
-	        
-	        <div class="uk-container">
-	        	<div class="uk-text-center"><img src="{{{__ 'speaker3_picture'}}}"/></div>
-	        	<div class="uk-text-center uk-margin-small-top">
-	        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker3_name"}}}</b></span>
-	        	<br>{{{__ "speaker3_title"}}}
-	        	<br>{{{__ "speaker3_country"}}}
-	        	</div>
-		        <p class="uk-hidden@l">
-		        {{{__ "speaker3_bio"}}}
-		 		</p>
-		        <p class="block-text uk-hidden@s">{{{__ "speaker3_bio"}}}</p>
-	 		</div>
-	    </div>
-	</div>
-
 	<div id="bio-speaker4" uk-modal>
 	    <div class="uk-modal-body">
 	        <a class="uk-modal-close-default" uk-close></a>
@@ -694,62 +848,6 @@
 	    </div>
 	</div>
 
-	<div id="bio-speaker6" uk-modal>
-	    <div class="uk-modal-body">
-	        <a class="uk-modal-close-default" uk-close></a>
-	        <div class="uk-container">
-	        	<div class="uk-text-center"><img src="{{{__ 'speaker6_picture'}}}"/></div>
-	        	
-	        	<div class="uk-text-center uk-margin-small-top">
-	        		<span style="font-size:20px; color: orange"><b>{{{__ "speaker6_name"}}}</b></span>
-		        	<br>{{{__ "speaker6_title"}}}
-		        	<br>{{{__ "speaker6_country"}}}
-	        	</div>
-		        <p class="uk-hidden@l">
-		        {{{__ "speaker6_bio"}}}
-		 		</p>
-		        <p class="block-text uk-hidden@s">{{{__ "speaker6_bio"}}}</p>
-	 		</div>
-	    </div>
-	</div>
-
-	<div id="bio-speaker7" uk-modal>
-	    <div class="uk-modal-body">
-	        <a class="uk-modal-close-default" uk-close></a>
-	        
-	        <div class="uk-container">
-	        	<div class="uk-text-center"><img src="{{{__ 'speaker7_picture'}}}"/></div>
-	        	<div class="uk-text-center uk-margin-small-top">
-	        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker7_name"}}}</b></span>
-	        	<br>{{{__ "speaker7_title"}}}
-	        	<br>{{{__ "speaker7_country"}}}
-	        	</div>
-		        <p class="uk-hidden@l">
-		        {{{__ "speaker7_bio"}}}
-		 		</p>
-		        <p class="block-text uk-hidden@s">{{{__ "speaker7_bio"}}}</p>
-	 		</div>
-	    </div>
-	</div>
-
-	<div id="bio-speaker8" uk-modal>
-	    <div class="uk-modal-body">
-	        <a class="uk-modal-close-default" uk-close></a>
-	        
-	        <div class="uk-container">
-	        	<div class="uk-text-center"><img src="{{{__ 'speaker8_picture'}}}"/></div>
-	        	<div class="uk-text-center uk-margin-small-top">
-	        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker8_name"}}}</b></span>
-	        	<br>{{{__ "speaker8_title"}}}
-	        	<br>{{{__ "speaker8_country"}}}
-	        	</div>
-		        <p class="uk-hidden@l">
-		        {{{__ "speaker8_bio"}}}
-		 		</p>
-		        <p class="block-text uk-hidden@s">{{{__ "speaker8_bio"}}}</p>
-	 		</div>
-	    </div>
-	</div>
 
 	<div id="bio-speaker9" uk-modal>
 	    <div class="uk-modal-body">
@@ -766,82 +864,6 @@
 		        {{{__ "speaker9_bio"}}}
 		 		</p>
 		        <p class="block-text uk-hidden@s">{{{__ "speaker9_bio"}}}</p>
-	 		</div>
-	    </div>
-	</div>
-
-	<div id="bio-speaker10" uk-modal>
-	    <div class="uk-modal-body">
-	        <a class="uk-modal-close-default" uk-close></a>
-	        
-	        <div class="uk-container">
-	        	<div class="uk-text-center"><img src="{{{__ 'speaker10_picture'}}}"/></div>
-	        	<div class="uk-text-center uk-margin-small-top">
-	        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker10_name"}}}</b></span>
-	        	<br>{{{__ "speaker10_title"}}}
-	        	<br>{{{__ "speaker10_country"}}}
-	        	</div>
-		        <p class="uk-hidden@l">
-		        {{{__ "speaker10_bio"}}}
-		 		</p>
-		        <p class="block-text uk-hidden@s">{{{__ "speaker10_bio"}}}</p>
-	 		</div>
-	    </div>
-	</div>
-
-	<div id="bio-speaker11" uk-modal>
-	    <div class="uk-modal-body">
-	        <a class="uk-modal-close-default" uk-close></a>
-	        
-	        <div class="uk-container">
-	        	<div class="uk-text-center"><img src="{{{__ 'speaker11_picture'}}}"/></div>
-	        	<div class="uk-text-center uk-margin-small-top">
-	        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker11_name"}}}</b></span>
-	        	<br>{{{__ "speaker11_title"}}}
-	        	<br>{{{__ "speaker11_country"}}}
-	        	</div>
-		        <p class="uk-hidden@l">
-		        {{{__ "speaker11_bio"}}}
-		 		</p>
-		        <p class="block-text uk-hidden@s">{{{__ "speaker11_bio"}}}</p>
-	 		</div>
-	    </div>
-	</div>
-
-	<div id="bio-speaker12" uk-modal>
-	    <div class="uk-modal-body">
-	        <a class="uk-modal-close-default" uk-close></a>
-	        
-	        <div class="uk-container">
-	        	<div class="uk-text-center"><img src="{{{__ 'speaker12_picture'}}}"/></div>
-	        	<div class="uk-text-center uk-margin-small-top">
-	        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker12_name"}}}</b></span>
-	        	<br>{{{__ "speaker12_title"}}}
-	        	<br>{{{__ "speaker12_country"}}}
-	        	</div>
-		        <p class="uk-hidden@l">
-		        {{{__ "speaker12_bio"}}}
-		 		</p>
-		        <p class="block-text uk-hidden@s">{{{__ "speaker12_bio"}}}</p>
-	 		</div>
-	    </div>
-	</div>
-
-	<div id="bio-speaker13" uk-modal>
-	    <div class="uk-modal-body">
-	        <a class="uk-modal-close-default" uk-close></a>
-	        
-	        <div class="uk-container">
-	        	<div class="uk-text-center"><img src="{{{__ 'speaker13_picture'}}}"/></div>
-	        	<div class="uk-text-center uk-margin-small-top">
-	        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker13_name"}}}</b></span>
-	        	<br>{{{__ "speaker13_title"}}}
-	        	<br>{{{__ "speaker13_country"}}}
-	        	</div>
-		        <p class="uk-hidden@l">
-		        {{{__ "speaker13_bio"}}}
-		 		</p>
-		        <p class="block-text uk-hidden@s">{{{__ "speaker13_bio"}}}</p>
 	 		</div>
 	    </div>
 	</div>
@@ -951,7 +973,15 @@
 	 });
 	</script>
 
-<!-- 	<script src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js' type='text/javascript'></script> -->
+	<script type='text/javascript'>
+	  $(function($) {
+	    $(".rslides").responsiveSlides({
+		  auto: true,             // Boolean: Animate automatically, true or false
+		  speed: 500,             // Integer: Speed of the transition, in milliseconds
+		  timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+		});
+	  }(jQuery));
+	</script>
 
 	<script type='text/javascript'>
 	(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);
