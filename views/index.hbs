@@ -6,7 +6,8 @@
 	                <nav class="uk-navbar-container uk-position-relative uk-navbar-left" uk-navbar style="min-height: 80px">
 	                    <div class="uk-navbar-left">
 		                  	<a uk-scroll="{offset:130}" href="#home">
-		                    <img style="position:absolute; top:7px; left:20px; width:195px" class="logo-img" src="images/melon_logo2.png" width="80"/></a>
+		                    <img style="position:absolute; top:7px; left:20px; width:195px" class="logo-img uk-visible@m" src="images/melon_logo2.png" width="80"/>
+		                    <img style="position:absolute; top:10px; width:170px" class="logo-img uk-hidden@m" src="images/melon_logo2.png" width="80"/></a>
 	                    </div>
 
 	                    <div class="uk-navbar-center">
@@ -37,11 +38,11 @@
 				    <div id="mobile-nav" uk-offcanvas="flip:true">
 					    <div class="uk-offcanvas-bar uk-section">
 					        <ul class="uk-nav uk-nav-default" uk-nav>
-				              <li><a uk-scroll="{offset:130}" href="#speakers">{{{__ "menu_speakers"}}}</a></li>
-				              <li><a uk-scroll="{offset:130}" href="#industryday">{{{__ "menu_industry"}}}</a></li>
-				              <li><a uk-scroll="{offset:130}" href="#fanday">{{{__ "menu_fan_day"}}}</a></li>
-				              <li><a uk-scroll="{offset:130}" href="#tickets">{{{__ "menu_tickets"}}}</a></li>
-				              <li><a uk-scroll="{offset:130}" href="#news">{{{__ "menu_news"}}}</a></li>
+				              <li><a class="canvas-close" uk-scroll="{offset:130}" href="#speakers">{{{__ "menu_speakers"}}}</a></li>
+				              <li><a class="canvas-close" uk-scroll="{offset:130}" href="#industryday">{{{__ "menu_industry"}}}</a></li>
+				              <li><a class="canvas-close" uk-scroll="{offset:130}" href="#fanday">{{{__ "menu_fan_day"}}}</a></li>
+				              <li><a class="canvas-close" uk-scroll="{offset:130}" href="#tickets">{{{__ "menu_tickets"}}}</a></li>
+				              <li><a class="canvas-close" uk-scroll="{offset:130}" href="#news">{{{__ "menu_news"}}}</a></li>
 					        </ul>
 					    </div>
 					</div>
@@ -52,7 +53,76 @@
 	</div>
 </header>
 
-<section id="section1">
+
+<section>
+	<div class="slideshow-container">
+	  <div class="mySlides fade">
+	    <div class="numbertext">
+		    <div class="uk-visible@m">Melon Industry Day will bring together Asia's best Science Fiction writers, filmmakers, game developers, technologists and investors.</div>
+
+		    <div class="slider-text-small uk-hidden@m">
+		    	Melon Industry Day will bring together Asia's best Science Fiction writers, filmmakers, game developers, technologists and investors.	
+		    </div>
+	    </div>
+
+	    <img src="https://s3-ap-southeast-1.amazonaws.com/melonhk/melon1.jpg" style="width:100%">
+		<div class="datetext uk-visible@m">
+			{{{__ "industry_date"}}}<br>
+			{{{__ "hong_kong"}}}</p>
+		</div>
+	  </div>
+
+	  <div class="mySlides fade">
+	    <div class="numbertext">
+		    <div class="uk-visible@m">
+		    	Melon Fan Day will bring together the best Sci-Fi Fans with Asia's Best Authors and Fiction Writers.
+		    </div>
+		    <div class="slider-text-small uk-hidden@m">
+		    	Melon Fan Day will bring together the best Sci-Fi Fans with Asia's Best Authors and Fiction Writers.
+		    </div>
+		</div>
+
+	    <img src="https://s3-ap-southeast-1.amazonaws.com/melonhk/melon2.jpg" style="width:100%">
+		<div class="datetext uk-visible@m">
+			{{{__ "fan_date"}}}<br>
+			{{{__ "hong_kong"}}}</p>
+		</div>
+	  </div>
+
+	  <div class="mySlides fade">
+	    <div class="quotetext">
+			<div class="uk-overlay uk-flex uk-flex-center uk-flex-middle uk-text-center uk-visible@m">
+				<div class="uk-margin">
+					<p class="slider-text banner-tagline-cursive-text">
+					{{{__ "paulKrugmanQuote"}}}<br>
+					<br>
+					- Paul Krugman</p>
+				</div>
+			</div>
+			<div style="padding:0" class="uk-overlay uk-flex uk-flex-center uk-flex-middle uk-text-center uk-hidden@m">
+				<div class="uk-margin tagline-holder-small-screen">
+					<p class="slider-text-small">
+					<br>
+					{{{__ "paulKrugmanQuote"}}}<br>
+					<br>
+					- Paul Krugman</p>
+				</div>
+			</div>
+	    </div>
+	    <img src="https://s3-ap-southeast-1.amazonaws.com/melonhk/melon3.jpg" style="width:100%">
+	  </div>
+
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+	<div class="mouse-icon uk-visible@m">
+		<div class="scroll"></div>
+	</div>
+
+	</div>
+</section>
+
+<!-- <section id="section1">
 	<div class="uk-section-muted">
 		<div class="uk-width-1-1@s uk-width-1-1@m uk-large-1-1 uk-width-xl-1-1">
 			<div class="uk-panel">
@@ -169,16 +239,23 @@
 			<div class="scroll"></div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 <div style="height: 5px"></div>
 
 <section id="melon" class="uk-flex-center uk-text-center uk-margin-large-bottom">
-	<h1 class="uk-text-center uk-padding-large-top uk-text-center">
+	<h1 class="uk-text-center uk-padding-large-top uk-text-center uk-visible@m">
 		<div class="uk-margin-large-top" style="font-size: 2em; line-height: 1em;">{{{__ "melon"}}}</div>
 		<div style="font-size: 1.5em; line-height: 1em;">{{{__ "dictionary"}}}</div>
 		<i>{{{__ "noun"}}}</i><br>
 		<div style="font-size: 1em; line-height: 1em; max-width: 75vw; margin-left: 12.5vw">{{{__ "description"}}}</div>
+	</h1>
+
+	<h1 class="uk-text-center uk-padding-large-top uk-text-center uk-hidden@m">
+		<div class="uk-margin-large-top" style="font-size: 2rem; line-height: 2rem;">{{{__ "melon"}}}</div>
+		<div style="font-size: 1.5rem; line-height: 1.5rem;">{{{__ "dictionary"}}}</div>
+		<div style="font-size: 1.5rem; line-height: 1.5rem;"><i>{{{__ "noun"}}}</i></div>
+		<div style="font-size: 1rem; line-height: 1.2rem; max-width: 75vw; margin-left: 12.5vw">{{{__ "description"}}}</div>
 	</h1>
 </section>
 
@@ -188,82 +265,163 @@
 	<div class="uk-container uk-text-center">
 		<div class="uk-margin-large-bottom great-title">{{{__ "speakers"}}}</div>
 		<div class="uk-grid uk-grid-small">
-<!-- 			<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker1" uk-toggle><img src="{{{__ 'speaker1_picture'}}}"></a>
-			<div class="uk-margin-small-top"><b>{{{__ "speaker1_name"}}}</b>
-	        <br><span style="font-style: italic;"></span><span style="font-style: italic;">{{{__ "speaker1_title"}}}</span>	
-	        <br>{{{__ "speaker1_country"}}}
-			</div></div> -->
 
-			<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom">
-				<a href="#bio-speaker2" uk-toggle> 
-					<img src="{{{__ 'speaker2_picture'}}}">
-				</a>
-				<div class="uk-margin-small-top"><b>{{{__ "speaker2_name"}}}</b>
-		        	<br>
-		        	<span style="font-style: italic;">{{{__ "speaker2_title"}}}</span>	
-		        	<br>{{{__ "speaker2_country"}}}
+<!-- 			<div class="uk-width-1-2@s uk-width-1-4@m flex-center uk-margin-large-bottom">
+				<a href="#bio-speaker1" uk-toggle><img src="{{{__ 'speaker1_picture'}}}"></a>
+				<div class="uk-margin-small-top"><b>{{{__ "speaker1_name"}}}</b>
+			        <br><span style="font-style: italic;">{{{__ "speaker1_title"}}}</span>
+			        <br>{{{__ "speaker1_country"}}}
 				</div>
 			</div>
 
-			<div id="bio-speaker2" uk-modal>
-			    <div class="uk-modal-dialog uk-modal-body">
-			        <a class="uk-modal-close-default" uk-close></a>
-			        
-			        <div class="uk-container">
-			        	<div class="uk-text-center"><img src="{{{__ 'speaker2_picture'}}}"/>
-			        	</div>
+			<div id="bio-speaker1" uk-modal="center: true">
+			     <div class="uk-modal-dialog uk-modal-body">
+		  			<button class="uk-modal-close-default" type="button" uk-close></button>
+			  		<div class="uk-modal-header">
+			            <h2 class="uk-modal-title uk-text-center">	<span style="font-size:24px; color: orange"><b>{{{__ "speaker1_name"}}}</b></span></h2>
+			        </div>
+			        <div class="uk-modal-body">
+			        	<div class="uk-text-center"><img src="{{{__ 'speaker1_picture'}}}"/></div>
 			        	<div class="uk-text-center uk-margin-small-top">
-			        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker2_name"}}}</b></span>
-			        	<br>{{{__ "speaker2_title"}}}
-			        	<br>{{{__ "speaker2_country"}}}
+				        	{{{__ "speaker1_title"}}}, {{{__ "speaker1_country"}}}
+				        </div>
+					    <div class="uk-margin-small-top">    
+					        <p class="uk-hidden@s">
+					        	{{{__ "speaker1_bio"}}}
+					 		</p>
+					        <p class="block-text uk-visible@l">
+					        	{{{__ "speaker1_bio"}}}
+					        </p>
 			        	</div>
-				        <p class="uk-hidden@l">
-				        {{{__ "speaker2_bio"}}}
-				 		</p>
-				        <p class="block-text uk-hidden@s">{{{__ "speaker2_bio"}}}</p>
+			 		</div>
+			    </div>
+			</div> -->
+
+			<div class="uk-width-1-2@s uk-width-1-4@m flex-center uk-margin-large-bottom">
+				<a href="#bio-speaker2" uk-toggle><img src="{{{__ 'speaker2_picture'}}}"></a>
+				<div class="uk-margin-small-top"><b>{{{__ "speaker2_name"}}}</b>
+			        <br><span style="font-style: italic;">{{{__ "speaker2_title"}}}</span>
+			        <br>{{{__ "speaker2_country"}}}
+				</div>
+			</div>
+
+			<div id="bio-speaker2" uk-modal="center: true">
+			     <div class="uk-modal-dialog uk-modal-body">
+		  			<button class="uk-modal-close-default" type="button" uk-close></button>
+			  		<div class="uk-modal-header">
+			            <h2 class="uk-modal-title uk-text-center">	<span style="font-size:24px; color: orange"><b>{{{__ "speaker2_name"}}}</b></span></h2>
+			        </div>
+			        <div class="uk-modal-body">
+			        	<div class="uk-text-center"><img src="{{{__ 'speaker2_picture'}}}"/></div>
+			        	<div class="uk-text-center uk-margin-small-top">
+				        	{{{__ "speaker2_title"}}}, {{{__ "speaker2_country"}}}
+				        </div>
+					    <div class="uk-margin-small-top">    
+					        <p class="uk-hidden@s">
+					        	{{{__ "speaker2_bio"}}}
+					 		</p>
+					        <p class="block-text uk-visible@l">
+					        	{{{__ "speaker2_bio"}}}
+					        </p>
+			        	</div>
 			 		</div>
 			    </div>
 			</div>
 
+			<div class="uk-width-1-2@s uk-width-1-4@m flex-center uk-margin-large-bottom">
+				<a href="#bio-speaker3" uk-toggle><img src="{{{__ 'speaker3_picture'}}}"></a>
+				<div class="uk-margin-small-top"><b>{{{__ "speaker3_name"}}}</b>
+			        <br><span style="font-style: italic;">{{{__ "speaker3_title"}}}</span>
+			        <br>{{{__ "speaker3_country"}}}
+				</div>
+			</div>
 
-			<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker3" uk-toggle><img src="{{{__ 'speaker3_picture'}}}"></a>
-			<div class="uk-margin-small-top"><b>{{{__ "speaker3_name"}}}</b>
-	        <br><span style="font-style: italic;">{{{__ "speaker3_title"}}}</span>	
-	        <br>{{{__ "speaker3_country"}}}
-			</div></div>
-
-			<div id="bio-speaker3" uk-modal>
-			    <div class="uk-modal-dialog uk-modal-body">
-			        <a class="uk-modal-close-default" uk-close></a>
-			        
-			        <div class="uk-container">
+			<div id="bio-speaker3" uk-modal="center: true">
+			     <div class="uk-modal-dialog uk-modal-body">
+		  			<button class="uk-modal-close-default" type="button" uk-close></button>
+			  		<div class="uk-modal-header">
+			            <h2 class="uk-modal-title uk-text-center">	<span style="font-size:24px; color: orange"><b>{{{__ "speaker3_name"}}}</b></span></h2>
+			        </div>
+			        <div class="uk-modal-body">
 			        	<div class="uk-text-center"><img src="{{{__ 'speaker3_picture'}}}"/></div>
 			        	<div class="uk-text-center uk-margin-small-top">
-			        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker3_name"}}}</b></span>
-			        	<br>{{{__ "speaker3_title"}}}
-			        	<br>{{{__ "speaker3_country"}}}
+				        	{{{__ "speaker3_title"}}}, {{{__ "speaker3_country"}}}
+				        </div>
+					    <div class="uk-margin-small-top">    
+					        <p class="uk-hidden@s">
+					        	{{{__ "speaker3_bio"}}}
+					 		</p>
+					        <p class="block-text uk-visible@l">
+					        	{{{__ "speaker3_bio"}}}
+					        </p>
 			        	</div>
-				        <p class="uk-hidden@l">
-				        {{{__ "speaker3_bio"}}}
-				 		</p>
-				        <p class="block-text uk-hidden@s">{{{__ "speaker3_bio"}}}</p>
 			 		</div>
 			    </div>
 			</div>
 
-<!-- 			<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker4" uk-toggle><img src="{{{__ 'speaker4_picture'}}}"></a>
-			<div class="uk-margin-small-top"><b>{{{__ "speaker4_name"}}}</b>
-	        <br><span style="font-style: italic;">{{{__ "speaker4_title"}}}</span>	
-	        <br>{{{__ "speaker4_country"}}}
-			</div></div>
-			<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker5" uk-toggle><img src="{{{__ 'speaker5_picture'}}}"></a>
-			<div class="uk-margin-small-top"><b>{{{__ "speaker5_name"}}}</b>
-	        <br><span style="font-style: italic;">{{{__ "speaker5_title"}}}</span>	
-	        <br>{{{__ "speaker5_country"}}}
-			</div></div> -->
+<!-- 			<div class="uk-width-1-2@s uk-width-1-4@m flex-center uk-margin-large-bottom">
+				<a href="#bio-speaker4" uk-toggle><img src="{{{__ 'speaker4_picture'}}}"></a>
+				<div class="uk-margin-small-top"><b>{{{__ "speaker4_name"}}}</b>
+			        <br><span style="font-style: italic;">{{{__ "speaker4_title"}}}</span>
+			        <br>{{{__ "speaker4_country"}}}
+				</div>
+			</div>
 
-			<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom">
-				<!-- This is a button toggling the modal -->
+			<div id="bio-speaker4" uk-modal="center: true">
+			     <div class="uk-modal-dialog uk-modal-body">
+		  			<button class="uk-modal-close-default" type="button" uk-close></button>
+			  		<div class="uk-modal-header">
+			            <h2 class="uk-modal-title uk-text-center">	<span style="font-size:24px; color: orange"><b>{{{__ "speaker4_name"}}}</b></span></h2>
+			        </div>
+			        <div class="uk-modal-body">
+			        	<div class="uk-text-center"><img src="{{{__ 'speaker4_picture'}}}"/></div>
+			        	<div class="uk-text-center uk-margin-small-top">
+				        	{{{__ "speaker4_title"}}}, {{{__ "speaker4_country"}}}
+				        </div>
+					    <div class="uk-margin-small-top">    
+					        <p class="uk-hidden@s">
+					        	{{{__ "speaker4_bio"}}}
+					 		</p>
+					        <p class="block-text uk-visible@l">
+					        	{{{__ "speaker4_bio"}}}
+					        </p>
+			        	</div>
+			 		</div>
+			    </div>
+			</div> -->
+
+<!-- 			<div class="uk-width-1-2@s uk-width-1-4@m flex-center uk-margin-large-bottom">
+				<a href="#bio-speaker5" uk-toggle><img src="{{{__ 'speaker5_picture'}}}"></a>
+				<div class="uk-margin-small-top"><b>{{{__ "speaker5_name"}}}</b>
+			        <br><span style="font-style: italic;">{{{__ "speaker5_title"}}}</span>
+			        <br>{{{__ "speaker5_country"}}}
+				</div>
+			</div>
+
+			<div id="bio-speaker5" uk-modal="center: true">
+			     <div class="uk-modal-dialog uk-modal-body">
+		  			<button class="uk-modal-close-default" type="button" uk-close></button>
+			  		<div class="uk-modal-header">
+			            <h2 class="uk-modal-title uk-text-center">	<span style="font-size:24px; color: orange"><b>{{{__ "speaker5_name"}}}</b></span></h2>
+			        </div>
+			        <div class="uk-modal-body">
+			        	<div class="uk-text-center"><img src="{{{__ 'speaker5_picture'}}}"/></div>
+			        	<div class="uk-text-center uk-margin-small-top">
+				        	{{{__ "speaker5_title"}}}, {{{__ "speaker5_country"}}}
+				        </div>
+					    <div class="uk-margin-small-top">    
+					        <p class="uk-hidden@s">
+					        	{{{__ "speaker5_bio"}}}
+					 		</p>
+					        <p class="block-text uk-visible@l">
+					        	{{{__ "speaker5_bio"}}}
+					        </p>
+			        	</div>
+			 		</div>
+			    </div>
+			</div> -->
+
+			<div class="uk-width-1-2@s uk-width-1-4@m flex-center uk-margin-large-bottom">
 				<a href="#bio-speaker6" uk-toggle><img src="{{{__ 'speaker6_picture'}}}"></a>
 				<div class="uk-margin-small-top"><b>{{{__ "speaker6_name"}}}</b>
 			        <br><span style="font-style: italic;">{{{__ "speaker6_title"}}}</span>
@@ -275,12 +433,14 @@
 			     <div class="uk-modal-dialog uk-modal-body">
 		  			<button class="uk-modal-close-default" type="button" uk-close></button>
 			  		<div class="uk-modal-header">
-			            <h2 class="uk-modal-title uk-text-center">	<span style="font-size:20px; color: orange"><b>{{{__ "speaker6_name"}}}</b></span></h2>
+			            <h2 class="uk-modal-title uk-text-center">	<span style="font-size:24px; color: orange"><b>{{{__ "speaker6_name"}}}</b></span></h2>
 			        </div>
 			        <div class="uk-modal-body">
 			        	<div class="uk-text-center"><img src="{{{__ 'speaker6_picture'}}}"/></div>
 			        	<div class="uk-text-center uk-margin-small-top">
 				        	{{{__ "speaker6_title"}}}, {{{__ "speaker6_country"}}}
+				        </div>
+					    <div class="uk-margin-small-top">    
 					        <p class="uk-hidden@s">
 					        	{{{__ "speaker6_bio"}}}
 					 		</p>
@@ -292,198 +452,380 @@
 			    </div>
 			</div>
 
+			<div class="uk-width-1-2@s uk-width-1-4@m flex-center uk-margin-large-bottom">
+				<a href="#bio-speaker7" uk-toggle><img src="{{{__ 'speaker7_picture'}}}"></a>
+				<div class="uk-margin-small-top"><b>{{{__ "speaker7_name"}}}</b>
+			        <br><span style="font-style: italic;">{{{__ "speaker7_title"}}}</span>
+			        <br>{{{__ "speaker7_country"}}}
+				</div>
+			</div>
 
-			<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker7" uk-toggle><img src="{{{__ 'speaker7_picture'}}}"></a>
-			<div class="uk-margin-small-top"><b>{{{__ "speaker7_name"}}}</b>
-	        <br><span style="font-style: italic;">{{{__ "speaker7_title"}}}</span>	
-	        <br>{{{__ "speaker7_country"}}}
-			</div></div>
-
-			<div id="bio-speaker7" uk-modal>
-			    <div class="uk-modal-dialog uk-modal-body">
-			        <a class="uk-modal-close-default" uk-close></a>
-			        
-			        <div class="uk-container">
+			<div id="bio-speaker7" uk-modal="center: true">
+			     <div class="uk-modal-dialog uk-modal-body">
+		  			<button class="uk-modal-close-default" type="button" uk-close></button>
+			  		<div class="uk-modal-header">
+			            <h2 class="uk-modal-title uk-text-center">	<span style="font-size:24px; color: orange"><b>{{{__ "speaker7_name"}}}</b></span></h2>
+			        </div>
+			        <div class="uk-modal-body">
 			        	<div class="uk-text-center"><img src="{{{__ 'speaker7_picture'}}}"/></div>
 			        	<div class="uk-text-center uk-margin-small-top">
-			        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker7_name"}}}</b></span>
-			        	<br>{{{__ "speaker7_title"}}}
-			        	<br>{{{__ "speaker7_country"}}}
+				        	{{{__ "speaker7_title"}}}, {{{__ "speaker7_country"}}}
+				        </div>
+					    <div class="uk-margin-small-top">    
+					        <p class="uk-hidden@s">
+					        	{{{__ "speaker7_bio"}}}
+					 		</p>
+					        <p class="block-text uk-visible@l">
+					        	{{{__ "speaker7_bio"}}}
+					        </p>
 			        	</div>
-				        <p class="uk-hidden@l">
-				        {{{__ "speaker7_bio"}}}
-				 		</p>
-				        <p class="block-text uk-hidden@s">{{{__ "speaker7_bio"}}}</p>
 			 		</div>
 			    </div>
 			</div>
 
+			<div class="uk-width-1-2@s uk-width-1-4@m flex-center uk-margin-large-bottom">
+				<a href="#bio-speaker8" uk-toggle><img src="{{{__ 'speaker8_picture'}}}"></a>
+				<div class="uk-margin-small-top"><b>{{{__ "speaker8_name"}}}</b>
+			        <br><span style="font-style: italic;">{{{__ "speaker8_title"}}}</span>
+			        <br>{{{__ "speaker8_country"}}}
+				</div>
+			</div>
 
-			<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker8" uk-toggle><img src="{{{__ 'speaker8_picture'}}}"></a>
-			<div class="uk-margin-small-top"><b>{{{__ "speaker8_name"}}}</b>
-	        <br><span style="font-style: italic;">{{{__ "speaker8_title"}}}</span>	
-	        <br>{{{__ "speaker8_country"}}}
-			</div></div>
-
-			<div id="bio-speaker8" uk-modal>
-			    <div class="uk-modal-dialog uk-modal-body">
-			        <a class="uk-modal-close-default" uk-close></a>
-			        
-			        <div class="uk-container">
+			<div id="bio-speaker8" uk-modal="center: true">
+			     <div class="uk-modal-dialog uk-modal-body">
+		  			<button class="uk-modal-close-default" type="button" uk-close></button>
+			  		<div class="uk-modal-header">
+			            <h2 class="uk-modal-title uk-text-center">	<span style="font-size:24px; color: orange"><b>{{{__ "speaker8_name"}}}</b></span></h2>
+			        </div>
+			        <div class="uk-modal-body">
 			        	<div class="uk-text-center"><img src="{{{__ 'speaker8_picture'}}}"/></div>
 			        	<div class="uk-text-center uk-margin-small-top">
-			        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker8_name"}}}</b></span>
-			        	<br>{{{__ "speaker8_title"}}}
-			        	<br>{{{__ "speaker8_country"}}}
+				        	{{{__ "speaker8_title"}}}, {{{__ "speaker8_country"}}}
+				        </div>
+					    <div class="uk-margin-small-top">    
+					        <p class="uk-hidden@s">
+					        	{{{__ "speaker8_bio"}}}
+					 		</p>
+					        <p class="block-text uk-visible@l">
+					        	{{{__ "speaker8_bio"}}}
+					        </p>
 			        	</div>
-				        <p class="uk-hidden@l">
-				        {{{__ "speaker8_bio"}}}
-				 		</p>
-				        <p class="block-text uk-hidden@s">{{{__ "speaker8_bio"}}}</p>
 			 		</div>
 			    </div>
 			</div>
 
-	<!-- 		<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker9" uk-toggle><img src="{{{__ 'speaker9_picture'}}}"></a>
-			<div class="uk-margin-small-top"><b>{{{__ "speaker9_name"}}}</b>
-	        <br><span style="font-style: italic;">{{{__ "speaker9_title"}}}</span>	
-	        <br>{{{__ "speaker9_country"}}}
-			</div></div> -->
+<!-- 			<div class="uk-width-1-2@s uk-width-1-4@m flex-center uk-margin-large-bottom">
+				<a href="#bio-speaker9" uk-toggle><img src="{{{__ 'speaker9_picture'}}}"></a>
+				<div class="uk-margin-small-top"><b>{{{__ "speaker9_name"}}}</b>
+			        <br><span style="font-style: italic;">{{{__ "speaker9_title"}}}</span>
+			        <br>{{{__ "speaker9_country"}}}
+				</div>
+			</div>
 
-			<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker10" uk-toggle><img src="{{{__ 'speaker10_picture'}}}"></a>
-			<div class="uk-margin-small-top"><b>{{{__ "speaker10_name"}}}</b>
-	        <br><span style="font-style: italic;">{{{__ "speaker10_title"}}}</span>	
-	        <br>{{{__ "speaker10_country"}}}
-			</div></div>
+			<div id="bio-speaker9" uk-modal="center: true">
+			     <div class="uk-modal-dialog uk-modal-body">
+		  			<button class="uk-modal-close-default" type="button" uk-close></button>
+			  		<div class="uk-modal-header">
+			            <h2 class="uk-modal-title uk-text-center">	<span style="font-size:24px; color: orange"><b>{{{__ "speaker9_name"}}}</b></span></h2>
+			        </div>
+			        <div class="uk-modal-body">
+			        	<div class="uk-text-center"><img src="{{{__ 'speaker9_picture'}}}"/></div>
+			        	<div class="uk-text-center uk-margin-small-top">
+				        	{{{__ "speaker9_title"}}}, {{{__ "speaker9_country"}}}
+				        </div>
+					    <div class="uk-margin-small-top">    
+					        <p class="uk-hidden@s">
+					        	{{{__ "speaker9_bio"}}}
+					 		</p>
+					        <p class="block-text uk-visible@l">
+					        	{{{__ "speaker9_bio"}}}
+					        </p>
+			        	</div>
+			 		</div>
+			    </div>
+			</div> -->
 
-			<div id="bio-speaker10" uk-modal>
-			    <div class="uk-modal-dialog uk-modal-body">
-			        <a class="uk-modal-close-default" uk-close></a>
-			        
-			        <div class="uk-container">
+			<div class="uk-width-1-2@s uk-width-1-4@m flex-center uk-margin-large-bottom">
+				<a href="#bio-speaker10" uk-toggle><img src="{{{__ 'speaker10_picture'}}}"></a>
+				<div class="uk-margin-small-top"><b>{{{__ "speaker10_name"}}}</b>
+			        <br><span style="font-style: italic;">{{{__ "speaker10_title"}}}</span>
+			        <br>{{{__ "speaker10_country"}}}
+				</div>
+			</div>
+
+			<div id="bio-speaker10" uk-modal="center: true">
+			     <div class="uk-modal-dialog uk-modal-body">
+		  			<button class="uk-modal-close-default" type="button" uk-close></button>
+			  		<div class="uk-modal-header">
+			            <h2 class="uk-modal-title uk-text-center">	<span style="font-size:24px; color: orange"><b>{{{__ "speaker10_name"}}}</b></span></h2>
+			        </div>
+			        <div class="uk-modal-body">
 			        	<div class="uk-text-center"><img src="{{{__ 'speaker10_picture'}}}"/></div>
 			        	<div class="uk-text-center uk-margin-small-top">
-			        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker10_name"}}}</b></span>
-			        	<br>{{{__ "speaker10_title"}}}
-			        	<br>{{{__ "speaker10_country"}}}
+				        	{{{__ "speaker10_title"}}}, {{{__ "speaker10_country"}}}
+				        </div>
+					    <div class="uk-margin-small-top">    
+					        <p class="uk-hidden@s">
+					        	{{{__ "speaker10_bio"}}}
+					 		</p>
+					        <p class="block-text uk-visible@l">
+					        	{{{__ "speaker10_bio"}}}
+					        </p>
 			        	</div>
-				        <p class="uk-hidden@l">
-				        {{{__ "speaker10_bio"}}}
-				 		</p>
-				        <p class="block-text uk-hidden@s">{{{__ "speaker10_bio"}}}</p>
 			 		</div>
 			    </div>
 			</div>
 
+<!-- 			<div class="uk-width-1-2@s uk-width-1-4@m flex-center uk-margin-large-bottom">
+				<a href="#bio-speaker11" uk-toggle><img src="{{{__ 'speaker11_picture'}}}"></a>
+				<div class="uk-margin-small-top"><b>{{{__ "speaker11_name"}}}</b>
+			        <br><span style="font-style: italic;">{{{__ "speaker11_title"}}}</span>
+			        <br>{{{__ "speaker11_country"}}}
+				</div>
+			</div>
 
-			<!-- <div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker11" uk-toggle><img src="{{{__ 'speaker11_picture'}}}"></a>
-						<div class="uk-margin-small-top"><b>{{{__ "speaker11_name"}}}</b>
-				        <br><span style="font-style: italic;">{{{__ "speaker11_title"}}}</span>	
-				        <br>{{{__ "speaker11_country"}}}
-						</div></div> -->
-
-
-			<div id="bio-speaker11" uk-modal>
-			    <div class="uk-modal-dialog uk-modal-body">
-			        <a class="uk-modal-close-default" uk-close></a>
-			        
-			        <div class="uk-container">
+			<div id="bio-speaker11" uk-modal="center: true">
+			     <div class="uk-modal-dialog uk-modal-body">
+		  			<button class="uk-modal-close-default" type="button" uk-close></button>
+			  		<div class="uk-modal-header">
+			            <h2 class="uk-modal-title uk-text-center">	<span style="font-size:24px; color: orange"><b>{{{__ "speaker11_name"}}}</b></span></h2>
+			        </div>
+			        <div class="uk-modal-body">
 			        	<div class="uk-text-center"><img src="{{{__ 'speaker11_picture'}}}"/></div>
 			        	<div class="uk-text-center uk-margin-small-top">
-			        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker11_name"}}}</b></span>
-			        	<br>{{{__ "speaker11_title"}}}
-			        	<br>{{{__ "speaker11_country"}}}
+				        	{{{__ "speaker11_title"}}}, {{{__ "speaker11_country"}}}
+				        </div>
+					    <div class="uk-margin-small-top">    
+					        <p class="uk-hidden@s">
+					        	{{{__ "speaker11_bio"}}}
+					 		</p>
+					        <p class="block-text uk-visible@l">
+					        	{{{__ "speaker11_bio"}}}
+					        </p>
 			        	</div>
-				        <p class="uk-hidden@l">
-				        {{{__ "speaker11_bio"}}}
-				 		</p>
-				        <p class="block-text uk-hidden@s">{{{__ "speaker11_bio"}}}</p>
 			 		</div>
 			    </div>
+			</div> -->
+
+			<div class="uk-width-1-2@s uk-width-1-4@m flex-center uk-margin-large-bottom">
+				<a href="#bio-speaker12" uk-toggle><img src="{{{__ 'speaker12_picture'}}}"></a>
+				<div class="uk-margin-small-top"><b>{{{__ "speaker12_name"}}}</b>
+			        <br><span style="font-style: italic;">{{{__ "speaker12_title"}}}</span>
+			        <br>{{{__ "speaker12_country"}}}
+				</div>
 			</div>
 
-
-			<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker12" uk-toggle><img src="{{{__ 'speaker12_picture'}}}"></a>
-			<div class="uk-margin-small-top"><b>{{{__ "speaker12_name"}}}</b>
-	        <br><span style="font-style: italic;">{{{__ "speaker12_title"}}}</span>	
-	        <br>{{{__ "speaker12_country"}}}
-			</div></div>
-
-
-			<div id="bio-speaker12" uk-modal>
-			    <div class="uk-modal-dialog uk-modal-body">
-			        <a class="uk-modal-close-default" uk-close></a>
-			        
-			        <div class="uk-container">
+			<div id="bio-speaker12" uk-modal="center: true">
+			     <div class="uk-modal-dialog uk-modal-body">
+		  			<button class="uk-modal-close-default" type="button" uk-close></button>
+			  		<div class="uk-modal-header">
+			            <h2 class="uk-modal-title uk-text-center">	<span style="font-size:24px; color: orange"><b>{{{__ "speaker12_name"}}}</b></span></h2>
+			        </div>
+			        <div class="uk-modal-body">
 			        	<div class="uk-text-center"><img src="{{{__ 'speaker12_picture'}}}"/></div>
 			        	<div class="uk-text-center uk-margin-small-top">
-			        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker12_name"}}}</b></span>
-			        	<br>{{{__ "speaker12_title"}}}
-			        	<br>{{{__ "speaker12_country"}}}
+				        	{{{__ "speaker12_title"}}}, {{{__ "speaker12_country"}}}
+				        </div>
+					    <div class="uk-margin-small-top">    
+					        <p class="uk-hidden@s">
+					        	{{{__ "speaker12_bio"}}}
+					 		</p>
+					        <p class="block-text uk-visible@l">
+					        	{{{__ "speaker12_bio"}}}
+					        </p>
 			        	</div>
-				        <p class="uk-hidden@l">
-				        {{{__ "speaker12_bio"}}}
-				 		</p>
-				        <p class="block-text uk-hidden@s">{{{__ "speaker12_bio"}}}</p>
 			 		</div>
 			    </div>
 			</div>
 
+			<div class="uk-width-1-2@s uk-width-1-4@m flex-center uk-margin-large-bottom">
+				<a href="#bio-speaker13" uk-toggle><img src="{{{__ 'speaker13_picture'}}}"></a>
+				<div class="uk-margin-small-top"><b>{{{__ "speaker13_name"}}}</b>
+			        <br><span style="font-style: italic;">{{{__ "speaker13_title"}}}</span>
+			        <br>{{{__ "speaker13_country"}}}
+				</div>
+			</div>
 
-			<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker13" uk-toggle><img src="{{{__ 'speaker13_picture'}}}"></a>
-			<div class="uk-margin-small-top"><b>{{{__ "speaker13_name"}}}</b>
-	        <br><span style="font-style: italic;">{{{__ "speaker13_title"}}}</span>	
-	        <br>{{{__ "speaker13_country"}}}
-			</div></div>
-
-			<div id="bio-speaker13" uk-modal>
-			    <div class="uk-modal-dialog uk-modal-body">
-			        <a class="uk-modal-close-default" uk-close></a>
-			        
-			        <div class="uk-container">
+			<div id="bio-speaker13" uk-modal="center: true">
+			     <div class="uk-modal-dialog uk-modal-body">
+		  			<button class="uk-modal-close-default" type="button" uk-close></button>
+			  		<div class="uk-modal-header">
+			            <h2 class="uk-modal-title uk-text-center">	<span style="font-size:24px; color: orange"><b>{{{__ "speaker13_name"}}}</b></span></h2>
+			        </div>
+			        <div class="uk-modal-body">
 			        	<div class="uk-text-center"><img src="{{{__ 'speaker13_picture'}}}"/></div>
 			        	<div class="uk-text-center uk-margin-small-top">
-			        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker13_name"}}}</b></span>
-			        	<br>{{{__ "speaker13_title"}}}
-			        	<br>{{{__ "speaker13_country"}}}
+				        	{{{__ "speaker13_title"}}}, {{{__ "speaker13_country"}}}
+				        </div>
+					    <div class="uk-margin-small-top">    
+					        <p class="uk-hidden@s">
+					        	{{{__ "speaker13_bio"}}}
+					 		</p>
+					        <p class="block-text uk-visible@l">
+					        	{{{__ "speaker13_bio"}}}
+					        </p>
 			        	</div>
-				        <p class="uk-hidden@l">
-				        {{{__ "speaker13_bio"}}}
-				 		</p>
-				        <p class="block-text uk-hidden@s">{{{__ "speaker13_bio"}}}</p>
 			 		</div>
 			    </div>
 			</div>
 
-			<!-- <div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker14" uk-toggle><img src="{{{__ 'speaker14_picture'}}}"></a>
-			<div class="uk-margin-small-top"><b>{{{__ "speaker14_name"}}}</b>
-	        <br><span style="font-style: italic;">{{{__ "speaker14_title"}}}</span>	
-	        <br>{{{__ "speaker14_country"}}}
-			</div></div>
+<!-- 			<div class="uk-width-1-2@s uk-width-1-4@m flex-center uk-margin-large-bottom">
+				<a href="#bio-speaker14" uk-toggle><img src="{{{__ 'speaker14_picture'}}}"></a>
+				<div class="uk-margin-small-top"><b>{{{__ "speaker14_name"}}}</b>
+			        <br><span style="font-style: italic;">{{{__ "speaker14_title"}}}</span>
+			        <br>{{{__ "speaker14_country"}}}
+				</div>
+			</div>
 
-			<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker15" uk-toggle><img src="{{{__ 'speaker15_picture'}}}"></a>
-			<div class="uk-margin-small-top"><b>{{{__ "speaker15_name"}}}</b>
-	        <br><span style="font-style: italic;">{{{__ "speaker15_title"}}}</span>	
-	        <br>{{{__ "speaker15_country"}}}
-			</div></div>
+			<div id="bio-speaker14" uk-modal="center: true">
+			     <div class="uk-modal-dialog uk-modal-body">
+		  			<button class="uk-modal-close-default" type="button" uk-close></button>
+			  		<div class="uk-modal-header">
+			            <h2 class="uk-modal-title uk-text-center">	<span style="font-size:24px; color: orange"><b>{{{__ "speaker14_name"}}}</b></span></h2>
+			        </div>
+			        <div class="uk-modal-body">
+			        	<div class="uk-text-center"><img src="{{{__ 'speaker14_picture'}}}"/></div>
+			        	<div class="uk-text-center uk-margin-small-top">
+				        	{{{__ "speaker14_title"}}}, {{{__ "speaker14_country"}}}
+				        </div>
+					    <div class="uk-margin-small-top">    
+					        <p class="uk-hidden@s">
+					        	{{{__ "speaker14_bio"}}}
+					 		</p>
+					        <p class="block-text uk-visible@l">
+					        	{{{__ "speaker14_bio"}}}
+					        </p>
+			        	</div>
+			 		</div>
+			    </div>
+			</div>
 
-			<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker16" uk-toggle><img src="{{{__ 'speaker16_picture'}}}"></a>
-			<div class="uk-margin-small-top"><b>{{{__ "speaker16_name"}}}</b>
-	        <br><span style="font-style: italic;">{{{__ "speaker16_title"}}}</span>	
-	        <br>{{{__ "speaker16_country"}}}
-			</div></div>
+			<div class="uk-width-1-2@s uk-width-1-4@m flex-center uk-margin-large-bottom">
+				<a href="#bio-speaker15" uk-toggle><img src="{{{__ 'speaker15_picture'}}}"></a>
+				<div class="uk-margin-small-top"><b>{{{__ "speaker15_name"}}}</b>
+			        <br><span style="font-style: italic;">{{{__ "speaker15_title"}}}</span>
+			        <br>{{{__ "speaker15_country"}}}
+				</div>
+			</div>
 
-			<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker17" uk-toggle><img src="{{{__ 'speaker17_picture'}}}"></a>
-			<div class="uk-margin-small-top"><b>{{{__ "speaker17_name"}}}</b>
-	        <br><span style="font-style: italic;">{{{__ "speaker17_title"}}}</span>	
-	        <br>{{{__ "speaker17_country"}}}
-			</div></div>
+			<div id="bio-speaker15" uk-modal="center: true">
+			     <div class="uk-modal-dialog uk-modal-body">
+		  			<button class="uk-modal-close-default" type="button" uk-close></button>
+			  		<div class="uk-modal-header">
+			            <h2 class="uk-modal-title uk-text-center">	<span style="font-size:24px; color: orange"><b>{{{__ "speaker15_name"}}}</b></span></h2>
+			        </div>
+			        <div class="uk-modal-body">
+			        	<div class="uk-text-center"><img src="{{{__ 'speaker15_picture'}}}"/></div>
+			        	<div class="uk-text-center uk-margin-small-top">
+				        	{{{__ "speaker15_title"}}}, {{{__ "speaker15_country"}}}
+				        </div>
+					    <div class="uk-margin-small-top">    
+					        <p class="uk-hidden@s">
+					        	{{{__ "speaker15_bio"}}}
+					 		</p>
+					        <p class="block-text uk-visible@l">
+					        	{{{__ "speaker15_bio"}}}
+					        </p>
+			        	</div>
+			 		</div>
+			    </div>
+			</div>
 
-			<div class="uk-width-1-4@l uk-width-1-2@s uk-width-extra-small-1-2 uk-width-1-4@m flex-center uk-margin-large-bottom"><a href="#bio-speaker18" uk-toggle><img src="{{{__ 'speaker18_picture'}}}"></a>
-			<div class="uk-margin-small-top"><b>{{{__ "speaker18_name"}}}</b>
-	        <br><span style="font-style: italic;">{{{__ "speaker18_title"}}}</span>
-	        <br>{{{__ "speaker18_country"}}}
-			</div></div> -->
+			<div class="uk-width-1-2@s uk-width-1-4@m flex-center uk-margin-large-bottom">
+				<a href="#bio-speaker16" uk-toggle><img src="{{{__ 'speaker16_picture'}}}"></a>
+				<div class="uk-margin-small-top"><b>{{{__ "speaker16_name"}}}</b>
+			        <br><span style="font-style: italic;">{{{__ "speaker16_title"}}}</span>
+			        <br>{{{__ "speaker16_country"}}}
+				</div>
+			</div>
+
+			<div id="bio-speaker16" uk-modal="center: true">
+			     <div class="uk-modal-dialog uk-modal-body">
+		  			<button class="uk-modal-close-default" type="button" uk-close></button>
+			  		<div class="uk-modal-header">
+			            <h2 class="uk-modal-title uk-text-center">	<span style="font-size:24px; color: orange"><b>{{{__ "speaker16_name"}}}</b></span></h2>
+			        </div>
+			        <div class="uk-modal-body">
+			        	<div class="uk-text-center"><img src="{{{__ 'speaker16_picture'}}}"/></div>
+			        	<div class="uk-text-center uk-margin-small-top">
+				        	{{{__ "speaker16_title"}}}, {{{__ "speaker16_country"}}}
+				        </div>
+					    <div class="uk-margin-small-top">    
+					        <p class="uk-hidden@s">
+					        	{{{__ "speaker16_bio"}}}
+					 		</p>
+					        <p class="block-text uk-visible@l">
+					        	{{{__ "speaker16_bio"}}}
+					        </p>
+			        	</div>
+			 		</div>
+			    </div>
+			</div>
+
+			<div class="uk-width-1-2@s uk-width-1-4@m flex-center uk-margin-large-bottom">
+				<a href="#bio-speaker17" uk-toggle><img src="{{{__ 'speaker17_picture'}}}"></a>
+				<div class="uk-margin-small-top"><b>{{{__ "speaker17_name"}}}</b>
+			        <br><span style="font-style: italic;">{{{__ "speaker17_title"}}}</span>
+			        <br>{{{__ "speaker17_country"}}}
+				</div>
+			</div>
+
+			<div id="bio-speaker17" uk-modal="center: true">
+			     <div class="uk-modal-dialog uk-modal-body">
+		  			<button class="uk-modal-close-default" type="button" uk-close></button>
+			  		<div class="uk-modal-header">
+			            <h2 class="uk-modal-title uk-text-center">	<span style="font-size:24px; color: orange"><b>{{{__ "speaker17_name"}}}</b></span></h2>
+			        </div>
+			        <div class="uk-modal-body">
+			        	<div class="uk-text-center"><img src="{{{__ 'speaker17_picture'}}}"/></div>
+			        	<div class="uk-text-center uk-margin-small-top">
+				        	{{{__ "speaker17_title"}}}, {{{__ "speaker17_country"}}}
+				        </div>
+					    <div class="uk-margin-small-top">    
+					        <p class="uk-hidden@s">
+					        	{{{__ "speaker17_bio"}}}
+					 		</p>
+					        <p class="block-text uk-visible@l">
+					        	{{{__ "speaker17_bio"}}}
+					        </p>
+			        	</div>
+			 		</div>
+			    </div>
+			</div>
+
+
+
+			<div class="uk-width-1-2@s uk-width-1-4@m flex-center uk-margin-large-bottom">
+				<a href="#bio-speaker18" uk-toggle><img src="{{{__ 'speaker18_picture'}}}"></a>
+				<div class="uk-margin-small-top"><b>{{{__ "speaker18_name"}}}</b>
+			        <br><span style="font-style: italic;">{{{__ "speaker18_title"}}}</span>
+			        <br>{{{__ "speaker18_country"}}}
+				</div>
+			</div>
+
+			<div id="bio-speaker18" uk-modal="center: true">
+			     <div class="uk-modal-dialog uk-modal-body">
+		  			<button class="uk-modal-close-default" type="button" uk-close></button>
+			  		<div class="uk-modal-header">
+			            <h2 class="uk-modal-title uk-text-center">	<span style="font-size:24px; color: orange"><b>{{{__ "speaker18_name"}}}</b></span></h2>
+			        </div>
+			        <div class="uk-modal-body">
+			        	<div class="uk-text-center"><img src="{{{__ 'speaker18_picture'}}}"/></div>
+			        	<div class="uk-text-center uk-margin-small-top">
+				        	{{{__ "speaker18_title"}}}, {{{__ "speaker18_country"}}}
+				        </div>
+					    <div class="uk-margin-small-top">    
+					        <p class="uk-hidden@s">
+					        	{{{__ "speaker18_bio"}}}
+					 		</p>
+					        <p class="block-text uk-visible@l">
+					        	{{{__ "speaker18_bio"}}}
+					        </p>
+			        	</div>
+			 		</div>
+			    </div>
+			</div>
+ -->
 		</div>
 	</div>
 </section>
@@ -574,10 +916,10 @@
 </section>
 
 
-<section class="uk-flex uk-flex-center uk-flex-middle uk-hidden@s" id="hong-kong" style="background-image: url('https://s3-ap-southeast-1.amazonaws.com/melonhk/hk_banner2_melonhk.jpg')">
+<section class="uk-flex uk-flex-center uk-flex-middle uk-visible@m" id="hong-kong" style="background-image: url('https://s3-ap-southeast-1.amazonaws.com/melonhk/hk_banner2_melonhk.jpg')">
 </section>
 
-<section class="uk-responsive-width uk-hidden@m uk-hidden@l" style="max-width: 100vw">
+<section class="uk-responsive-width uk-hidden@m uk-hidden@m" style="max-width: 100vw">
 	<img src="/images/hk_skyline_small.jpg" alt="hong_kong_skyline">
 </section>
 
@@ -789,198 +1131,63 @@
 		</div>
 	</section>
 
-	<div id="bio-speaker1" uk-modal>
-	    <div class="uk-modal-body">
-	        <a class="uk-modal-close-default" uk-close></a>
-	        
-	        <div class="uk-container">
-	        	<div class="uk-text-center">
-	        		<img src="{{{__ 'speaker1_picture'}}}"/>
-	        	</div>
-	        	<div class="uk-text-center uk-margin-small-top">
-	        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker1_name"}}}</b></span>
-	        	<br>{{{__ "speaker1_title"}}}
-	        	<br>{{{__ "speaker1_country"}}}
-	        	</div>
-		        <p class="uk-hidden@l">
-		        {{{__ "speaker1_bio"}}}
-		 		</p>
-		        <p class="block-text uk-hidden@s">{{{__ "speaker1_bio"}}}</p>
-	 		</div>
-	    </div>
-	</div>
-
-	<div id="bio-speaker4" uk-modal>
-	    <div class="uk-modal-body">
-	        <a class="uk-modal-close-default" uk-close></a>
-	        
-	        <div class="uk-container">
-	        	<div class="uk-text-center"><img src="{{{__ 'speaker4_picture'}}}"/></div>
-	        	<div class="uk-text-center uk-margin-small-top">
-	        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker4_name"}}}</b></span>
-	        	<br>{{{__ "speaker4_title"}}}
-	        	<br>{{{__ "speaker4_country"}}}
-	        	</div>
-		        <p class="uk-hidden@l">
-		        {{{__ "speaker4_bio"}}}
-		 		</p>
-		        <p class="block-text uk-hidden@s">{{{__ "speaker4_bio"}}}</p>
-	 		</div>
-	    </div>
-	</div>
-
-	<div id="bio-speaker5" uk-modal>
-	    <div class="uk-modal-body">
-	        <a class="uk-modal-close-default" uk-close></a>
-	        
-	        <div class="uk-container">
-	        	<div class="uk-text-center"><img src="{{{__ 'speaker5_picture'}}}"/></div>
-	        	<div class="uk-text-center uk-margin-small-top">
-	        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker5_name"}}}</b></span>
-	        	<br>{{{__ "speaker5_title"}}}
-	        	<br>{{{__ "speaker5_country"}}}
-	        	</div>
-		        <p class="uk-hidden@l">
-		        {{{__ "speaker5_bio"}}}
-		 		</p>
-		        <p class="block-text uk-hidden@s">{{{__ "speaker5_bio"}}}</p>
-	 		</div>
-	    </div>
-	</div>
-
-
-	<div id="bio-speaker9" uk-modal>
-	    <div class="uk-modal-body">
-	        <a class="uk-modal-close-default" uk-close></a>
-	        
-	        <div class="uk-container">
-	        	<div class="uk-text-center"><img src="{{{__ 'speaker9_picture'}}}"/></div>
-	        	<div class="uk-text-center uk-margin-small-top">
-	        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker9_name"}}}</b></span>
-	        	<br>{{{__ "speaker9_title"}}}
-	        	<br>{{{__ "speaker9_country"}}}
-	        	</div>
-		        <p class="uk-hidden@l">
-		        {{{__ "speaker9_bio"}}}
-		 		</p>
-		        <p class="block-text uk-hidden@s">{{{__ "speaker9_bio"}}}</p>
-	 		</div>
-	    </div>
-	</div>
-
-	<div id="bio-speaker14" uk-modal>
-	    <div class="uk-modal-body">
-	        <a class="uk-modal-close-default" uk-close></a>
-	        
-	        <div class="uk-container">
-	        	<div class="uk-text-center"><img src="{{{__ 'speaker14_picture'}}}"/></div>
-	        	<div class="uk-text-center uk-margin-small-top">
-	        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker14_name"}}}</b></span>
-	        	<br>{{{__ "speaker14_title"}}}
-	        	<br>{{{__ "speaker14_country"}}}
-	        	</div>
-		        <p class="uk-hidden@l">
-		        {{{__ "speaker14_bio"}}}
-		 		</p>
-		        <p class="block-text uk-hidden@s">{{{__ "speaker14_bio"}}}</p>
-	 		</div>
-	    </div>
-	</div>
-
-	<div id="bio-speaker15" uk-modal>
-	    <div class="uk-modal-body">
-	        <a class="uk-modal-close-default" uk-close></a>
-	        
-	        <div class="uk-container">
-	        	<div class="uk-text-center"><img src="{{{__ 'speaker15_picture'}}}"/></div>
-	        	<div class="uk-text-center uk-margin-small-top">
-	        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker15_name"}}}</b></span>
-	        	<br>{{{__ "speaker15_title"}}}
-	        	<br>{{{__ "speaker15_country"}}}
-	        	</div>
-		        <p class="uk-hidden@l">
-		        {{{__ "speaker15_bio"}}}
-		 		</p>
-		        <p class="block-text uk-hidden@s">{{{__ "speaker15_bio"}}}</p>
-	 		</div>
-	    </div>
-	</div>
-
-	<div id="bio-speaker16" uk-modal>
-	    <div class="uk-modal-body">
-	        <a class="uk-modal-close-default" uk-close></a>
-	        
-	        <div class="uk-container">
-	        	<div class="uk-text-center"><img src="{{{__ 'speaker16_picture'}}}"/></div>
-	        	<div class="uk-text-center uk-margin-small-top">
-	        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker16_name"}}}</b></span>
-	        	<br>{{{__ "speaker16_title"}}}
-	        	<br>{{{__ "speaker16_country"}}}
-	        	</div>
-		        <p class="uk-hidden@l">
-		        {{{__ "speaker16_bio"}}}
-		 		</p>
-		        <p class="block-text uk-hidden@s">{{{__ "speaker16_bio"}}}</p>
-	 		</div>
-	    </div>
-	</div>
-
-	<div id="bio-speaker17" uk-modal>
-	    <div class="uk-modal-body">
-	        <a class="uk-modal-close-default" uk-close></a>
-	        
-	        <div class="uk-container">
-	        	<div class="uk-text-center"><img src="{{{__ 'speaker17_picture'}}}"/></div>
-	        	<div class="uk-text-center uk-margin-small-top">
-	        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker17_name"}}}</b></span>
-	        	<br>{{{__ "speaker17_title"}}}
-	        	<br>{{{__ "speaker17_country"}}}
-	        	</div>
-		        <p class="uk-hidden@l">
-		        {{{__ "speaker17_bio"}}}
-		 		</p>
-		        <p class="block-text uk-hidden@s">{{{__ "speaker17_bio"}}}</p>
-	 		</div>
-	    </div>
-	</div>
-
-	<div id="bio-speaker18" uk-modal>
-	    <div class="uk-modal-body">
-	        <a class="uk-modal-close-default" uk-close></a>
-	        
-	        <div class="uk-container">
-	        	<div class="uk-text-center"><img src="{{{__ 'speaker18_picture'}}}"/></div>
-	        	<div class="uk-text-center uk-margin-small-top">
-	        	<span style="font-size:20px; color: orange"><b>{{{__ "speaker18_name"}}}</b></span>
-	        	<br>{{{__ "speaker18_title"}}}
-	        	<br>{{{__ "speaker18_country"}}}
-	        	</div>
-		        <p class="uk-hidden@l">
-		        {{{__ "speaker18_bio"}}}
-		 		</p>
-		        <p class="block-text uk-hidden@s">{{{__ "speaker18_bio"}}}</p>
-	 		</div>
-	    </div>
-	</div>
-
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.23/jquery.form-validator.min.js"></script>
-
 	<script>
 	 $.validate({
 	   lang: 'en'
 	 });
 	</script>
 
-	<script type='text/javascript'>
-	  $(function($) {
-	    $(".rslides").responsiveSlides({
-		  auto: true,             // Boolean: Animate automatically, true or false
-		  speed: 500,             // Integer: Speed of the transition, in milliseconds
-		  timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+	<script type="text/javascript">
+		$( ".canvas-close" ).click(function() {
+		 	UIkit.offcanvas('#mobile-nav')[0].toggle();
 		});
-	  }(jQuery));
+	</script>
+
+	<script type="text/javascript">
+		var slideIndex = 0;
+		
+		showSlides();
+
+		function showSlides() {
+		    var i;
+		    var slides = document.getElementsByClassName("mySlides");
+		    for (i = 0; i < slides.length; i++) {
+		        slides[i].style.display = "none"; 
+		    }
+		    slideIndex++;
+		    if (slideIndex> slides.length) {slideIndex = 1} 
+		    slides[slideIndex-1].style.display = "block"; 
+		    setTimeout(showSlides, 8000); // Change image every 2 seconds
+		}		
+	</script>
+
+	<script type="text/javascript">
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("dot");
+		  if (n > slides.length) {slideIndex = 1} 
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+		      slides[i].style.display = "none"; 
+		  }
+		  for (i = 0; i < dots.length; i++) {
+		      dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block"; 
+		  dots[slideIndex-1].className += " active";
+		}		
 	</script>
 
 	<script type='text/javascript'>
