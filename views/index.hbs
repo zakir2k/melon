@@ -64,7 +64,7 @@
     	<div class="numbertext-small uk-hidden@m">
 	    	Melon Industry Day will bring together Asia's best Science Fiction writers, filmmakers, game developers, technologists and investors.	
 	    </div>
-	    <img src="https://s3-ap-southeast-1.amazonaws.com/melonhk/melon1.jpg" style="width:100%" />
+	    <img src="https://s3-ap-southeast-1.amazonaws.com/melonhk/melon1.jpg" class="uk-responsive-height" style="width:100%" />
 		<div class="datetext uk-visible@m">
 			{{{__ "industry_date"}}}<br>
 			{{{__ "hong_kong"}}}</p>
@@ -81,7 +81,7 @@
 		    Melon Fan Day will bring together the best Sci-Fi Fans with Asia's Best Authors and Fiction Writers.
 		</div>
 
-	    <img src="https://s3-ap-southeast-1.amazonaws.com/melonhk/melon2.jpg" style="width:100%">
+	    <img src="https://s3-ap-southeast-1.amazonaws.com/melonhk/melon2.jpg" class="uk-responsive-height" style="width:100%" />
 		<div class="datetext uk-visible@m">
 			{{{__ "fan_date"}}}<br>
 			{{{__ "hong_kong"}}}</p>
@@ -108,7 +108,7 @@
 				- Paul Krugman</p>
 			</div>
 		</div>
-	    <img src="https://s3-ap-southeast-1.amazonaws.com/melonhk/melon3.jpg" style="width:100%">
+	    <img src="https://s3-ap-southeast-1.amazonaws.com/melonhk/melon3.jpg" class="uk-responsive-height" style="width:100%" />
 	  </div>
 
 	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -889,11 +889,30 @@
 			</a>
 		</div>
 	</div>
+
+	<h3 class="sub-section-header black uk-text-center uk-margin-large-top uk-padding-large-top">
+		{{{__ "event_program"}}}
+	</h3>
+	<div class="uk-container">
+		<div class="uk-grid uk-width-3-4 uk-margin-large-left">
+			<div class="uk-width-1-3@m">
+				<h3 class="uk-flex-top"><span style="font-size:1.5rem;">{{{__ "program_day1_time1"}}}</span></h3>
+			</div>
+			<div class="uk-width-2-3@m">
+				<div class="uk-panel uk-width-1-1">
+					<h3 class="uk-panel-title" style="font-size:1.5rem;">{{{__ "program_day1_time1_title"}}}</h3>
+					<div class="uk-margin" style="font-size:1.5rem;">
+						{{{__ "program_day1_time1_desc"}}} 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 
 
 <section id="fanday">
-	<div class="uk-container uk-text-center">
+	<div class="uk-container uk-text-center uk-margin-large-bottom">
 	<h1 class="sub-section-header uk-text-center uk-margin-large-bottom uk-padding-large-top event-sponsors-holder great-title-reverse">
 		<span> {{{__ "fanday"}}}</span>
 	</h1>
@@ -907,11 +926,29 @@
 			<h1><span style="color:white">{{{__ "day_2"}}}</span></h1>
 			</div>
 		</div>
-		<div class="clear uk-text-center uk-container uk-margin-large-bottom" style="max-width: 500px" style="text-decoration: none">
+		<div class="clear uk-text-center uk-container" style="max-width: 500px" style="text-decoration: none">
 			<a href="https://eventbrite.com" target="_blank" style="text-decoration: none">
 			<div class="co-organizer-text uk-margin-small-bottom" id="bookfannow" style="text-decoration: none;">
 			{{{__ "book_fan_now"}}}</div>
 			</a>
+		</div>
+	</div>
+	<h3 class="uk-text-center uk-padding-large-top" style="font-size:3.0rem">
+		<span style="color:white">{{{__ "event_program"}}}</span>
+	</h3>
+	<div class="uk-container uk-padding-large-bottom">
+		<div class="uk-grid uk-width-3-4 uk-margin-large-left">
+			<div class="uk-width-1-3@m">
+				<h3 class="uk-flex-top"><span style="font-size:1.5rem; color:white">{{{__ "program_day2_time1"}}}</span></h3>
+			</div>
+			<div class="uk-width-2-3@m">
+				<div class="uk-panel uk-width-1-1">
+					<h3 class="uk-panel-title"><span style="font-size:1.5rem;color:white">{{{__ "program_day2_time1_title"}}}</span></h3>
+					<div class="uk-margin" style="font-size:1.5rem;color:white">
+						<span style="font-size:1.5rem;color:white">{{{__ "program_day2_time1_desc"}}}</span>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
@@ -999,12 +1036,12 @@
 	</div>
 </section>
 
-<hr>
+<!-- <hr> -->
 
 <div id="program">
 </div>
 
-
+<!-- 
 <h2 class="sub-section-header black uk-text-center uk-margin-large-bottom uk-padding-large-top great-title">
 	{{{__ "event_program"}}}
 </h2>
@@ -1063,7 +1100,7 @@
 		</div>
 	</section>
 </div>
-
+ -->
 <hr>
 
 <section id="tickets" class="uk-margin-large-top uk-container" id="join">

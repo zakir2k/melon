@@ -1101,7 +1101,7 @@ h1.#fanday{
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1440px;
+  max-width: 100vw;
   position: relative;
   margin: auto;
 }
@@ -1139,11 +1139,10 @@ h1.#fanday{
   font-size: 50px;
   font-weight: bold;
   padding: 8px 12px;
+  margin-left: 75vw;
   position: absolute;
-  bottom: 0vw;
-  left: 35vw;
-  width: 100%;
-  text-align: center;
+  bottom: 10vh;
+  text-align: right;
 }
 
 /* Number text (1/3 etc) */
