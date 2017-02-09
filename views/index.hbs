@@ -15,7 +15,7 @@
 				              <li><a uk-scroll="{offset:130}" href="#speakers">{{{__ "menu_speakers"}}}</a></li>
 				              <li><a uk-scroll="{offset:130}" href="#industryday">{{{__ "menu_industry"}}}</a></li>
 				              <li><a uk-scroll="{offset:130}" href="#fanday">{{{__ "menu_fan_day"}}}</a></li>
-				              <li><a uk-scroll="{offset:130}" href="#tickets">{{{__ "menu_tickets"}}}</a></li>
+				              <li><a uk-scroll="{offset:130}" href="#updated">{{{__ "menu_tickets"}}}</a></li>
 				              <li><a uk-scroll="{offset:130}" href="#news">{{{__ "menu_news"}}}</a></li>
 		                    </ul>
 	                    </div>
@@ -41,7 +41,7 @@
 				              <li><a class="canvas-close" uk-scroll="{offset:130}" href="#speakers">{{{__ "menu_speakers"}}}</a></li>
 				              <li><a class="canvas-close" uk-scroll="{offset:130}" href="#industryday">{{{__ "menu_industry"}}}</a></li>
 				              <li><a class="canvas-close" uk-scroll="{offset:130}" href="#fanday">{{{__ "menu_fan_day"}}}</a></li>
-				              <li><a class="canvas-close" uk-scroll="{offset:130}" href="#tickets">{{{__ "menu_tickets"}}}</a></li>
+				              <li><a class="canvas-close" uk-scroll="{offset:130}" href="#updated">{{{__ "menu_tickets"}}}</a></li>
 				              <li><a class="canvas-close" uk-scroll="{offset:130}" href="#news">{{{__ "menu_news"}}}</a></li>
 					        </ul>
 					    </div>
@@ -883,7 +883,7 @@
 			</div>
 		</div>
 		<div class="clear uk-text-center uk-container" style="max-width: 500px" style="text-decoration: none">
-			<a href="https://eventbrite.com" target="_blank" style="text-decoration: none">
+			<a href="#updated" uk-scroll="{offset:130}" style="text-decoration: none">
 			<div class="co-organizer-text uk-margin-small-bottom" id="bookindustrynow" style="text-decoration: none;">
 			{{{__ "book_industry_now"}}}</div>
 			</a>
@@ -927,7 +927,7 @@
 			</div>
 		</div>
 		<div class="clear uk-text-center uk-container" style="max-width: 500px" style="text-decoration: none">
-			<a href="https://eventbrite.com" target="_blank" style="text-decoration: none">
+			<a href="#updated" uk-scroll="{offset:130}" style="text-decoration: none">
 			<div class="co-organizer-text uk-margin-small-bottom" id="bookfannow" style="text-decoration: none;">
 			{{{__ "book_fan_now"}}}</div>
 			</a>
@@ -1108,11 +1108,11 @@
 		<h1 class="uk-text uk-text-center great-title">{{{__ "contact_title"}}}</h1>
 		<div class="bio-text co-organizer-text">
 			<div class="clear uk-text-center uk-container" style="max-width: 500px" style="text-decoration: none">
-				<a href="https://eventbrite.com" target="_blank" style="text-decoration: none">
+				<a href="#updated" uk-scroll="{offset:130}" style="text-decoration: none">
 				<div class="co-organizer-text uk-margin-small-bottom" id="bookindustrynow" style="text-decoration: none;">
 				{{{__ "book_industry_now"}}}</div>
 				</a>
-				<a href="https://eventbrite.com" target="_blank" style="text-decoration: none">
+				<a href="#updated" uk-scroll="{offset:130}" style="text-decoration: none">
 				<div class="co-organizer-text uk-margin-small-bottom" id="bookfannow" style="text-decoration: none;">
 				{{{__ "book_fan_now"}}}</div>
 				</a>
@@ -1160,9 +1160,10 @@
 
 <hr>
 
-	<section class="banner-contact-us uk-block">
+	<section id="updated" class="banner-contact-us uk-block">
 		<div class="uk-margin-large-bottom uk-margin-large-top">
-			<span class="great-title">{{{__ "keep_updated"}}}</span>
+			<span class="great-title">{{{__ "keep_updated"}}}</span><br><br>
+			<span class="contact-title">{{{__ "tickets_soon"}}}</span>
 		</div>
 		<div id="mc_embed_signup" style="font-size: 40px">
 			<form action="//melonhk.us14.list-manage.com/subscribe/post?u=07422cbec4f3b781af0a05e05&amp;id=53f71fc917" class="validate uk-form uk-margin-large-bottom" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
@@ -1187,7 +1188,7 @@
 						<input name="b_07422cbec4f3b781af0a05e05_53f71fc917" tabindex="-1" type="text" value="">
 					</div>
 					<div class="clear uk-margin-large-top">
-						<input class="co-organizer-text" id="mc-embedded-subscribe" name="subscribe" type="submit" value='{{{__ "sign_up"}}}'>
+						<input class="bookindustrynow" style="text-decoration: none;" id="mc-embedded-subscribe" name="subscribe" type="submit" value='{{{__ "sign_up"}}}'>
 					</div>
 				</fieldset>
 			</form>

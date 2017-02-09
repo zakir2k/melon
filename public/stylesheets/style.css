@@ -1023,6 +1023,23 @@ div#bookindustrynow{
   line-height: 35px;
 }
 
+.bookindustrynow{
+  font-size: 40px !important;
+  padding: 30px !important;
+  background-color: orange;
+  border-radius: 50px;
+  color: white;
+}
+
+.bookindustrynow:hover {
+  border-color: #000120 #E5EAF3 #E5EAF3 #000120 !important;
+}
+
+div.bookindustrynow{
+  font-size: 35px !important;
+  line-height: 35px;
+}
+
 #bookfannow{
   font-size: 40px !important;
   padding: 30px !important;
