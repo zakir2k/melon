@@ -3,10 +3,10 @@
 	    <div class="uk-container">
 	        <div class="uk-grid">
 	            <div class="uk-width-1-1">
-	                <nav class="uk-navbar-container uk-position-relative uk-navbar-left" uk-navbar style="min-height: 80px">
+	                <nav class="uk-navbar-container uk-position-relative uk-navbar-left" uk-navbar style="min-height: 100px">
 	                    <div class="uk-navbar-left">
 		                  	<a uk-scroll="{offset:130}" href="#home">
-		                    <img style="position:absolute; top:7px; left:20px; width:195px" class="logo-img uk-visible@m" src="https://d3qwsxrru4xs4k.cloudfront.net/melon_logo2.png" width="80"/>
+		                    <img style="position:absolute; top:10px; left:10px; width:240px" class="logo-img uk-visible@m" src="https://d3qwsxrru4xs4k.cloudfront.net/melon_logo2.png" width="80"/>
 		                    <img style="position:absolute; top:10px; width:170px" class="logo-img uk-hidden@m" src="https://d3qwsxrru4xs4k.cloudfront.net/melon_logo2.png" width="80"/></a>
 	                    </div>
 
@@ -93,9 +93,9 @@
 			<div class="uk-overlay uk-flex uk-flex-center uk-flex-middle uk-text-center uk-visible@m">
 				<div class="uk-margin">
 					<p class="slider-text banner-tagline-cursive-text">
-					{{{__ "paulKrugmanQuote"}}}<br>
+					{{{__ "bannerQuote"}}}<br>
 					<br>
-					- Paul Krugman</p>
+					- {{{__ "bannerQuoteName"}}}</p>
 				</div>
 			</div>
 	    </div>
@@ -103,9 +103,9 @@
 			<div class="uk-margin tagline-holder-small-screen">
 				<p class="numbertext-small">
 				<br>
-				{{{__ "paulKrugmanQuote"}}}<br>
+				{{{__ "bannerQuote"}}}<br>
 				<br>
-				- Paul Krugman</p>
+				- {{{__ "bannerQuoteName"}}}</p>
 			</div>
 		</div>
 	    <img src="https://s3-ap-southeast-1.amazonaws.com/melonhk/melon3.jpg" class="uk-responsive-height" style="width:100%" />
@@ -244,16 +244,10 @@
 
 <section id="melon" class="uk-flex-center uk-text-center uk-margin-large-bottom">
 	<h1 class="uk-text-center uk-padding-large-top uk-text-center uk-visible@m">
-<!-- 		<div class="uk-margin-large-top" style="font-size: 2em; font-weight: bold; line-height: 1em;">{{{__ "melon"}}}</div>
-		<div style="font-size: 1.5em; line-height: 1em;">{{{__ "dictionary"}}}</div>
-		<i>{{{__ "noun"}}}</i><br> -->
 		<div style="font-size: 1em; line-height: 1em; max-width: 75vw; margin-left: 12.5vw">{{{__ "description"}}}</div>
 	</h1>
 
 	<h1 class="uk-text-center uk-padding-large-top uk-text-center uk-hidden@m">
-<!-- 		<div class="uk-margin-large-top" style="font-size: 2rem; font-weight: bold; line-height: 2rem;">{{{__ "melon"}}}</div>
-		<div style="font-size: 1.5rem; line-height: 1.5rem;">{{{__ "dictionary"}}}</div>
-		<div style="font-size: 1.5rem; line-height: 1.5rem;"><i>{{{__ "noun"}}}</i></div> -->
 		<div style="font-size: 1rem; line-height: 1.2rem; max-width: 75vw; margin-left: 12.5vw">{{{__ "description"}}}</div>
 	</h1>
 </section>
@@ -730,7 +724,7 @@
 			    </div>
 			</div>
 
-<!-- 			<div class="uk-width-1-2@s uk-width-1-4@m flex-center uk-margin-large-bottom">
+			<div class="uk-width-1-2@s uk-width-1-4@m flex-center uk-margin-large-bottom">
 				<a href="#bio-speaker16" uk-toggle><img src="{{{__ 'speaker16_picture'}}}"></a>
 				<div class="uk-margin-small-top"><b>{{{__ "speaker16_name"}}}</b>
 			        <br><span style="font-style: italic;">{{{__ "speaker16_title"}}}</span>
@@ -759,7 +753,7 @@
 			        	</div>
 			 		</div>
 			    </div>
-			</div> -->
+			</div>
 
 			<div class="uk-width-1-2@s uk-width-1-4@m flex-center uk-margin-large-bottom">
 				<a href="#bio-speaker17" uk-toggle><img src="{{{__ 'speaker17_picture'}}}"></a>
@@ -793,7 +787,6 @@
 			</div>
 
 
-
 			<div class="uk-width-1-2@s uk-width-1-4@m flex-center uk-margin-large-bottom">
 				<a href="#bio-speaker18" uk-toggle><img src="{{{__ 'speaker18_picture'}}}"></a>
 				<div class="uk-margin-small-top"><b>{{{__ "speaker18_name"}}}</b>
@@ -825,25 +818,85 @@
 			    </div>
 			</div>
 
+			<div class="uk-width-1-2@s uk-width-1-4@m flex-center uk-margin-large-bottom">
+				<a href="#bio-speaker19" uk-toggle><img src="{{{__ 'speaker19_picture'}}}"></a>
+				<div class="uk-margin-small-top"><b>{{{__ "speaker19_name"}}}</b>
+			        <br><span style="font-style: italic;">{{{__ "speaker19_title"}}}</span>
+			        <br>{{{__ "speaker19_country"}}}
+				</div>
+			</div>
+
+			<div id="bio-speaker19" uk-modal="center: true">
+			     <div class="uk-modal-dialog uk-modal-body">
+		  			<button class="uk-modal-close-default" type="button" uk-close></button>
+			  		<div class="uk-modal-header">
+			            <h2 class="uk-modal-title uk-text-center">	<span style="font-size:24px; color: orange"><b>{{{__ "speaker19_name"}}}</b></span></h2>
+			        </div>
+			        <div class="uk-modal-body">
+			        	<div class="uk-text-center"><img src="{{{__ 'speaker19_picture'}}}"/></div>
+			        	<div class="uk-text-center uk-margin-small-top">
+				        	{{{__ "speaker19_title"}}}, {{{__ "speaker19_country"}}}
+				        </div>
+					    <div class="uk-margin-small-top">    
+					        <p class="uk-hidden@s">
+					        	{{{__ "speaker19_bio"}}}
+					 		</p>
+					        <p class="block-text uk-visible@l">
+					        	{{{__ "speaker19_bio"}}}
+					        </p>
+			        	</div>
+			 		</div>
+			    </div>
+			</div>
+
+<!-- 			<div class="uk-width-1-2@s uk-width-1-4@m flex-center uk-margin-large-bottom">
+				<a href="#bio-speaker20" uk-toggle><img src="{{{__ 'speaker20_picture'}}}"></a>
+				<div class="uk-margin-small-top"><b>{{{__ "speaker20_name"}}}</b>
+			        <br><span style="font-style: italic;">{{{__ "speaker20_title"}}}</span>
+			        <br>{{{__ "speaker20_country"}}}
+				</div>
+			</div>
+
+			<div id="bio-speaker18" uk-modal="center: true">
+			     <div class="uk-modal-dialog uk-modal-body">
+		  			<button class="uk-modal-close-default" type="button" uk-close></button>
+			  		<div class="uk-modal-header">
+			            <h2 class="uk-modal-title uk-text-center">	<span style="font-size:24px; color: orange"><b>{{{__ "speaker20_name"}}}</b></span></h2>
+			        </div>
+			        <div class="uk-modal-body">
+			        	<div class="uk-text-center"><img src="{{{__ 'speaker20_picture'}}}"/></div>
+			        	<div class="uk-text-center uk-margin-small-top">
+				        	{{{__ "speaker20_title"}}}, {{{__ "speaker20_country"}}}
+				        </div>
+					    <div class="uk-margin-small-top">    
+					        <p class="uk-hidden@s">
+					        	{{{__ "speaker20_bio"}}}
+					 		</p>
+					        <p class="block-text uk-visible@l">
+					        	{{{__ "speaker20_bio"}}}
+					        </p>
+			        	</div>
+			 		</div>
+			    </div>
+			</div> -->
 		</div>
 	</div>
 </section>
 
-<hr>
+<section id="fanday" class="uk-padding-large-top">
 
-<section id="industryday" class="slant-top services-grid-box uk-section uk-position-relative uk-clearfix" >
-	<div class="uk-container uk-text-center">
-	<div class="uk-margin-large-bottom great-title">{{{__ "PROGRAM"}}}</div>
-	
-	<div class="uk-margin-large-bottom great-title">{{{__ "industryday"}}}</div>
+	<div class="uk-container uk-text-center uk-margin-large-top uk-padding-large-top" style="padding-top: 60px">
+		<div class="uk-margin-large-bottom uk-padding-large-top great-title-reverse">{{{__ "PROGRAM"}}}</div>
+		<div class="uk-margin-large-bottom great-title-reverse">{{{__ "industryday"}}}</div>
+	</div>
 
-	<h1 class="sub-section-header black uk-text-center uk-margin-large-bottom uk-padding-large-top event-sponsors-holder great-title">
-		{{{__ "industryTagline"}}}
-	</h1>
+	<div style="font-family:'Roboto Condensed';max-width: 75vw; margin-left: 16.5vw; font-size: 2.5rem; color:white" class="sub-section-header black uk-text-center uk-width-2-3 uk-margin-small-top uk-padding-large-top uk-h3">
+		{{{__ "industryProgramTagline"}}}
+	</div>
 
-	<h3 class="sub-section-header black uk-text-center uk-margin-large-top uk-padding-large-top">
+	<div style="font-family:'Roboto Condensed';font-size: 2.3rem; color:white" class="sub-section-header black uk-text-center uk-margin-large-top uk-h3">
 		{{{__ "event_program"}}}
-	</h3>
+	</div>
 
 <!-- 	<h3 class="sub-section-header black uk-text-center uk-margin-large-top uk-padding-large-top">
 		{{{__ "event_program"}}}
@@ -1092,20 +1145,23 @@
 			{{{__ "book_industry_now"}}}</div>
 			</a>
 		</div> -->
+
+	
+	<div class="uk-container uk-text-center uk-margin-large-bottom">
+	
+		<h1 class="sub-section-header uk-text-center uk-margin-small-bottom uk-margin-large-top uk-padding-large-top event-sponsors-holder great-title-reverse">
+			<span> {{{__ "fanday"}}}</span>
+		</h1>
+
 	</div>
 
-</section>
+	<div style="font-family:'Roboto Condensed';max-width: 75vw; margin-left: 16.5vw; font-size: 2.3rem; color:white" class="sub-section-header black uk-h3 uk-text-center uk-width-2-3 uk-margin-small-top uk-margin-large-bottom">
+		{{{__ "fanProgramTagline"}}}
+	</div>
 
-
-<section id="fanday">
-	<div class="uk-container uk-text-center uk-margin-large-bottom">
-	<h1 class="sub-section-header uk-text-center uk-margin-large-bottom uk-padding-large-top event-sponsors-holder great-title-reverse">
-		<span> {{{__ "fanday"}}}</span>
-	</h1>
-		<div class="uk-margin-large-bottom great-title-reverse" style="color:white">{{{__ "fanTagline"}}}</div>
-	<h3 class="uk-text-center uk-padding-large-top" style="font-size:3.0rem">
-		<span style="color:white">{{{__ "event_program_fan"}}}</span>
-	</h3>
+	<div style="font-family:'Roboto Condensed';font-size: 2.3rem; color:white" class="sub-section-header black uk-text-center uk-margin-large-top uk-h3">
+		{{{__ "event_program_fan"}}}
+	</div>
 <!-- 	<div class="uk-container uk-padding-large-bottom" style="text-align: left">
 		<div class="uk-grid uk-width-3-4 uk-margin-large-left">
 			<div class="uk-width-1-3@m">
@@ -1169,14 +1225,28 @@
 			{{{__ "book_fan_now"}}}</div>
 			</a>
 		</div> -->
-	</div>
 </section>
 
 <section id="tickets" class="uk-margin-large-top uk-margin-large-bottom uk-container">
 	<div>
 		<h1 class="uk-text uk-text-center great-title">{{{__ "contact_title"}}}</h1>
 
-		<div class="uk-container">
+		<div class="uk-container uk-container-center uk-text-center">
+			<div class="bio-text co-organizer-text" style="text-align: right">
+				<div class="clear uk-text-center uk-container" style="max-width: 330px" style="text-decoration: none">
+					<a href="https://app.eventxtra.com/registrations/d6a3eafc-ad3b-4667-91d0-40053b2c2eaf/new" target="_blank" style="text-decoration: none">
+					<div class="co-organizer-text uk-margin-small-bottom" id="bookindustrynow" style="text-decoration: none;">
+					{{{__ "book_industry_now"}}}</div>
+					</a>
+				</div>
+			</div>
+<!-- 			<div style="padding-top:20px; color:#041b75; height:100px; font-size: 24px">@ Eaton House, 5/F, Champion Tower, 3 Garden Road, Central</div> -->
+			<div style="padding-top:20px; color:#041b75; height:100px; font-size: 24px">I can't make it. <a href="http://eepurl.com/cARafj" target="_blank">Keep me posted</a> about everything MELON.</div>
+		</div>
+
+
+
+<!-- 		<div class="uk-container">
 			<div class="uk-grid">
 				<div class="uk-width-1-2">
 					<div class="bio-text co-organizer-text" style="text-align: right">
@@ -1186,7 +1256,7 @@
 							{{{__ "book_industry_now"}}}</div>
 							</a>
 
-							<a href="https://melonhk.us14.list-manage.com/subscribe/post?u=07422cbec4f3b781af0a05e05&id=53f71fc917" target="_blank" style="text-decoration: none">
+							<a href="http://eepurl.com/cARafj" target="_blank" style="text-decoration: none">
 							<div class="co-organizer-text uk-margin-small-bottom" id="bookfannow" style="text-decoration: none;">
 							{{{__ "book_fan_now"}}}</div>
 							</a>
@@ -1198,7 +1268,7 @@
 					<div style="padding-top:10px; color:#041b75; height:100px; font-size: 24px">@ HKU</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 	</div>
 </section>
 
@@ -1386,7 +1456,12 @@
 	</div>
 </section>
 
-<hr>
+<section class="uk-flex uk-flex-center uk-flex-middle uk-visible@m" id="hong-kong" style="background-image: url('https://d3qwsxrru4xs4k.cloudfront.net/hk_banner2_melonhk.jpg')">
+</section>
+
+<section class="uk-responsive-width uk-hidden@m uk-hidden@m" style="max-width: 100vw">
+	<img src="https://d3qwsxrru4xs4k.cloudfront.net/hk_skyline_small.jpg" alt="melon_innercity_small">
+</section>
 
 <!-- <section class="uk-margin-large-top uk-margin-large-bottom uk-container" id="join">
 	<div class="uk-margin-large-bottom">
@@ -1409,6 +1484,28 @@
 		<div class="juicer-feed" data-feed-id="melonhk" style="margin-left: 2em">
 			<h1 class="referral"><a href="https://www.juicer.io">{{{__ "juicer"}}}</a></h1>
 		</div>
+
+        <div class="uk-container uk-center uk-h1">
+            <ul class="uk-grid-small uk-flex-middle uk-flex-center uk-grid">
+                <li>
+                    <a class="uk-icon-link uk-icon uk-icon-large" href="https://twitter.com/melon_hk" target="_blank">
+                        <svg height="50" viewbox="0 0 20 20" width="50">
+                            <path d="M19,4.74 C18.339,5.029 17.626,5.229 16.881,5.32 C17.644,4.86 18.227,4.139 18.503,3.28 C17.79,3.7 17.001,4.009 16.159,4.17 C15.485,3.45 14.526,3 13.464,3 C11.423,3 9.771,4.66 9.771,6.7 C9.771,6.99 9.804,7.269 9.868,7.539 C6.795,7.38 4.076,5.919 2.254,3.679 C1.936,4.219 1.754,4.86 1.754,5.539 C1.754,6.82 2.405,7.95 3.397,8.61 C2.79,8.589 2.22,8.429 1.723,8.149 L1.723,8.189 C1.723,9.978 2.997,11.478 4.686,11.82 C4.376,11.899 4.049,11.939 3.713,11.939 C3.475,11.939 3.245,11.919 3.018,11.88 C3.49,13.349 4.852,14.419 6.469,14.449 C5.205,15.429 3.612,16.019 1.882,16.019 C1.583,16.019 1.29,16.009 1,15.969 C2.635,17.019 4.576,17.629 6.662,17.629 C13.454,17.629 17.17,12 17.17,7.129 C17.17,6.969 17.166,6.809 17.157,6.649 C17.879,6.129 18.504,5.478 19,4.74">
+                            </path>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a class="uk-icon-link uk-icon uk-icon-large" href="https://www.facebook.com" target="_blank">
+                        <svg height="50" viewbox="0 0 20 20" width="50">
+                            <path d="M11,10h2.6l0.4-3H11V5.3c0-0.9,0.2-1.5,1.5-1.5H14V1.1c-0.3,0-1-0.1-2.1-0.1C9.6,1,8,2.4,8,5v2H5.5v3H8v8h3V10z">
+                            </path>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
 	</section>
 
 <hr>
