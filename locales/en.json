@@ -234,5 +234,9 @@
 	"menu_news": "NEWS",
 	"keep_updated": "KEEP ME UPDATED",
 	"tickets_soon": "Tickets will be available shortly.",
-	"PROGRAM": "PROGRAM"
+	"PROGRAM": "PROGRAM",
+	"qrf_name": "The Queen's Road Foundation",
+	"qrf_title": "Main Sponsor",
+	"qrf_bio": "The Queen’s Road Foundation is a non-profit foundation supporting science fiction, experimental theatre and classical music in Hong Kong.",
+	"qrf_picture": "/images/qrf.png"
 }

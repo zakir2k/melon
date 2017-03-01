@@ -1264,6 +1264,10 @@ h1.#fanday{
   animation-duration: 1.5s;
 }
 
+.uk-navbar-nav>li.tickets-menu>a{
+  color: orange !important;
+}
+
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}

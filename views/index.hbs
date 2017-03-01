@@ -14,9 +14,9 @@
 		                    <ul class="uk-navbar-nav uk-visible@l uk-float-right">
 				              <li><a uk-scroll="{offset:130}" href="#speakers">{{{__ "menu_speakers"}}}</a></li>
 				              <li><a uk-scroll="{offset:130}" href="#industryday">{{{__ "menu_industry"}}}</a></li>
-				              <li><a uk-scroll="{offset:130}" href="#tickets">{{{__ "menu_tickets"}}}</a></li>
 				              <li><a uk-scroll="{offset:130}" href="#news">{{{__ "menu_news"}}}</a></li>
 				              <li><a uk-scroll="{offset:130}" href="#contact">{{{__ "menu_fan_day"}}}</a></li>
+				              <li class="tickets-menu"><a uk-scroll="{offset:130}" href="#tickets">{{{__ "menu_tickets"}}}</a></li>
 		                    </ul>
 	                    </div>
 
@@ -40,9 +40,9 @@
 					        <ul class="uk-nav uk-nav-default" uk-nav>
 				              <li><a class="canvas-close" uk-scroll="{offset:130}" href="#speakers">{{{__ "menu_speakers"}}}</a></li>
 				              <li><a class="canvas-close" uk-scroll="{offset:130}" href="#industryday">{{{__ "menu_industry"}}}</a></li>
-				              <li><a class="canvas-close" uk-scroll="{offset:130}" href="#tickets">{{{__ "menu_tickets"}}}</a></li>
 				              <li><a class="canvas-close" uk-scroll="{offset:130}" href="#news">{{{__ "menu_news"}}}</a></li>
 							  <li><a class="canvas-close" uk-scroll="{offset:130}" href="#contact">{{{__ "menu_fan_day"}}}</a></li>
+				              <li><a class="canvas-close" uk-scroll="{offset:130}" href="#tickets">{{{__ "menu_tickets"}}}</a></li>
 					        </ul>
 					    </div>
 					</div>
@@ -1217,13 +1217,37 @@
 	<div class="uk-container uk-text-center">
 		<div class="uk-grid">
 			<div class="uk-width-1-2@l uk-width-1-2@s uk-width-1-2@m flex-center uk-margin-large-bottom">
-			<h2>{{{__ "main_sponsor"}}}</h2><br><img src="/images/qrf.png"></div>
+			<h2>{{{__ "main_sponsor"}}}</h2><br><a href="#qrf" uk-toggle><img src="/images/qrf.png"></a></div>
 			<div class="uk-width-1-2@l uk-width-1-2@s uk-width-1-2@m flex-center uk-margin-large-bottom">
 			<h2>{{{__ "venue_sponsor"}}}</h2><br>
 			<a href="http://www.eatonhouse.com.hk" target="_blank"><img src="https://d3qwsxrru4xs4k.cloudfront.net/eaton_logo.png" style="width: 300px">
 			</a><br></div>
 		</div>
 	</div>
+
+	<div id="qrf" uk-modal="center:true">
+	     <div class="uk-modal-dialog uk-modal-body">
+  			<button class="uk-modal-close-default" type="button" uk-close></button>
+	  		<div class="uk-modal-header">
+	            <h2 class="uk-modal-title uk-text-center">	<span style="font-size:24px; color: orange"><b>{{{__ "qrf_name"}}}</b></span></h2>
+	        </div>
+	        <div class="uk-modal-body">
+	        	<div class="uk-text-center"><img src="{{{__ 'qrf_picture'}}}"/></div>
+	        	<div class="uk-text-center uk-margin-small-top">
+		        	{{{__ "qrf_title"}}}
+		        </div>
+			    <div class="uk-margin-small-top">    
+			        <p class="uk-hidden@s">
+			        	{{{__ "qrf_bio"}}}
+			 		</p>
+			        <p class="block-text uk-visible@l">
+			        	{{{__ "qrf_bio"}}}
+			        </p>
+	        	</div>
+	 		</div>
+	    </div>
+	</div>
+
 </section>
 
 <hr>
